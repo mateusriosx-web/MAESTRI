@@ -1,0 +1,277 @@
+{
+  ".maestri/roles/007b5ff7-7878-4d86-b98e-8dafa26405e4/role.json": {
+    "mtime": 1791909999.4577804,
+    "ast_hash": "cf43a2cfc0e56b18e23e4d58077eeef8",
+    "semantic_hash": ""
+  },
+  ".maestri/roles/0436774d-0810-4427-b0bf-27905f4dfdb3/role.json": {
+    "mtime": 1791909999.3889377,
+    "ast_hash": "bad127f8e0181f48b169f4378b1f05ab",
+    "semantic_hash": ""
+  },
+  ".maestri/roles/202c3880-6423-4287-9a2a-646bca51b19b/role.json": {
+    "mtime": 1791909999.4854212,
+    "ast_hash": "5e15e626558971b349874b573bbd0b4f",
+    "semantic_hash": ""
+  },
+  ".maestri/roles/4ed3ee08-a3b1-4e7a-9a22-1c69714b302b/role.json": {
+    "mtime": 1791909999.4126577,
+    "ast_hash": "17f93130b400e0c6e72c2e07219eff07",
+    "semantic_hash": ""
+  },
+  ".maestri/roles/5e875e1c-ecb5-49ef-80c4-fa2f956cdefb/role.json": {
+    "mtime": 1791909999.4012036,
+    "ast_hash": "601a8544f041e7dc258c3fe59f646f5f",
+    "semantic_hash": ""
+  },
+  ".maestri/roles/66d62ddf-aac3-4b9e-9169-acaadda0e1fd/role.json": {
+    "mtime": 1791909999.3755255,
+    "ast_hash": "5b7a4063ead0524527ae8df08bce9f87",
+    "semantic_hash": ""
+  },
+  ".maestri/roles/80a21cb9-749d-444c-9d03-1dd1c4d69a9c/role.json": {
+    "mtime": 1791909999.4266706,
+    "ast_hash": "8a778dc725487ccad9b0a7eca1421153",
+    "semantic_hash": ""
+  },
+  ".maestri/roles/a56a8780-173c-4e52-8fb7-26d29c8974ea/role.json": {
+    "mtime": 1791909999.513641,
+    "ast_hash": "d6b02bfbf0f9edd121de568f7d115190",
+    "semantic_hash": ""
+  },
+  ".maestri/roles/affcccb9-96ac-4ff0-8dfe-98d1df55685b/role.json": {
+    "mtime": 1791909999.4997916,
+    "ast_hash": "f65c734e099609c5c6be8e83b2b73637",
+    "semantic_hash": ""
+  },
+  ".maestri/roles/cc71b73f-7b9b-4fca-8b76-e392b55ae36a/role.json": {
+    "mtime": 1791909999.471081,
+    "ast_hash": "ad710e6ce1a9706e3637366f99a359d0",
+    "semantic_hash": ""
+  },
+  ".maestri/roles/ee372b6c-9ef9-443e-8558-14d53676a6c4/role.json": {
+    "mtime": 1791909999.440858,
+    "ast_hash": "60ea8f69b9539d127ddcd5f75c0c9916",
+    "semantic_hash": ""
+  },
+  ".claude/agents/backend-dev.md": {
+    "mtime": 1791914105.0107596,
+    "ast_hash": "d846ab2afcb545aed66e0736c22fd460",
+    "semantic_hash": ""
+  },
+  ".claude/agents/cto.md": {
+    "mtime": 1791914169.0191717,
+    "ast_hash": "db28c3d6e0b8929b9c093ce3df608d4c",
+    "semantic_hash": ""
+  },
+  ".claude/agents/data-analyst.md": {
+    "mtime": 1791914108.8050227,
+    "ast_hash": "2d4ebfc42d6d02a14ede855e2fb7aa90",
+    "semantic_hash": ""
+  },
+  ".claude/agents/devops-infra.md": {
+    "mtime": 1791914138.8912299,
+    "ast_hash": "9de0b7c5505dabf0908cdc270b6fa09a",
+    "semantic_hash": ""
+  },
+  ".claude/agents/frontend-dev.md": {
+    "mtime": 1791914119.0463045,
+    "ast_hash": "8332b1ae5bc3e5d297150ddae07a0a98",
+    "semantic_hash": ""
+  },
+  ".claude/agents/qa-e2e.md": {
+    "mtime": 1791911890.2290993,
+    "ast_hash": "5a80993ff93ff0c8c48e2cdb1e91432b",
+    "semantic_hash": ""
+  },
+  ".claude/agents/security-auditor.md": {
+    "mtime": 1791911894.5577605,
+    "ast_hash": "742c9693c8953c87f9322ad6b82817f2",
+    "semantic_hash": ""
+  },
+  ".claude/agents/spec-lookup.md": {
+    "mtime": 1791911912.218046,
+    "ast_hash": "96811ffb6763bfaa46e0b100b838f9e4",
+    "semantic_hash": ""
+  },
+  ".claude/agents/tech-writer.md": {
+    "mtime": 1791912186.4138787,
+    "ast_hash": "62a2b70777f0abd5a633c73fcd7f3eb9",
+    "semantic_hash": ""
+  },
+  ".claude/agents/test-runner.md": {
+    "mtime": 1791911919.4871478,
+    "ast_hash": "aa78ef9318c84e0e10dbcc9819ae6b66",
+    "semantic_hash": ""
+  },
+  ".maestri/roles/007b5ff7-7878-4d86-b98e-8dafa26405e4/AGENTS.md": {
+    "mtime": 1791913911.4845977,
+    "ast_hash": "fd5457edf059f75106154dc8bfe2efa5",
+    "semantic_hash": ""
+  },
+  ".maestri/roles/007b5ff7-7878-4d86-b98e-8dafa26405e4/CLAUDE.md": {
+    "mtime": 1791913881.7730248,
+    "ast_hash": "fd5457edf059f75106154dc8bfe2efa5",
+    "semantic_hash": ""
+  },
+  ".maestri/roles/0436774d-0810-4427-b0bf-27905f4dfdb3/AGENTS.md": {
+    "mtime": 1791909999.3844035,
+    "ast_hash": "1ac2f42885c792733fe45b7e380b83ec",
+    "semantic_hash": ""
+  },
+  ".maestri/roles/0436774d-0810-4427-b0bf-27905f4dfdb3/CLAUDE.md": {
+    "mtime": 1791909999.3804436,
+    "ast_hash": "1ac2f42885c792733fe45b7e380b83ec",
+    "semantic_hash": ""
+  },
+  ".maestri/roles/202c3880-6423-4287-9a2a-646bca51b19b/AGENTS.md": {
+    "mtime": 1791909999.4810827,
+    "ast_hash": "8757c2d084304d2bc1cced6119149acf",
+    "semantic_hash": ""
+  },
+  ".maestri/roles/202c3880-6423-4287-9a2a-646bca51b19b/CLAUDE.md": {
+    "mtime": 1791909999.4779344,
+    "ast_hash": "8757c2d084304d2bc1cced6119149acf",
+    "semantic_hash": ""
+  },
+  ".maestri/roles/4ed3ee08-a3b1-4e7a-9a22-1c69714b302b/AGENTS.md": {
+    "mtime": 1791909999.4085023,
+    "ast_hash": "ad9bb4421bfecc01d6099642e79d25df",
+    "semantic_hash": ""
+  },
+  ".maestri/roles/4ed3ee08-a3b1-4e7a-9a22-1c69714b302b/CLAUDE.md": {
+    "mtime": 1791909999.4059145,
+    "ast_hash": "ad9bb4421bfecc01d6099642e79d25df",
+    "semantic_hash": ""
+  },
+  ".maestri/roles/5e875e1c-ecb5-49ef-80c4-fa2f956cdefb/AGENTS.md": {
+    "mtime": 1791909999.3981493,
+    "ast_hash": "cfe86ab43e2e272172c1b72863e09b70",
+    "semantic_hash": ""
+  },
+  ".maestri/roles/5e875e1c-ecb5-49ef-80c4-fa2f956cdefb/CLAUDE.md": {
+    "mtime": 1791909999.394804,
+    "ast_hash": "cfe86ab43e2e272172c1b72863e09b70",
+    "semantic_hash": ""
+  },
+  ".maestri/roles/66d62ddf-aac3-4b9e-9169-acaadda0e1fd/AGENTS.md": {
+    "mtime": 1791913917.0771883,
+    "ast_hash": "84815e2c5c01df2a5973c86f78effd59",
+    "semantic_hash": ""
+  },
+  ".maestri/roles/66d62ddf-aac3-4b9e-9169-acaadda0e1fd/CLAUDE.md": {
+    "mtime": 1791913886.7615187,
+    "ast_hash": "84815e2c5c01df2a5973c86f78effd59",
+    "semantic_hash": ""
+  },
+  ".maestri/roles/80a21cb9-749d-444c-9d03-1dd1c4d69a9c/AGENTS.md": {
+    "mtime": 1791909999.42138,
+    "ast_hash": "be53ee5d3ed1bf7e62dc1ff95319a250",
+    "semantic_hash": ""
+  },
+  ".maestri/roles/80a21cb9-749d-444c-9d03-1dd1c4d69a9c/CLAUDE.md": {
+    "mtime": 1791909999.418939,
+    "ast_hash": "be53ee5d3ed1bf7e62dc1ff95319a250",
+    "semantic_hash": ""
+  },
+  ".maestri/roles/a56a8780-173c-4e52-8fb7-26d29c8974ea/AGENTS.md": {
+    "mtime": 1791909999.5084012,
+    "ast_hash": "85d15695c43c8f2674766259b74d1a30",
+    "semantic_hash": ""
+  },
+  ".maestri/roles/a56a8780-173c-4e52-8fb7-26d29c8974ea/CLAUDE.md": {
+    "mtime": 1791909999.5053465,
+    "ast_hash": "85d15695c43c8f2674766259b74d1a30",
+    "semantic_hash": ""
+  },
+  ".maestri/roles/affcccb9-96ac-4ff0-8dfe-98d1df55685b/AGENTS.md": {
+    "mtime": 1791909999.4953907,
+    "ast_hash": "e003e238d41c5d6e1e68c60b5a46e9e4",
+    "semantic_hash": ""
+  },
+  ".maestri/roles/affcccb9-96ac-4ff0-8dfe-98d1df55685b/CLAUDE.md": {
+    "mtime": 1791909999.4921172,
+    "ast_hash": "e003e238d41c5d6e1e68c60b5a46e9e4",
+    "semantic_hash": ""
+  },
+  ".maestri/roles/cc71b73f-7b9b-4fca-8b76-e392b55ae36a/AGENTS.md": {
+    "mtime": 1791913922.0094314,
+    "ast_hash": "cf9a81e6c75de890d2b4eae7c3328b05",
+    "semantic_hash": ""
+  },
+  ".maestri/roles/cc71b73f-7b9b-4fca-8b76-e392b55ae36a/CLAUDE.md": {
+    "mtime": 1791913891.5368423,
+    "ast_hash": "cf9a81e6c75de890d2b4eae7c3328b05",
+    "semantic_hash": ""
+  },
+  ".maestri/roles/ee372b6c-9ef9-443e-8558-14d53676a6c4/AGENTS.md": {
+    "mtime": 1791909999.4369285,
+    "ast_hash": "421da7f8d3e6b9b1d8853242d73ad633",
+    "semantic_hash": ""
+  },
+  ".maestri/roles/ee372b6c-9ef9-443e-8558-14d53676a6c4/CLAUDE.md": {
+    "mtime": 1791909999.4325273,
+    "ast_hash": "421da7f8d3e6b9b1d8853242d73ad633",
+    "semantic_hash": ""
+  },
+  "CLAUDE.md": {
+    "mtime": 1791914194.7655203,
+    "ast_hash": "aaad6fc82c7bfd939125bd1155235537",
+    "semantic_hash": ""
+  },
+  "DIARIO_DE_BORDO.md": {
+    "mtime": 1791914283.0953374,
+    "ast_hash": "433b221791c609f46d4d167a24d8b5cc",
+    "semantic_hash": ""
+  },
+  ".agents/skills/caveman/SKILL.md": {
+    "mtime": 1791910632.176548,
+    "ast_hash": "c25222abaa49ce28e24eb1e12a77f33c",
+    "semantic_hash": ""
+  },
+  ".claude/skills/rtk/SKILL.md": {
+    "mtime": 1791911858.6299813,
+    "ast_hash": "e5ed39cc3b52f10385e8e9c1f603aeef",
+    "semantic_hash": ""
+  },
+  ".agents/plugins/rtk/hooks.json": {
+    "mtime": 1791911598.2040625,
+    "ast_hash": "532b0d28c90a2a0a929e5611b6e332d6",
+    "semantic_hash": ""
+  },
+  ".agents/plugins/rtk/plugin.json": {
+    "mtime": 1791911598.205116,
+    "ast_hash": "2679e3b217ff8603eca2b917d7217657",
+    "semantic_hash": ""
+  },
+  ".maestri/roles/79d97de1-3cc3-49e4-84f8-a812e1316a2a/role.json": {
+    "mtime": 1791911064.0049644,
+    "ast_hash": "a83a6833fedf3e8d636cb61bd42d71c1",
+    "semantic_hash": ""
+  },
+  ".agents/plugins/rtk/rules/AGENTS.md": {
+    "mtime": 1791911598.203017,
+    "ast_hash": "f49ef3fd0c238e80c240b632cde11f31",
+    "semantic_hash": ""
+  },
+  ".maestri/roles/79d97de1-3cc3-49e4-84f8-a812e1316a2a/AGENTS.md": {
+    "mtime": 1791911064.0001857,
+    "ast_hash": "62b242b7318ad681c5e087db90b6dcc9",
+    "semantic_hash": ""
+  },
+  ".maestri/roles/79d97de1-3cc3-49e4-84f8-a812e1316a2a/CLAUDE.md": {
+    "mtime": 1791911063.9963121,
+    "ast_hash": "62b242b7318ad681c5e087db90b6dcc9",
+    "semantic_hash": ""
+  },
+  ".serena/project.local.yml": {
+    "mtime": 1791912623.3416333,
+    "ast_hash": "f136e7d47205d9a758913615074760e5",
+    "semantic_hash": ""
+  },
+  ".serena/project.yml": {
+    "mtime": 1791912633.207887,
+    "ast_hash": "51ae73b34c340962b23feb919dbcd71b",
+    "semantic_hash": ""
+  }
+}

@@ -1,0 +1,2080 @@
+{
+  "directed": false,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "AGENTS.md",
+      "file_type": "document",
+      "source_file": ".agents/plugins/rtk/rules/AGENTS.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "agents_plugins_rtk_rules_agents",
+      "community": 36,
+      "norm_label": "agents.md"
+    },
+    {
+      "label": "Command output",
+      "file_type": "document",
+      "source_file": ".agents/plugins/rtk/rules/AGENTS.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "agents_plugins_rtk_rules_agents_command_output",
+      "community": 36,
+      "norm_label": "command output"
+    },
+    {
+      "label": "SKILL.md",
+      "file_type": "document",
+      "source_file": ".agents/skills/caveman/SKILL.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "agents_skills_caveman_skill",
+      "community": 35,
+      "norm_label": "skill.md"
+    },
+    {
+      "label": "Caveman Mode",
+      "file_type": "document",
+      "source_file": ".agents/skills/caveman/SKILL.md",
+      "source_location": "L9",
+      "_origin": "ast",
+      "id": "agents_skills_caveman_skill_caveman_mode",
+      "community": 35,
+      "norm_label": "caveman mode"
+    },
+    {
+      "label": "Communication Rules",
+      "file_type": "document",
+      "source_file": ".agents/skills/caveman/SKILL.md",
+      "source_location": "L13",
+      "_origin": "ast",
+      "id": "agents_skills_caveman_skill_communication_rules",
+      "community": 35,
+      "norm_label": "communication rules"
+    },
+    {
+      "label": "Format Rules",
+      "file_type": "document",
+      "source_file": ".agents/skills/caveman/SKILL.md",
+      "source_location": "L27",
+      "_origin": "ast",
+      "id": "agents_skills_caveman_skill_format_rules",
+      "community": 35,
+      "norm_label": "format rules"
+    },
+    {
+      "label": "Examples",
+      "file_type": "document",
+      "source_file": ".agents/skills/caveman/SKILL.md",
+      "source_location": "L34",
+      "_origin": "ast",
+      "id": "agents_skills_caveman_skill_examples",
+      "community": 35,
+      "norm_label": "examples"
+    },
+    {
+      "label": "backend-dev.md",
+      "file_type": "document",
+      "source_file": ".claude/agents/backend-dev.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "claude_agents_backend_dev",
+      "community": 2,
+      "norm_label": "backend-dev.md"
+    },
+    {
+      "label": "Quando voc\u00ea \u00e9 o respons\u00e1vel pela consolida\u00e7\u00e3o (vs. `data-analyst`)",
+      "file_type": "document",
+      "source_file": ".claude/agents/backend-dev.md",
+      "source_location": "L9",
+      "_origin": "ast",
+      "id": "claude_agents_backend_dev_quando_voc\u00ea_\u00e9_o_respons\u00e1vel_pela_consolida\u00e7\u00e3o_vs_data_analyst",
+      "community": 2,
+      "norm_label": "quando voce e o responsavel pela consolidacao (vs. `data-analyst`)"
+    },
+    {
+      "label": "Antes de codar",
+      "file_type": "document",
+      "source_file": ".claude/agents/backend-dev.md",
+      "source_location": "L13",
+      "_origin": "ast",
+      "id": "claude_agents_backend_dev_antes_de_codar",
+      "community": 2,
+      "norm_label": "antes de codar"
+    },
+    {
+      "label": "Regras",
+      "file_type": "document",
+      "source_file": ".claude/agents/backend-dev.md",
+      "source_location": "L19",
+      "_origin": "ast",
+      "id": "claude_agents_backend_dev_regras",
+      "community": 2,
+      "norm_label": "regras"
+    },
+    {
+      "label": "Serena (MCP) \u2014 localizar e editar s\u00edmbolos de c\u00f3digo",
+      "file_type": "document",
+      "source_file": ".claude/agents/backend-dev.md",
+      "source_location": "L37",
+      "_origin": "ast",
+      "id": "claude_agents_backend_dev_serena_mcp_localizar_e_editar_s\u00edmbolos_de_c\u00f3digo",
+      "community": 2,
+      "norm_label": "serena (mcp) \u2014 localizar e editar simbolos de codigo"
+    },
+    {
+      "label": "Economia de token (obrigat\u00f3rio)",
+      "file_type": "document",
+      "source_file": ".claude/agents/backend-dev.md",
+      "source_location": "L48",
+      "_origin": "ast",
+      "id": "claude_agents_backend_dev_economia_de_token_obrigat\u00f3rio",
+      "community": 2,
+      "norm_label": "economia de token (obrigatorio)"
+    },
+    {
+      "label": "Caveman Mode (cultura obrigat\u00f3ria)",
+      "file_type": "document",
+      "source_file": ".claude/agents/backend-dev.md",
+      "source_location": "L52",
+      "_origin": "ast",
+      "id": "claude_agents_backend_dev_caveman_mode_cultura_obrigat\u00f3ria",
+      "community": 2,
+      "norm_label": "caveman mode (cultura obrigatoria)"
+    },
+    {
+      "label": "cto.md",
+      "file_type": "document",
+      "source_file": ".claude/agents/cto.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "claude_agents_cto",
+      "community": 1,
+      "norm_label": "cto.md"
+    },
+    {
+      "label": "Escopo do projeto",
+      "file_type": "document",
+      "source_file": ".claude/agents/cto.md",
+      "source_location": "L9",
+      "_origin": "ast",
+      "id": "claude_agents_cto_escopo_do_projeto",
+      "community": 1,
+      "norm_label": "escopo do projeto"
+    },
+    {
+      "label": "Processo padr\u00e3o",
+      "file_type": "document",
+      "source_file": ".claude/agents/cto.md",
+      "source_location": "L13",
+      "_origin": "ast",
+      "id": "claude_agents_cto_processo_padr\u00e3o",
+      "community": 1,
+      "norm_label": "processo padrao"
+    },
+    {
+      "label": "Delega\u00e7\u00e3o",
+      "file_type": "document",
+      "source_file": ".claude/agents/cto.md",
+      "source_location": "L26",
+      "_origin": "ast",
+      "id": "claude_agents_cto_delega\u00e7\u00e3o",
+      "community": 1,
+      "norm_label": "delegacao"
+    },
+    {
+      "label": "O que nunca fazer sem perguntar",
+      "file_type": "document",
+      "source_file": ".claude/agents/cto.md",
+      "source_location": "L34",
+      "_origin": "ast",
+      "id": "claude_agents_cto_o_que_nunca_fazer_sem_perguntar",
+      "community": 1,
+      "norm_label": "o que nunca fazer sem perguntar"
+    },
+    {
+      "label": "Economia de token (obrigat\u00f3rio)",
+      "file_type": "document",
+      "source_file": ".claude/agents/cto.md",
+      "source_location": "L42",
+      "_origin": "ast",
+      "id": "claude_agents_cto_economia_de_token_obrigat\u00f3rio",
+      "community": 1,
+      "norm_label": "economia de token (obrigatorio)"
+    },
+    {
+      "label": "Caveman Mode (cultura obrigat\u00f3ria)",
+      "file_type": "document",
+      "source_file": ".claude/agents/cto.md",
+      "source_location": "L47",
+      "_origin": "ast",
+      "id": "claude_agents_cto_caveman_mode_cultura_obrigat\u00f3ria",
+      "community": 1,
+      "norm_label": "caveman mode (cultura obrigatoria)"
+    },
+    {
+      "label": "data-analyst.md",
+      "file_type": "document",
+      "source_file": ".claude/agents/data-analyst.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "claude_agents_data_analyst",
+      "community": 3,
+      "norm_label": "data-analyst.md"
+    },
+    {
+      "label": "Quando voc\u00ea \u00e9 o respons\u00e1vel pela consolida\u00e7\u00e3o (vs. `backend-dev`)",
+      "file_type": "document",
+      "source_file": ".claude/agents/data-analyst.md",
+      "source_location": "L9",
+      "_origin": "ast",
+      "id": "claude_agents_data_analyst_quando_voc\u00ea_\u00e9_o_respons\u00e1vel_pela_consolida\u00e7\u00e3o_vs_backend_dev",
+      "community": 3,
+      "norm_label": "quando voce e o responsavel pela consolidacao (vs. `backend-dev`)"
+    },
+    {
+      "label": "Antes de codar",
+      "file_type": "document",
+      "source_file": ".claude/agents/data-analyst.md",
+      "source_location": "L13",
+      "_origin": "ast",
+      "id": "claude_agents_data_analyst_antes_de_codar",
+      "community": 3,
+      "norm_label": "antes de codar"
+    },
+    {
+      "label": "Regras",
+      "file_type": "document",
+      "source_file": ".claude/agents/data-analyst.md",
+      "source_location": "L18",
+      "_origin": "ast",
+      "id": "claude_agents_data_analyst_regras",
+      "community": 3,
+      "norm_label": "regras"
+    },
+    {
+      "label": "Serena (MCP) \u2014 ainda n\u00e3o configurada para voc\u00ea",
+      "file_type": "document",
+      "source_file": ".claude/agents/data-analyst.md",
+      "source_location": "L33",
+      "_origin": "ast",
+      "id": "claude_agents_data_analyst_serena_mcp_ainda_n\u00e3o_configurada_para_voc\u00ea",
+      "community": 3,
+      "norm_label": "serena (mcp) \u2014 ainda nao configurada para voce"
+    },
+    {
+      "label": "Economia de token (obrigat\u00f3rio)",
+      "file_type": "document",
+      "source_file": ".claude/agents/data-analyst.md",
+      "source_location": "L37",
+      "_origin": "ast",
+      "id": "claude_agents_data_analyst_economia_de_token_obrigat\u00f3rio",
+      "community": 3,
+      "norm_label": "economia de token (obrigatorio)"
+    },
+    {
+      "label": "Caveman Mode (cultura obrigat\u00f3ria)",
+      "file_type": "document",
+      "source_file": ".claude/agents/data-analyst.md",
+      "source_location": "L41",
+      "_origin": "ast",
+      "id": "claude_agents_data_analyst_caveman_mode_cultura_obrigat\u00f3ria",
+      "community": 3,
+      "norm_label": "caveman mode (cultura obrigatoria)"
+    },
+    {
+      "label": "devops-infra.md",
+      "file_type": "document",
+      "source_file": ".claude/agents/devops-infra.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "claude_agents_devops_infra",
+      "community": 7,
+      "norm_label": "devops-infra.md"
+    },
+    {
+      "label": "Regras",
+      "file_type": "document",
+      "source_file": ".claude/agents/devops-infra.md",
+      "source_location": "L9",
+      "_origin": "ast",
+      "id": "claude_agents_devops_infra_regras",
+      "community": 7,
+      "norm_label": "regras"
+    },
+    {
+      "label": "Economia de token (obrigat\u00f3rio)",
+      "file_type": "document",
+      "source_file": ".claude/agents/devops-infra.md",
+      "source_location": "L27",
+      "_origin": "ast",
+      "id": "claude_agents_devops_infra_economia_de_token_obrigat\u00f3rio",
+      "community": 7,
+      "norm_label": "economia de token (obrigatorio)"
+    },
+    {
+      "label": "Caveman Mode (cultura obrigat\u00f3ria)",
+      "file_type": "document",
+      "source_file": ".claude/agents/devops-infra.md",
+      "source_location": "L31",
+      "_origin": "ast",
+      "id": "claude_agents_devops_infra_caveman_mode_cultura_obrigat\u00f3ria",
+      "community": 7,
+      "norm_label": "caveman mode (cultura obrigatoria)"
+    },
+    {
+      "label": "frontend-dev.md",
+      "file_type": "document",
+      "source_file": ".claude/agents/frontend-dev.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "claude_agents_frontend_dev",
+      "community": 4,
+      "norm_label": "frontend-dev.md"
+    },
+    {
+      "label": "Antes de codar",
+      "file_type": "document",
+      "source_file": ".claude/agents/frontend-dev.md",
+      "source_location": "L9",
+      "_origin": "ast",
+      "id": "claude_agents_frontend_dev_antes_de_codar",
+      "community": 4,
+      "norm_label": "antes de codar"
+    },
+    {
+      "label": "Regras",
+      "file_type": "document",
+      "source_file": ".claude/agents/frontend-dev.md",
+      "source_location": "L14",
+      "_origin": "ast",
+      "id": "claude_agents_frontend_dev_regras",
+      "community": 4,
+      "norm_label": "regras"
+    },
+    {
+      "label": "Serena (MCP) \u2014 localizar e editar s\u00edmbolos de c\u00f3digo",
+      "file_type": "document",
+      "source_file": ".claude/agents/frontend-dev.md",
+      "source_location": "L29",
+      "_origin": "ast",
+      "id": "claude_agents_frontend_dev_serena_mcp_localizar_e_editar_s\u00edmbolos_de_c\u00f3digo",
+      "community": 4,
+      "norm_label": "serena (mcp) \u2014 localizar e editar simbolos de codigo"
+    },
+    {
+      "label": "Economia de token (obrigat\u00f3rio)",
+      "file_type": "document",
+      "source_file": ".claude/agents/frontend-dev.md",
+      "source_location": "L41",
+      "_origin": "ast",
+      "id": "claude_agents_frontend_dev_economia_de_token_obrigat\u00f3rio",
+      "community": 4,
+      "norm_label": "economia de token (obrigatorio)"
+    },
+    {
+      "label": "Caveman Mode (cultura obrigat\u00f3ria)",
+      "file_type": "document",
+      "source_file": ".claude/agents/frontend-dev.md",
+      "source_location": "L45",
+      "_origin": "ast",
+      "id": "claude_agents_frontend_dev_caveman_mode_cultura_obrigat\u00f3ria",
+      "community": 4,
+      "norm_label": "caveman mode (cultura obrigatoria)"
+    },
+    {
+      "label": "qa-e2e.md",
+      "file_type": "document",
+      "source_file": ".claude/agents/qa-e2e.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "claude_agents_qa_e2e",
+      "community": 8,
+      "norm_label": "qa-e2e.md"
+    },
+    {
+      "label": "Regras",
+      "file_type": "document",
+      "source_file": ".claude/agents/qa-e2e.md",
+      "source_location": "L9",
+      "_origin": "ast",
+      "id": "claude_agents_qa_e2e_regras",
+      "community": 8,
+      "norm_label": "regras"
+    },
+    {
+      "label": "Economia de token (obrigat\u00f3rio)",
+      "file_type": "document",
+      "source_file": ".claude/agents/qa-e2e.md",
+      "source_location": "L16",
+      "_origin": "ast",
+      "id": "claude_agents_qa_e2e_economia_de_token_obrigat\u00f3rio",
+      "community": 8,
+      "norm_label": "economia de token (obrigatorio)"
+    },
+    {
+      "label": "Caveman Mode (cultura obrigat\u00f3ria)",
+      "file_type": "document",
+      "source_file": ".claude/agents/qa-e2e.md",
+      "source_location": "L20",
+      "_origin": "ast",
+      "id": "claude_agents_qa_e2e_caveman_mode_cultura_obrigat\u00f3ria",
+      "community": 8,
+      "norm_label": "caveman mode (cultura obrigatoria)"
+    },
+    {
+      "label": "security-auditor.md",
+      "file_type": "document",
+      "source_file": ".claude/agents/security-auditor.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "claude_agents_security_auditor",
+      "community": 9,
+      "norm_label": "security-auditor.md"
+    },
+    {
+      "label": "Regras",
+      "file_type": "document",
+      "source_file": ".claude/agents/security-auditor.md",
+      "source_location": "L9",
+      "_origin": "ast",
+      "id": "claude_agents_security_auditor_regras",
+      "community": 9,
+      "norm_label": "regras"
+    },
+    {
+      "label": "Economia de token (obrigat\u00f3rio)",
+      "file_type": "document",
+      "source_file": ".claude/agents/security-auditor.md",
+      "source_location": "L16",
+      "_origin": "ast",
+      "id": "claude_agents_security_auditor_economia_de_token_obrigat\u00f3rio",
+      "community": 9,
+      "norm_label": "economia de token (obrigatorio)"
+    },
+    {
+      "label": "Caveman Mode (cultura obrigat\u00f3ria)",
+      "file_type": "document",
+      "source_file": ".claude/agents/security-auditor.md",
+      "source_location": "L20",
+      "_origin": "ast",
+      "id": "claude_agents_security_auditor_caveman_mode_cultura_obrigat\u00f3ria",
+      "community": 9,
+      "norm_label": "caveman mode (cultura obrigatoria)"
+    },
+    {
+      "label": "spec-lookup.md",
+      "file_type": "document",
+      "source_file": ".claude/agents/spec-lookup.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "claude_agents_spec_lookup",
+      "community": 5,
+      "norm_label": "spec-lookup.md"
+    },
+    {
+      "label": "Fontes prim\u00e1rias (por automa\u00e7\u00e3o)",
+      "file_type": "document",
+      "source_file": ".claude/agents/spec-lookup.md",
+      "source_location": "L9",
+      "_origin": "ast",
+      "id": "claude_agents_spec_lookup_fontes_prim\u00e1rias_por_automa\u00e7\u00e3o",
+      "community": 5,
+      "norm_label": "fontes primarias (por automacao)"
+    },
+    {
+      "label": "Regras",
+      "file_type": "document",
+      "source_file": ".claude/agents/spec-lookup.md",
+      "source_location": "L16",
+      "_origin": "ast",
+      "id": "claude_agents_spec_lookup_regras",
+      "community": 5,
+      "norm_label": "regras"
+    },
+    {
+      "label": "Economia de token (obrigat\u00f3rio)",
+      "file_type": "document",
+      "source_file": ".claude/agents/spec-lookup.md",
+      "source_location": "L22",
+      "_origin": "ast",
+      "id": "claude_agents_spec_lookup_economia_de_token_obrigat\u00f3rio",
+      "community": 5,
+      "norm_label": "economia de token (obrigatorio)"
+    },
+    {
+      "label": "Caveman Mode (cultura obrigat\u00f3ria)",
+      "file_type": "document",
+      "source_file": ".claude/agents/spec-lookup.md",
+      "source_location": "L26",
+      "_origin": "ast",
+      "id": "claude_agents_spec_lookup_caveman_mode_cultura_obrigat\u00f3ria",
+      "community": 5,
+      "norm_label": "caveman mode (cultura obrigatoria)"
+    },
+    {
+      "label": "tech-writer.md",
+      "file_type": "document",
+      "source_file": ".claude/agents/tech-writer.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "claude_agents_tech_writer",
+      "community": 10,
+      "norm_label": "tech-writer.md"
+    },
+    {
+      "label": "Regras",
+      "file_type": "document",
+      "source_file": ".claude/agents/tech-writer.md",
+      "source_location": "L9",
+      "_origin": "ast",
+      "id": "claude_agents_tech_writer_regras",
+      "community": 10,
+      "norm_label": "regras"
+    },
+    {
+      "label": "Economia de token (obrigat\u00f3rio)",
+      "file_type": "document",
+      "source_file": ".claude/agents/tech-writer.md",
+      "source_location": "L25",
+      "_origin": "ast",
+      "id": "claude_agents_tech_writer_economia_de_token_obrigat\u00f3rio",
+      "community": 10,
+      "norm_label": "economia de token (obrigatorio)"
+    },
+    {
+      "label": "Caveman Mode (cultura obrigat\u00f3ria)",
+      "file_type": "document",
+      "source_file": ".claude/agents/tech-writer.md",
+      "source_location": "L29",
+      "_origin": "ast",
+      "id": "claude_agents_tech_writer_caveman_mode_cultura_obrigat\u00f3ria",
+      "community": 10,
+      "norm_label": "caveman mode (cultura obrigatoria)"
+    },
+    {
+      "label": "test-runner.md",
+      "file_type": "document",
+      "source_file": ".claude/agents/test-runner.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "claude_agents_test_runner",
+      "community": 11,
+      "norm_label": "test-runner.md"
+    },
+    {
+      "label": "Regras",
+      "file_type": "document",
+      "source_file": ".claude/agents/test-runner.md",
+      "source_location": "L9",
+      "_origin": "ast",
+      "id": "claude_agents_test_runner_regras",
+      "community": 11,
+      "norm_label": "regras"
+    },
+    {
+      "label": "Economia de token (obrigat\u00f3rio)",
+      "file_type": "document",
+      "source_file": ".claude/agents/test-runner.md",
+      "source_location": "L16",
+      "_origin": "ast",
+      "id": "claude_agents_test_runner_economia_de_token_obrigat\u00f3rio",
+      "community": 11,
+      "norm_label": "economia de token (obrigatorio)"
+    },
+    {
+      "label": "Caveman Mode (cultura obrigat\u00f3ria)",
+      "file_type": "document",
+      "source_file": ".claude/agents/test-runner.md",
+      "source_location": "L20",
+      "_origin": "ast",
+      "id": "claude_agents_test_runner_caveman_mode_cultura_obrigat\u00f3ria",
+      "community": 11,
+      "norm_label": "caveman mode (cultura obrigatoria)"
+    },
+    {
+      "label": "SKILL.md",
+      "file_type": "document",
+      "source_file": ".claude/skills/rtk/SKILL.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "claude_skills_rtk_skill",
+      "community": 34,
+      "norm_label": "skill.md"
+    },
+    {
+      "label": "RTK \u2014 Rust Token Killer (bin\u00e1rio oficial)",
+      "file_type": "document",
+      "source_file": ".claude/skills/rtk/SKILL.md",
+      "source_location": "L6",
+      "_origin": "ast",
+      "id": "claude_skills_rtk_skill_rtk_rust_token_killer_bin\u00e1rio_oficial",
+      "community": 34,
+      "norm_label": "rtk \u2014 rust token killer (binario oficial)"
+    },
+    {
+      "label": "Estado real da integra\u00e7\u00e3o (verificado, n\u00e3o suposto)",
+      "file_type": "document",
+      "source_file": ".claude/skills/rtk/SKILL.md",
+      "source_location": "L12",
+      "_origin": "ast",
+      "id": "claude_skills_rtk_skill_estado_real_da_integra\u00e7\u00e3o_verificado_n\u00e3o_suposto",
+      "community": 34,
+      "norm_label": "estado real da integracao (verificado, nao suposto)"
+    },
+    {
+      "label": "Regra 1 \u2014 Nunca varra o diret\u00f3rio inteiro para localizar c\u00f3digo",
+      "file_type": "document",
+      "source_file": ".claude/skills/rtk/SKILL.md",
+      "source_location": "L19",
+      "_origin": "ast",
+      "id": "claude_skills_rtk_skill_regra_1_nunca_varra_o_diret\u00f3rio_inteiro_para_localizar_c\u00f3digo",
+      "community": 34,
+      "norm_label": "regra 1 \u2014 nunca varra o diretorio inteiro para localizar codigo"
+    },
+    {
+      "label": "Regra 2 \u2014 Chame o `rtk` explicitamente (Claude Code n\u00e3o tem hook aqui)",
+      "file_type": "document",
+      "source_file": ".claude/skills/rtk/SKILL.md",
+      "source_location": "L31",
+      "_origin": "ast",
+      "id": "claude_skills_rtk_skill_regra_2_chame_o_rtk_explicitamente_claude_code_n\u00e3o_tem_hook_aqui",
+      "community": 34,
+      "norm_label": "regra 2 \u2014 chame o `rtk` explicitamente (claude code nao tem hook aqui)"
+    },
+    {
+      "label": "Regra 3 \u2014 Verifica\u00e7\u00e3o pontual, n\u00e3o varredura, mas sempre verifica\u00e7\u00e3o",
+      "file_type": "document",
+      "source_file": ".claude/skills/rtk/SKILL.md",
+      "source_location": "L48",
+      "_origin": "ast",
+      "id": "claude_skills_rtk_skill_regra_3_verifica\u00e7\u00e3o_pontual_n\u00e3o_varredura_mas_sempre_verifica\u00e7\u00e3o",
+      "community": 34,
+      "norm_label": "regra 3 \u2014 verificacao pontual, nao varredura, mas sempre verificacao"
+    },
+    {
+      "label": "Regra 4 \u2014 Grafo desatualizado \u00e9 sinal, n\u00e3o desculpa",
+      "file_type": "document",
+      "source_file": ".claude/skills/rtk/SKILL.md",
+      "source_location": "L54",
+      "_origin": "ast",
+      "id": "claude_skills_rtk_skill_regra_4_grafo_desatualizado_\u00e9_sinal_n\u00e3o_desculpa",
+      "community": 34,
+      "norm_label": "regra 4 \u2014 grafo desatualizado e sinal, nao desculpa"
+    },
+    {
+      "label": "Como validar que o `rtk` est\u00e1 funcionando",
+      "file_type": "document",
+      "source_file": ".claude/skills/rtk/SKILL.md",
+      "source_location": "L58",
+      "_origin": "ast",
+      "id": "claude_skills_rtk_skill_como_validar_que_o_rtk_est\u00e1_funcionando",
+      "community": 34,
+      "norm_label": "como validar que o `rtk` esta funcionando"
+    },
+    {
+      "label": "AGENTS.md",
+      "file_type": "document",
+      "source_file": ".maestri/roles/007b5ff7-7878-4d86-b98e-8dafa26405e4/AGENTS.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "maestri_roles_007b5ff7_7878_4d86_b98e_8dafa26405e4_agents",
+      "community": 12,
+      "norm_label": "agents.md"
+    },
+    {
+      "label": "CLAUDE.md",
+      "file_type": "document",
+      "source_file": ".maestri/roles/007b5ff7-7878-4d86-b98e-8dafa26405e4/CLAUDE.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "maestri_roles_007b5ff7_7878_4d86_b98e_8dafa26405e4_claude",
+      "community": 13,
+      "norm_label": "claude.md"
+    },
+    {
+      "label": "AGENTS.md",
+      "file_type": "document",
+      "source_file": ".maestri/roles/0436774d-0810-4427-b0bf-27905f4dfdb3/AGENTS.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "maestri_roles_0436774d_0810_4427_b0bf_27905f4dfdb3_agents",
+      "community": 14,
+      "norm_label": "agents.md"
+    },
+    {
+      "label": "CLAUDE.md",
+      "file_type": "document",
+      "source_file": ".maestri/roles/0436774d-0810-4427-b0bf-27905f4dfdb3/CLAUDE.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "maestri_roles_0436774d_0810_4427_b0bf_27905f4dfdb3_claude",
+      "community": 15,
+      "norm_label": "claude.md"
+    },
+    {
+      "label": "AGENTS.md",
+      "file_type": "document",
+      "source_file": ".maestri/roles/202c3880-6423-4287-9a2a-646bca51b19b/AGENTS.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "maestri_roles_202c3880_6423_4287_9a2a_646bca51b19b_agents",
+      "community": 16,
+      "norm_label": "agents.md"
+    },
+    {
+      "label": "CLAUDE.md",
+      "file_type": "document",
+      "source_file": ".maestri/roles/202c3880-6423-4287-9a2a-646bca51b19b/CLAUDE.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "maestri_roles_202c3880_6423_4287_9a2a_646bca51b19b_claude",
+      "community": 17,
+      "norm_label": "claude.md"
+    },
+    {
+      "label": "AGENTS.md",
+      "file_type": "document",
+      "source_file": ".maestri/roles/4ed3ee08-a3b1-4e7a-9a22-1c69714b302b/AGENTS.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "maestri_roles_4ed3ee08_a3b1_4e7a_9a22_1c69714b302b_agents",
+      "community": 18,
+      "norm_label": "agents.md"
+    },
+    {
+      "label": "CLAUDE.md",
+      "file_type": "document",
+      "source_file": ".maestri/roles/4ed3ee08-a3b1-4e7a-9a22-1c69714b302b/CLAUDE.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "maestri_roles_4ed3ee08_a3b1_4e7a_9a22_1c69714b302b_claude",
+      "community": 19,
+      "norm_label": "claude.md"
+    },
+    {
+      "label": "AGENTS.md",
+      "file_type": "document",
+      "source_file": ".maestri/roles/5e875e1c-ecb5-49ef-80c4-fa2f956cdefb/AGENTS.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "maestri_roles_5e875e1c_ecb5_49ef_80c4_fa2f956cdefb_agents",
+      "community": 20,
+      "norm_label": "agents.md"
+    },
+    {
+      "label": "CLAUDE.md",
+      "file_type": "document",
+      "source_file": ".maestri/roles/5e875e1c-ecb5-49ef-80c4-fa2f956cdefb/CLAUDE.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "maestri_roles_5e875e1c_ecb5_49ef_80c4_fa2f956cdefb_claude",
+      "community": 21,
+      "norm_label": "claude.md"
+    },
+    {
+      "label": "AGENTS.md",
+      "file_type": "document",
+      "source_file": ".maestri/roles/66d62ddf-aac3-4b9e-9169-acaadda0e1fd/AGENTS.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "maestri_roles_66d62ddf_aac3_4b9e_9169_acaadda0e1fd_agents",
+      "community": 22,
+      "norm_label": "agents.md"
+    },
+    {
+      "label": "CLAUDE.md",
+      "file_type": "document",
+      "source_file": ".maestri/roles/66d62ddf-aac3-4b9e-9169-acaadda0e1fd/CLAUDE.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "maestri_roles_66d62ddf_aac3_4b9e_9169_acaadda0e1fd_claude",
+      "community": 23,
+      "norm_label": "claude.md"
+    },
+    {
+      "label": "AGENTS.md",
+      "file_type": "document",
+      "source_file": ".maestri/roles/79d97de1-3cc3-49e4-84f8-a812e1316a2a/AGENTS.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "maestri_roles_79d97de1_3cc3_49e4_84f8_a812e1316a2a_agents",
+      "community": 37,
+      "norm_label": "agents.md"
+    },
+    {
+      "label": "CLAUDE.md",
+      "file_type": "document",
+      "source_file": ".maestri/roles/79d97de1-3cc3-49e4-84f8-a812e1316a2a/CLAUDE.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "maestri_roles_79d97de1_3cc3_49e4_84f8_a812e1316a2a_claude",
+      "community": 38,
+      "norm_label": "claude.md"
+    },
+    {
+      "label": "AGENTS.md",
+      "file_type": "document",
+      "source_file": ".maestri/roles/80a21cb9-749d-444c-9d03-1dd1c4d69a9c/AGENTS.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "maestri_roles_80a21cb9_749d_444c_9d03_1dd1c4d69a9c_agents",
+      "community": 24,
+      "norm_label": "agents.md"
+    },
+    {
+      "label": "CLAUDE.md",
+      "file_type": "document",
+      "source_file": ".maestri/roles/80a21cb9-749d-444c-9d03-1dd1c4d69a9c/CLAUDE.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "maestri_roles_80a21cb9_749d_444c_9d03_1dd1c4d69a9c_claude",
+      "community": 25,
+      "norm_label": "claude.md"
+    },
+    {
+      "label": "AGENTS.md",
+      "file_type": "document",
+      "source_file": ".maestri/roles/a56a8780-173c-4e52-8fb7-26d29c8974ea/AGENTS.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "maestri_roles_a56a8780_173c_4e52_8fb7_26d29c8974ea_agents",
+      "community": 26,
+      "norm_label": "agents.md"
+    },
+    {
+      "label": "CLAUDE.md",
+      "file_type": "document",
+      "source_file": ".maestri/roles/a56a8780-173c-4e52-8fb7-26d29c8974ea/CLAUDE.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "maestri_roles_a56a8780_173c_4e52_8fb7_26d29c8974ea_claude",
+      "community": 27,
+      "norm_label": "claude.md"
+    },
+    {
+      "label": "AGENTS.md",
+      "file_type": "document",
+      "source_file": ".maestri/roles/affcccb9-96ac-4ff0-8dfe-98d1df55685b/AGENTS.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "maestri_roles_affcccb9_96ac_4ff0_8dfe_98d1df55685b_agents",
+      "community": 28,
+      "norm_label": "agents.md"
+    },
+    {
+      "label": "CLAUDE.md",
+      "file_type": "document",
+      "source_file": ".maestri/roles/affcccb9-96ac-4ff0-8dfe-98d1df55685b/CLAUDE.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "maestri_roles_affcccb9_96ac_4ff0_8dfe_98d1df55685b_claude",
+      "community": 29,
+      "norm_label": "claude.md"
+    },
+    {
+      "label": "AGENTS.md",
+      "file_type": "document",
+      "source_file": ".maestri/roles/cc71b73f-7b9b-4fca-8b76-e392b55ae36a/AGENTS.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "maestri_roles_cc71b73f_7b9b_4fca_8b76_e392b55ae36a_agents",
+      "community": 30,
+      "norm_label": "agents.md"
+    },
+    {
+      "label": "CLAUDE.md",
+      "file_type": "document",
+      "source_file": ".maestri/roles/cc71b73f-7b9b-4fca-8b76-e392b55ae36a/CLAUDE.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "maestri_roles_cc71b73f_7b9b_4fca_8b76_e392b55ae36a_claude",
+      "community": 31,
+      "norm_label": "claude.md"
+    },
+    {
+      "label": "AGENTS.md",
+      "file_type": "document",
+      "source_file": ".maestri/roles/ee372b6c-9ef9-443e-8558-14d53676a6c4/AGENTS.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "maestri_roles_ee372b6c_9ef9_443e_8558_14d53676a6c4_agents",
+      "community": 32,
+      "norm_label": "agents.md"
+    },
+    {
+      "label": "CLAUDE.md",
+      "file_type": "document",
+      "source_file": ".maestri/roles/ee372b6c-9ef9-443e-8558-14d53676a6c4/CLAUDE.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "maestri_roles_ee372b6c_9ef9_443e_8558_14d53676a6c4_claude",
+      "community": 33,
+      "norm_label": "claude.md"
+    },
+    {
+      "label": "CLAUDE.md",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "claude",
+      "community": 0,
+      "norm_label": "claude.md"
+    },
+    {
+      "label": "CLAUDE.md",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "claude_claude_md",
+      "community": 0,
+      "norm_label": "claude.md"
+    },
+    {
+      "label": "Sobre o projeto",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": "L5",
+      "_origin": "ast",
+      "id": "claude_sobre_o_projeto",
+      "community": 0,
+      "norm_label": "sobre o projeto"
+    },
+    {
+      "label": "Conven\u00e7\u00e3o de estrutura",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": "L11",
+      "_origin": "ast",
+      "id": "claude_conven\u00e7\u00e3o_de_estrutura",
+      "community": 0,
+      "norm_label": "convencao de estrutura"
+    },
+    {
+      "label": "Pend\u00eancia de versionamento (ainda n\u00e3o resolvida)",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": "L17",
+      "_origin": "ast",
+      "id": "claude_pend\u00eancia_de_versionamento_ainda_n\u00e3o_resolvida",
+      "community": 0,
+      "norm_label": "pendencia de versionamento (ainda nao resolvida)"
+    },
+    {
+      "label": "Premissas inegoci\u00e1veis",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": "L21",
+      "_origin": "ast",
+      "id": "claude_premissas_inegoci\u00e1veis",
+      "community": 0,
+      "norm_label": "premissas inegociaveis"
+    },
+    {
+      "label": "Di\u00e1rio de bordo",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": "L29",
+      "_origin": "ast",
+      "id": "claude_di\u00e1rio_de_bordo",
+      "community": 0,
+      "norm_label": "diario de bordo"
+    },
+    {
+      "label": "Time de agentes (`.claude/agents/`)",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": "L35",
+      "_origin": "ast",
+      "id": "claude_time_de_agentes_claude_agents",
+      "community": 39,
+      "norm_label": "time de agentes (`.claude/agents/`)"
+    },
+    {
+      "label": "Equipe conforme a tarefa e o risco (fluxo m\u00ednimo)",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": "L54",
+      "_origin": "ast",
+      "id": "claude_equipe_conforme_a_tarefa_e_o_risco_fluxo_m\u00ednimo",
+      "community": 39,
+      "norm_label": "equipe conforme a tarefa e o risco (fluxo minimo)"
+    },
+    {
+      "label": "Respons\u00e1vel \u00fanico pela entrega (`backend-dev` vs. `data-analyst`) \u2014 n\u00e3o \u00e9 exclusividade de execu\u00e7\u00e3o",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": "L70",
+      "_origin": "ast",
+      "id": "claude_respons\u00e1vel_\u00fanico_pela_entrega_backend_dev_vs_data_analyst_n\u00e3o_\u00e9_exclusividade_de_execu\u00e7\u00e3o",
+      "community": 39,
+      "norm_label": "responsavel unico pela entrega (`backend-dev` vs. `data-analyst`) \u2014 nao e exclusividade de execucao"
+    },
+    {
+      "label": "Modelo de delega\u00e7\u00e3o (obrigat\u00f3rio, use em toda tarefa n\u00e3o-trivial)",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": "L79",
+      "_origin": "ast",
+      "id": "claude_modelo_de_delega\u00e7\u00e3o_obrigat\u00f3rio_use_em_toda_tarefa_n\u00e3o_trivial",
+      "community": 39,
+      "norm_label": "modelo de delegacao (obrigatorio, use em toda tarefa nao-trivial)"
+    },
+    {
+      "label": "Coordena\u00e7\u00e3o de altera\u00e7\u00f5es paralelas",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": "L96",
+      "_origin": "ast",
+      "id": "claude_coordena\u00e7\u00e3o_de_altera\u00e7\u00f5es_paralelas",
+      "community": 39,
+      "norm_label": "coordenacao de alteracoes paralelas"
+    },
+    {
+      "label": "Relat\u00f3rios verific\u00e1veis (substitui `[STATUS] / [ARQUIVOS MODIFICADOS]`)",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": "L103",
+      "_origin": "ast",
+      "id": "claude_relat\u00f3rios_verific\u00e1veis_substitui_status_arquivos_modificados",
+      "community": 39,
+      "norm_label": "relatorios verificaveis (substitui `[status] / [arquivos modificados]`)"
+    },
+    {
+      "label": "Valida\u00e7\u00e3o de crit\u00e9rios de aceite",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": "L116",
+      "_origin": "ast",
+      "id": "claude_valida\u00e7\u00e3o_de_crit\u00e9rios_de_aceite",
+      "community": 39,
+      "norm_label": "validacao de criterios de aceite"
+    },
+    {
+      "label": "Dualidade: subagente Claude Code (Task) vs. terminal Maestri",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": "L123",
+      "_origin": "ast",
+      "id": "claude_dualidade_subagente_claude_code_task_vs_terminal_maestri",
+      "community": 39,
+      "norm_label": "dualidade: subagente claude code (task) vs. terminal maestri"
+    },
+    {
+      "label": "Ferramentas de otimiza\u00e7\u00e3o de token instaladas",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": "L139",
+      "_origin": "ast",
+      "id": "claude_ferramentas_de_otimiza\u00e7\u00e3o_de_token_instaladas",
+      "community": 0,
+      "norm_label": "ferramentas de otimizacao de token instaladas"
+    },
+    {
+      "label": "O que NUNCA fazer sem perguntar",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": "L146",
+      "_origin": "ast",
+      "id": "claude_o_que_nunca_fazer_sem_perguntar",
+      "community": 0,
+      "norm_label": "o que nunca fazer sem perguntar"
+    },
+    {
+      "label": "Verifica\u00e7\u00e3o antes de afirmar",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": "L154",
+      "_origin": "ast",
+      "id": "claude_verifica\u00e7\u00e3o_antes_de_afirmar",
+      "community": 0,
+      "norm_label": "verificacao antes de afirmar"
+    },
+    {
+      "label": "Command output",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": "L159",
+      "_origin": "ast",
+      "id": "claude_command_output",
+      "community": 0,
+      "norm_label": "command output"
+    },
+    {
+      "label": "DIARIO_DE_BORDO.md",
+      "file_type": "document",
+      "source_file": "DIARIO_DE_BORDO.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "diario_de_bordo",
+      "community": 6,
+      "norm_label": "diario_de_bordo.md"
+    },
+    {
+      "label": "Di\u00e1rio de Bordo \u2014 AUTOMACAO_HD",
+      "file_type": "document",
+      "source_file": "DIARIO_DE_BORDO.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "diario_de_bordo_di\u00e1rio_de_bordo_automacao_hd",
+      "community": 6,
+      "norm_label": "diario de bordo \u2014 automacao_hd"
+    },
+    {
+      "label": "ESTADO ATUAL (atualizar a cada marco; n\u00e3o acumular hist\u00f3rico aqui \u2014 isso vai nas entradas abaixo)",
+      "file_type": "document",
+      "source_file": "DIARIO_DE_BORDO.md",
+      "source_location": "L5",
+      "_origin": "ast",
+      "id": "diario_de_bordo_estado_atual_atualizar_a_cada_marco_n\u00e3o_acumular_hist\u00f3rico_aqui_isso_vai_nas_entradas_abaixo",
+      "community": 6,
+      "norm_label": "estado atual (atualizar a cada marco; nao acumular historico aqui \u2014 isso vai nas entradas abaixo)"
+    },
+    {
+      "label": "2026-10-13 \u2014 Projeto criado",
+      "file_type": "document",
+      "source_file": "DIARIO_DE_BORDO.md",
+      "source_location": "L14",
+      "_origin": "ast",
+      "id": "diario_de_bordo_2026_10_13_projeto_criado",
+      "community": 6,
+      "norm_label": "2026-10-13 \u2014 projeto criado"
+    },
+    {
+      "label": "2026-10-13 \u2014 Ferramentas de otimiza\u00e7\u00e3o de token (Graphify, RTK, Caveman)",
+      "file_type": "document",
+      "source_file": "DIARIO_DE_BORDO.md",
+      "source_location": "L24",
+      "_origin": "ast",
+      "id": "diario_de_bordo_2026_10_13_ferramentas_de_otimiza\u00e7\u00e3o_de_token_graphify_rtk_caveman",
+      "community": 6,
+      "norm_label": "2026-10-13 \u2014 ferramentas de otimizacao de token (graphify, rtk, caveman)"
+    },
+    {
+      "label": "2026-10-13 \u2014 Terminais Maestri relocados para o AUTOMACAO_HD",
+      "file_type": "document",
+      "source_file": "DIARIO_DE_BORDO.md",
+      "source_location": "L34",
+      "_origin": "ast",
+      "id": "diario_de_bordo_2026_10_13_terminais_maestri_relocados_para_o_automacao_hd",
+      "community": 6,
+      "norm_label": "2026-10-13 \u2014 terminais maestri relocados para o automacao_hd"
+    },
+    {
+      "label": "2026-10-13 \u2014 Terminais confirmados com bypass de permiss\u00e3o ativo",
+      "file_type": "document",
+      "source_file": "DIARIO_DE_BORDO.md",
+      "source_location": "L46",
+      "_origin": "ast",
+      "id": "diario_de_bordo_2026_10_13_terminais_confirmados_com_bypass_de_permiss\u00e3o_ativo",
+      "community": 6,
+      "norm_label": "2026-10-13 \u2014 terminais confirmados com bypass de permissao ativo"
+    },
+    {
+      "label": "2026-10-13 \u2014 RTK oficial (rtk-ai/rtk) instalado e validado",
+      "file_type": "document",
+      "source_file": "DIARIO_DE_BORDO.md",
+      "source_location": "L52",
+      "_origin": "ast",
+      "id": "diario_de_bordo_2026_10_13_rtk_oficial_rtk_ai_rtk_instalado_e_validado",
+      "community": 6,
+      "norm_label": "2026-10-13 \u2014 rtk oficial (rtk-ai/rtk) instalado e validado"
+    },
+    {
+      "label": "2026-10-13 \u2014 Melhorias na estrutura ag\u00eantica (equipe por risco, respons\u00e1vel \u00fanico, delega\u00e7\u00e3o, relat\u00f3rio)",
+      "file_type": "document",
+      "source_file": "DIARIO_DE_BORDO.md",
+      "source_location": "L77",
+      "_origin": "ast",
+      "id": "diario_de_bordo_2026_10_13_melhorias_na_estrutura_ag\u00eantica_equipe_por_risco_respons\u00e1vel_\u00fanico_delega\u00e7\u00e3o_relat\u00f3rio",
+      "community": 6,
+      "norm_label": "2026-10-13 \u2014 melhorias na estrutura agentica (equipe por risco, responsavel unico, delegacao, relatorio)"
+    },
+    {
+      "label": "2026-10-13 \u2014 Serena (oraios/serena) instalada e configurada para BACK/FRONT, validada de verdade",
+      "file_type": "document",
+      "source_file": "DIARIO_DE_BORDO.md",
+      "source_location": "L101",
+      "_origin": "ast",
+      "id": "diario_de_bordo_2026_10_13_serena_oraios_serena_instalada_e_configurada_para_back_front_validada_de_verdade",
+      "community": 6,
+      "norm_label": "2026-10-13 \u2014 serena (oraios/serena) instalada e configurada para back/front, validada de verdade"
+    },
+    {
+      "label": "2026-10-13 \u2014 Corre\u00e7\u00e3o: \"respons\u00e1vel \u00fanico\" n\u00e3o \u00e9 exclusividade de execu\u00e7\u00e3o",
+      "file_type": "document",
+      "source_file": "DIARIO_DE_BORDO.md",
+      "source_location": "L146",
+      "_origin": "ast",
+      "id": "diario_de_bordo_2026_10_13_corre\u00e7\u00e3o_respons\u00e1vel_\u00fanico_n\u00e3o_\u00e9_exclusividade_de_execu\u00e7\u00e3o",
+      "community": 6,
+      "norm_label": "2026-10-13 \u2014 correcao: \"responsavel unico\" nao e exclusividade de execucao"
+    },
+    {
+      "label": "2026-10-13 \u2014 BACK e FRONT reiniciados; conex\u00e3o MCP da Serena confirmada dentro dos terminais reais",
+      "file_type": "document",
+      "source_file": "DIARIO_DE_BORDO.md",
+      "source_location": "L162",
+      "_origin": "ast",
+      "id": "diario_de_bordo_2026_10_13_back_e_front_reiniciados_conex\u00e3o_mcp_da_serena_confirmada_dentro_dos_terminais_reais",
+      "community": 6,
+      "norm_label": "2026-10-13 \u2014 back e front reiniciados; conexao mcp da serena confirmada dentro dos terminais reais"
+    },
+    {
+      "label": "2026-10-13 \u2014 Corre\u00e7\u00f5es da reavalia\u00e7\u00e3o (6 itens: relat\u00f3rio Maestri, status Serena, teste uniforme, auditores condicionais, linguagem de isolamento, versionamento)",
+      "file_type": "document",
+      "source_file": "DIARIO_DE_BORDO.md",
+      "source_location": "L175",
+      "_origin": "ast",
+      "id": "diario_de_bordo_2026_10_13_corre\u00e7\u00f5es_da_reavalia\u00e7\u00e3o_6_itens_relat\u00f3rio_maestri_status_serena_teste_uniforme_auditores_condicionais_linguagem_de_isolamento_versionamento",
+      "community": 6,
+      "norm_label": "2026-10-13 \u2014 correcoes da reavaliacao (6 itens: relatorio maestri, status serena, teste uniforme, auditores condicionais, linguagem de isolamento, versionamento)"
+    }
+  ],
+  "links": [
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/plugins/rtk/rules/AGENTS.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "agents_plugins_rtk_rules_agents",
+      "target": "agents_plugins_rtk_rules_agents_command_output",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/skills/caveman/SKILL.md",
+      "source_location": "L9",
+      "weight": 1.0,
+      "source": "agents_skills_caveman_skill",
+      "target": "agents_skills_caveman_skill_caveman_mode",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/skills/caveman/SKILL.md",
+      "source_location": "L13",
+      "weight": 1.0,
+      "source": "agents_skills_caveman_skill_caveman_mode",
+      "target": "agents_skills_caveman_skill_communication_rules",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/skills/caveman/SKILL.md",
+      "source_location": "L34",
+      "weight": 1.0,
+      "source": "agents_skills_caveman_skill_caveman_mode",
+      "target": "agents_skills_caveman_skill_examples",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/skills/caveman/SKILL.md",
+      "source_location": "L27",
+      "weight": 1.0,
+      "source": "agents_skills_caveman_skill_caveman_mode",
+      "target": "agents_skills_caveman_skill_format_rules",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".claude/agents/backend-dev.md",
+      "source_location": "L13",
+      "weight": 1.0,
+      "source": "claude_agents_backend_dev",
+      "target": "claude_agents_backend_dev_antes_de_codar",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".claude/agents/backend-dev.md",
+      "source_location": "L52",
+      "weight": 1.0,
+      "source": "claude_agents_backend_dev",
+      "target": "claude_agents_backend_dev_caveman_mode_cultura_obrigat\u00f3ria",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".claude/agents/backend-dev.md",
+      "source_location": "L48",
+      "weight": 1.0,
+      "source": "claude_agents_backend_dev",
+      "target": "claude_agents_backend_dev_economia_de_token_obrigat\u00f3rio",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".claude/agents/backend-dev.md",
+      "source_location": "L9",
+      "weight": 1.0,
+      "source": "claude_agents_backend_dev",
+      "target": "claude_agents_backend_dev_quando_voc\u00ea_\u00e9_o_respons\u00e1vel_pela_consolida\u00e7\u00e3o_vs_data_analyst",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".claude/agents/backend-dev.md",
+      "source_location": "L19",
+      "weight": 1.0,
+      "source": "claude_agents_backend_dev",
+      "target": "claude_agents_backend_dev_regras",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".claude/agents/backend-dev.md",
+      "source_location": "L37",
+      "weight": 1.0,
+      "source": "claude_agents_backend_dev",
+      "target": "claude_agents_backend_dev_serena_mcp_localizar_e_editar_s\u00edmbolos_de_c\u00f3digo",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".claude/agents/cto.md",
+      "source_location": "L47",
+      "weight": 1.0,
+      "source": "claude_agents_cto",
+      "target": "claude_agents_cto_caveman_mode_cultura_obrigat\u00f3ria",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".claude/agents/cto.md",
+      "source_location": "L26",
+      "weight": 1.0,
+      "source": "claude_agents_cto",
+      "target": "claude_agents_cto_delega\u00e7\u00e3o",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".claude/agents/cto.md",
+      "source_location": "L42",
+      "weight": 1.0,
+      "source": "claude_agents_cto",
+      "target": "claude_agents_cto_economia_de_token_obrigat\u00f3rio",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".claude/agents/cto.md",
+      "source_location": "L9",
+      "weight": 1.0,
+      "source": "claude_agents_cto",
+      "target": "claude_agents_cto_escopo_do_projeto",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".claude/agents/cto.md",
+      "source_location": "L34",
+      "weight": 1.0,
+      "source": "claude_agents_cto",
+      "target": "claude_agents_cto_o_que_nunca_fazer_sem_perguntar",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".claude/agents/cto.md",
+      "source_location": "L13",
+      "weight": 1.0,
+      "source": "claude_agents_cto",
+      "target": "claude_agents_cto_processo_padr\u00e3o",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".claude/agents/data-analyst.md",
+      "source_location": "L13",
+      "weight": 1.0,
+      "source": "claude_agents_data_analyst",
+      "target": "claude_agents_data_analyst_antes_de_codar",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".claude/agents/data-analyst.md",
+      "source_location": "L41",
+      "weight": 1.0,
+      "source": "claude_agents_data_analyst",
+      "target": "claude_agents_data_analyst_caveman_mode_cultura_obrigat\u00f3ria",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".claude/agents/data-analyst.md",
+      "source_location": "L37",
+      "weight": 1.0,
+      "source": "claude_agents_data_analyst",
+      "target": "claude_agents_data_analyst_economia_de_token_obrigat\u00f3rio",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".claude/agents/data-analyst.md",
+      "source_location": "L9",
+      "weight": 1.0,
+      "source": "claude_agents_data_analyst",
+      "target": "claude_agents_data_analyst_quando_voc\u00ea_\u00e9_o_respons\u00e1vel_pela_consolida\u00e7\u00e3o_vs_backend_dev",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".claude/agents/data-analyst.md",
+      "source_location": "L18",
+      "weight": 1.0,
+      "source": "claude_agents_data_analyst",
+      "target": "claude_agents_data_analyst_regras",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".claude/agents/data-analyst.md",
+      "source_location": "L33",
+      "weight": 1.0,
+      "source": "claude_agents_data_analyst",
+      "target": "claude_agents_data_analyst_serena_mcp_ainda_n\u00e3o_configurada_para_voc\u00ea",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".claude/agents/devops-infra.md",
+      "source_location": "L31",
+      "weight": 1.0,
+      "source": "claude_agents_devops_infra",
+      "target": "claude_agents_devops_infra_caveman_mode_cultura_obrigat\u00f3ria",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".claude/agents/devops-infra.md",
+      "source_location": "L27",
+      "weight": 1.0,
+      "source": "claude_agents_devops_infra",
+      "target": "claude_agents_devops_infra_economia_de_token_obrigat\u00f3rio",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".claude/agents/devops-infra.md",
+      "source_location": "L9",
+      "weight": 1.0,
+      "source": "claude_agents_devops_infra",
+      "target": "claude_agents_devops_infra_regras",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".claude/agents/frontend-dev.md",
+      "source_location": "L9",
+      "weight": 1.0,
+      "source": "claude_agents_frontend_dev",
+      "target": "claude_agents_frontend_dev_antes_de_codar",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".claude/agents/frontend-dev.md",
+      "source_location": "L45",
+      "weight": 1.0,
+      "source": "claude_agents_frontend_dev",
+      "target": "claude_agents_frontend_dev_caveman_mode_cultura_obrigat\u00f3ria",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".claude/agents/frontend-dev.md",
+      "source_location": "L41",
+      "weight": 1.0,
+      "source": "claude_agents_frontend_dev",
+      "target": "claude_agents_frontend_dev_economia_de_token_obrigat\u00f3rio",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".claude/agents/frontend-dev.md",
+      "source_location": "L14",
+      "weight": 1.0,
+      "source": "claude_agents_frontend_dev",
+      "target": "claude_agents_frontend_dev_regras",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".claude/agents/frontend-dev.md",
+      "source_location": "L29",
+      "weight": 1.0,
+      "source": "claude_agents_frontend_dev",
+      "target": "claude_agents_frontend_dev_serena_mcp_localizar_e_editar_s\u00edmbolos_de_c\u00f3digo",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".claude/agents/qa-e2e.md",
+      "source_location": "L20",
+      "weight": 1.0,
+      "source": "claude_agents_qa_e2e",
+      "target": "claude_agents_qa_e2e_caveman_mode_cultura_obrigat\u00f3ria",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".claude/agents/qa-e2e.md",
+      "source_location": "L16",
+      "weight": 1.0,
+      "source": "claude_agents_qa_e2e",
+      "target": "claude_agents_qa_e2e_economia_de_token_obrigat\u00f3rio",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".claude/agents/qa-e2e.md",
+      "source_location": "L9",
+      "weight": 1.0,
+      "source": "claude_agents_qa_e2e",
+      "target": "claude_agents_qa_e2e_regras",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".claude/agents/security-auditor.md",
+      "source_location": "L20",
+      "weight": 1.0,
+      "source": "claude_agents_security_auditor",
+      "target": "claude_agents_security_auditor_caveman_mode_cultura_obrigat\u00f3ria",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".claude/agents/security-auditor.md",
+      "source_location": "L16",
+      "weight": 1.0,
+      "source": "claude_agents_security_auditor",
+      "target": "claude_agents_security_auditor_economia_de_token_obrigat\u00f3rio",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".claude/agents/security-auditor.md",
+      "source_location": "L9",
+      "weight": 1.0,
+      "source": "claude_agents_security_auditor",
+      "target": "claude_agents_security_auditor_regras",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".claude/agents/spec-lookup.md",
+      "source_location": "L26",
+      "weight": 1.0,
+      "source": "claude_agents_spec_lookup",
+      "target": "claude_agents_spec_lookup_caveman_mode_cultura_obrigat\u00f3ria",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".claude/agents/spec-lookup.md",
+      "source_location": "L22",
+      "weight": 1.0,
+      "source": "claude_agents_spec_lookup",
+      "target": "claude_agents_spec_lookup_economia_de_token_obrigat\u00f3rio",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".claude/agents/spec-lookup.md",
+      "source_location": "L9",
+      "weight": 1.0,
+      "source": "claude_agents_spec_lookup",
+      "target": "claude_agents_spec_lookup_fontes_prim\u00e1rias_por_automa\u00e7\u00e3o",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".claude/agents/spec-lookup.md",
+      "source_location": "L16",
+      "weight": 1.0,
+      "source": "claude_agents_spec_lookup",
+      "target": "claude_agents_spec_lookup_regras",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".claude/agents/tech-writer.md",
+      "source_location": "L29",
+      "weight": 1.0,
+      "source": "claude_agents_tech_writer",
+      "target": "claude_agents_tech_writer_caveman_mode_cultura_obrigat\u00f3ria",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".claude/agents/tech-writer.md",
+      "source_location": "L25",
+      "weight": 1.0,
+      "source": "claude_agents_tech_writer",
+      "target": "claude_agents_tech_writer_economia_de_token_obrigat\u00f3rio",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".claude/agents/tech-writer.md",
+      "source_location": "L9",
+      "weight": 1.0,
+      "source": "claude_agents_tech_writer",
+      "target": "claude_agents_tech_writer_regras",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".claude/agents/test-runner.md",
+      "source_location": "L20",
+      "weight": 1.0,
+      "source": "claude_agents_test_runner",
+      "target": "claude_agents_test_runner_caveman_mode_cultura_obrigat\u00f3ria",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".claude/agents/test-runner.md",
+      "source_location": "L16",
+      "weight": 1.0,
+      "source": "claude_agents_test_runner",
+      "target": "claude_agents_test_runner_economia_de_token_obrigat\u00f3rio",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".claude/agents/test-runner.md",
+      "source_location": "L9",
+      "weight": 1.0,
+      "source": "claude_agents_test_runner",
+      "target": "claude_agents_test_runner_regras",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".claude/skills/rtk/SKILL.md",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "claude_skills_rtk_skill",
+      "target": "claude_skills_rtk_skill_rtk_rust_token_killer_bin\u00e1rio_oficial",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".claude/skills/rtk/SKILL.md",
+      "source_location": "L58",
+      "weight": 1.0,
+      "source": "claude_skills_rtk_skill_rtk_rust_token_killer_bin\u00e1rio_oficial",
+      "target": "claude_skills_rtk_skill_como_validar_que_o_rtk_est\u00e1_funcionando",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".claude/skills/rtk/SKILL.md",
+      "source_location": "L12",
+      "weight": 1.0,
+      "source": "claude_skills_rtk_skill_rtk_rust_token_killer_bin\u00e1rio_oficial",
+      "target": "claude_skills_rtk_skill_estado_real_da_integra\u00e7\u00e3o_verificado_n\u00e3o_suposto",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".claude/skills/rtk/SKILL.md",
+      "source_location": "L19",
+      "weight": 1.0,
+      "source": "claude_skills_rtk_skill_rtk_rust_token_killer_bin\u00e1rio_oficial",
+      "target": "claude_skills_rtk_skill_regra_1_nunca_varra_o_diret\u00f3rio_inteiro_para_localizar_c\u00f3digo",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".claude/skills/rtk/SKILL.md",
+      "source_location": "L31",
+      "weight": 1.0,
+      "source": "claude_skills_rtk_skill_rtk_rust_token_killer_bin\u00e1rio_oficial",
+      "target": "claude_skills_rtk_skill_regra_2_chame_o_rtk_explicitamente_claude_code_n\u00e3o_tem_hook_aqui",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".claude/skills/rtk/SKILL.md",
+      "source_location": "L48",
+      "weight": 1.0,
+      "source": "claude_skills_rtk_skill_rtk_rust_token_killer_bin\u00e1rio_oficial",
+      "target": "claude_skills_rtk_skill_regra_3_verifica\u00e7\u00e3o_pontual_n\u00e3o_varredura_mas_sempre_verifica\u00e7\u00e3o",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".claude/skills/rtk/SKILL.md",
+      "source_location": "L54",
+      "weight": 1.0,
+      "source": "claude_skills_rtk_skill_rtk_rust_token_killer_bin\u00e1rio_oficial",
+      "target": "claude_skills_rtk_skill_regra_4_grafo_desatualizado_\u00e9_sinal_n\u00e3o_desculpa",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CLAUDE.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "claude",
+      "target": "claude_claude_md",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CLAUDE.md",
+      "source_location": "L159",
+      "weight": 1.0,
+      "source": "claude",
+      "target": "claude_command_output",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CLAUDE.md",
+      "source_location": "L11",
+      "weight": 1.0,
+      "source": "claude_claude_md",
+      "target": "claude_conven\u00e7\u00e3o_de_estrutura",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CLAUDE.md",
+      "source_location": "L29",
+      "weight": 1.0,
+      "source": "claude_claude_md",
+      "target": "claude_di\u00e1rio_de_bordo",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CLAUDE.md",
+      "source_location": "L139",
+      "weight": 1.0,
+      "source": "claude_claude_md",
+      "target": "claude_ferramentas_de_otimiza\u00e7\u00e3o_de_token_instaladas",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CLAUDE.md",
+      "source_location": "L146",
+      "weight": 1.0,
+      "source": "claude_claude_md",
+      "target": "claude_o_que_nunca_fazer_sem_perguntar",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CLAUDE.md",
+      "source_location": "L21",
+      "weight": 1.0,
+      "source": "claude_claude_md",
+      "target": "claude_premissas_inegoci\u00e1veis",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CLAUDE.md",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "claude_claude_md",
+      "target": "claude_sobre_o_projeto",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CLAUDE.md",
+      "source_location": "L35",
+      "weight": 1.0,
+      "source": "claude_claude_md",
+      "target": "claude_time_de_agentes_claude_agents",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CLAUDE.md",
+      "source_location": "L154",
+      "weight": 1.0,
+      "source": "claude_claude_md",
+      "target": "claude_verifica\u00e7\u00e3o_antes_de_afirmar",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CLAUDE.md",
+      "source_location": "L17",
+      "weight": 1.0,
+      "source": "claude_conven\u00e7\u00e3o_de_estrutura",
+      "target": "claude_pend\u00eancia_de_versionamento_ainda_n\u00e3o_resolvida",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CLAUDE.md",
+      "source_location": "L96",
+      "weight": 1.0,
+      "source": "claude_time_de_agentes_claude_agents",
+      "target": "claude_coordena\u00e7\u00e3o_de_altera\u00e7\u00f5es_paralelas",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CLAUDE.md",
+      "source_location": "L123",
+      "weight": 1.0,
+      "source": "claude_time_de_agentes_claude_agents",
+      "target": "claude_dualidade_subagente_claude_code_task_vs_terminal_maestri",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CLAUDE.md",
+      "source_location": "L54",
+      "weight": 1.0,
+      "source": "claude_time_de_agentes_claude_agents",
+      "target": "claude_equipe_conforme_a_tarefa_e_o_risco_fluxo_m\u00ednimo",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CLAUDE.md",
+      "source_location": "L79",
+      "weight": 1.0,
+      "source": "claude_time_de_agentes_claude_agents",
+      "target": "claude_modelo_de_delega\u00e7\u00e3o_obrigat\u00f3rio_use_em_toda_tarefa_n\u00e3o_trivial",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CLAUDE.md",
+      "source_location": "L103",
+      "weight": 1.0,
+      "source": "claude_time_de_agentes_claude_agents",
+      "target": "claude_relat\u00f3rios_verific\u00e1veis_substitui_status_arquivos_modificados",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CLAUDE.md",
+      "source_location": "L70",
+      "weight": 1.0,
+      "source": "claude_time_de_agentes_claude_agents",
+      "target": "claude_respons\u00e1vel_\u00fanico_pela_entrega_backend_dev_vs_data_analyst_n\u00e3o_\u00e9_exclusividade_de_execu\u00e7\u00e3o",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CLAUDE.md",
+      "source_location": "L116",
+      "weight": 1.0,
+      "source": "claude_time_de_agentes_claude_agents",
+      "target": "claude_valida\u00e7\u00e3o_de_crit\u00e9rios_de_aceite",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "DIARIO_DE_BORDO.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "diario_de_bordo",
+      "target": "diario_de_bordo_di\u00e1rio_de_bordo_automacao_hd",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "DIARIO_DE_BORDO.md",
+      "source_location": "L162",
+      "weight": 1.0,
+      "source": "diario_de_bordo_di\u00e1rio_de_bordo_automacao_hd",
+      "target": "diario_de_bordo_2026_10_13_back_e_front_reiniciados_conex\u00e3o_mcp_da_serena_confirmada_dentro_dos_terminais_reais",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "DIARIO_DE_BORDO.md",
+      "source_location": "L146",
+      "weight": 1.0,
+      "source": "diario_de_bordo_di\u00e1rio_de_bordo_automacao_hd",
+      "target": "diario_de_bordo_2026_10_13_corre\u00e7\u00e3o_respons\u00e1vel_\u00fanico_n\u00e3o_\u00e9_exclusividade_de_execu\u00e7\u00e3o",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "DIARIO_DE_BORDO.md",
+      "source_location": "L175",
+      "weight": 1.0,
+      "source": "diario_de_bordo_di\u00e1rio_de_bordo_automacao_hd",
+      "target": "diario_de_bordo_2026_10_13_corre\u00e7\u00f5es_da_reavalia\u00e7\u00e3o_6_itens_relat\u00f3rio_maestri_status_serena_teste_uniforme_auditores_condicionais_linguagem_de_isolamento_versionamento",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "DIARIO_DE_BORDO.md",
+      "source_location": "L24",
+      "weight": 1.0,
+      "source": "diario_de_bordo_di\u00e1rio_de_bordo_automacao_hd",
+      "target": "diario_de_bordo_2026_10_13_ferramentas_de_otimiza\u00e7\u00e3o_de_token_graphify_rtk_caveman",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "DIARIO_DE_BORDO.md",
+      "source_location": "L77",
+      "weight": 1.0,
+      "source": "diario_de_bordo_di\u00e1rio_de_bordo_automacao_hd",
+      "target": "diario_de_bordo_2026_10_13_melhorias_na_estrutura_ag\u00eantica_equipe_por_risco_respons\u00e1vel_\u00fanico_delega\u00e7\u00e3o_relat\u00f3rio",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "DIARIO_DE_BORDO.md",
+      "source_location": "L14",
+      "weight": 1.0,
+      "source": "diario_de_bordo_di\u00e1rio_de_bordo_automacao_hd",
+      "target": "diario_de_bordo_2026_10_13_projeto_criado",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "DIARIO_DE_BORDO.md",
+      "source_location": "L52",
+      "weight": 1.0,
+      "source": "diario_de_bordo_di\u00e1rio_de_bordo_automacao_hd",
+      "target": "diario_de_bordo_2026_10_13_rtk_oficial_rtk_ai_rtk_instalado_e_validado",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "DIARIO_DE_BORDO.md",
+      "source_location": "L101",
+      "weight": 1.0,
+      "source": "diario_de_bordo_di\u00e1rio_de_bordo_automacao_hd",
+      "target": "diario_de_bordo_2026_10_13_serena_oraios_serena_instalada_e_configurada_para_back_front_validada_de_verdade",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "DIARIO_DE_BORDO.md",
+      "source_location": "L46",
+      "weight": 1.0,
+      "source": "diario_de_bordo_di\u00e1rio_de_bordo_automacao_hd",
+      "target": "diario_de_bordo_2026_10_13_terminais_confirmados_com_bypass_de_permiss\u00e3o_ativo",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "DIARIO_DE_BORDO.md",
+      "source_location": "L34",
+      "weight": 1.0,
+      "source": "diario_de_bordo_di\u00e1rio_de_bordo_automacao_hd",
+      "target": "diario_de_bordo_2026_10_13_terminais_maestri_relocados_para_o_automacao_hd",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "DIARIO_DE_BORDO.md",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "diario_de_bordo_di\u00e1rio_de_bordo_automacao_hd",
+      "target": "diario_de_bordo_estado_atual_atualizar_a_cada_marco_n\u00e3o_acumular_hist\u00f3rico_aqui_isso_vai_nas_entradas_abaixo",
+      "confidence_score": 1.0
+    }
+  ],
+  "hyperedges": []
+}

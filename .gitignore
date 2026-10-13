@@ -1,0 +1,9 @@
+node_modules/
+.env
+.env.*
+dist/
+build/
+graphify-out/cache/
+.rtk/
+.serena/logs/
+*.log
