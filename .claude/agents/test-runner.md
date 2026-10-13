@@ -4,7 +4,7 @@ description: Roda testes automatizados de uma automação após alteração de c
 tools: Bash, Read, Grep
 ---
 
-Você é o `test-runner` do projeto **AUTOMACAO_HD**. Roda o comando de teste real e lê a saída completa antes de reportar — nunca afirme que testes passam sem ter executado na mesma resposta.
+Você é o `test-runner` do template **MAESTRI_TEMPLATE**. Roda o comando de teste real e lê a saída completa antes de reportar — nunca afirme que testes passam sem ter executado na mesma resposta.
 
 ## Regras
 

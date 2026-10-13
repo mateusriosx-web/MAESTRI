@@ -4,7 +4,7 @@ description: Implementa interface/painel visual quando uma automação precisa d
 tools: Read, Write, Edit, Bash, Grep, Glob
 ---
 
-Você é o `frontend-dev` do projeto **AUTOMACAO_HD**. Implementa a interface visual de uma automação, quando ela tiver uma (nem toda automação tem — muitas são só script/cron sem tela).
+Você é o `frontend-dev` do template **MAESTRI_TEMPLATE**. Implementa a interface visual de uma automação, quando ela tiver uma (nem toda automação tem — muitas são só script/cron sem tela).
 
 ## Antes de codar
 
@@ -51,7 +51,7 @@ python .claude/skills/ui-ux-pro-max/scripts/search.py --domain <style|color|char
 - A recomendação da skill **não substitui regra de negócio nem validação real no navegador** — ela orienta padrão visual, não decide o que a tela deve fazer, e não dispensa conferir visualmente antes de reportar pronto.
 - **Preserve os padrões visuais já existentes do projeto** — não redesenhe tela/componente que já funciona só porque a skill sugeriu outro estilo, a menos que o usuário tenha pedido isso.
 - Stack prevista: React + TypeScript — use `--stack react` quando a dúvida for de padrão de código do stack, `--domain ux`/`style`/etc. para princípio de design geral.
-- **Atenção ao `cwd`:** o terminal Maestri real do FRONT abre na pasta do papel (`.maestri/roles/<uuid>/`), não na raiz do projeto — rode o comando a partir da raiz do AUTOMACAO_HD (`cd` antes) ou use caminho absoluto para `search.py`, senão o arquivo não é encontrado (confirmado em teste real em 2026-10-13).
+- **Atenção ao `cwd`:** o terminal Maestri real do FRONT abre na pasta do papel (`.maestri/roles/<uuid>/`), não na raiz do projeto — rode o comando a partir da raiz deste template (`cd` antes) ou use caminho absoluto para `search.py`, senão o arquivo não é encontrado (confirmado em teste real em 2026-10-13).
 
 ## Economia de token (obrigatório)
 

@@ -1,12 +1,20 @@
 # CLAUDE.md
 
-Este arquivo é a fonte de verdade que toda sessão do Claude Code deve carregar antes de qualquer trabalho neste projeto. Contém as decisões de arquitetura, convenções e regras de governança válidas para o **AUTOMACAO_HD**. Não redecida nada que já está definido aqui sem antes perguntar ao usuário.
+Este arquivo é a fonte de verdade que toda sessão deve carregar antes de qualquer trabalho. Contém as decisões de arquitetura, convenções e regras de governança válidas para o **MAESTRI_TEMPLATE**. Não redecida nada que já está definido aqui sem antes perguntar ao usuário.
 
-## Sobre o projeto
+**Preparando um workspace novo a partir deste repositório (clone novo, caminho novo)?** Não repita esse procedimento aqui — ele vive só em **[`PREPARACAO.md`](./PREPARACAO.md)** (ver também `README.md` para o mapa do repositório). Esta seção e as demais abaixo valem depois que o workspace já está preparado.
 
-**AUTOMACAO_HD** é o hub de automações de processo da HD Serviços / grupo econômico. Diferente do projeto "Analise de Custos" (que é um sistema único, com domínio de negócio fixo), este projeto reúne **várias automações independentes**, cada uma resolvendo um processo manual específico (ex.: rotina de download/processamento de arquivos de um fornecedor, integração entre dois sistemas, geração de relatório recorrente, robô de preenchimento de formulário, etc.).
+## Sobre este template
 
-O dono do projeto **não é desenvolvedor** — construção 100% via IA assistida ("vibe coding"). Explique decisões técnicas em linguagem simples quando possível.
+**MAESTRI_TEMPLATE** é um modelo reutilizável de "vibe coding" para projetos em **Node.js, TypeScript, React, SaaS e automações de processo**. Ele reúne: governança comum entre agentes (CTO + especialistas), ferramentas de redução de token já configuradas e testadas (Graphify, RTK, Serena, UI UX Pro Max) e guias para duplicar/reinstalar o modelo em um projeto novo ou em outra máquina (ver seção "Portabilidade e reuso" abaixo).
+
+O dono do projeto **não é necessariamente desenvolvedor** — construção pode ser 100% via IA assistida. Explique decisões técnicas em linguagem simples quando possível.
+
+### Configuração desta máquina (não é identidade do template)
+
+- **Caminho físico atual:** `C:\Users\mateu\.gemini\antigravity-ide\scratch\AUTOMACAO_HD` — preservado deliberadamente para não quebrar os terminais Maestri e integrações já conectados nesta máquina (o template nasceu de um projeto chamado AUTOMACAO_HD; o nome antigo é só esse caminho físico herdado, não a identidade do modelo). **Ao duplicar este template para um projeto novo, o caminho muda e não precisa mais ter esse nome** (ver "Guia: duplicar o template" abaixo).
+- Nome do workspace no canvas Maestri: `MAESTRI_TEMPLATE` (renomeado em 2026-10-13 via `maestri workspace rename` — o canvas/terminais continuam na mesma pasta física).
+- Qualquer referência a "AUTOMACAO_HD" remanescente neste repositório é caminho de máquina, não convenção a seguir num projeto novo.
 
 ## Convenção de estrutura
 
@@ -14,9 +22,9 @@ O dono do projeto **não é desenvolvedor** — construção 100% via IA assisti
 - Automações não compartilham estado/configuração entre si por padrão. Se duas automações precisarem compartilhar algo (ex.: credenciais, biblioteca utilitária), isso é uma decisão explícita documentada aqui — nunca implícita.
 - Segredos (senhas, tokens, chaves de API) nunca são hardcoded — ficam em `.env` por automação (fora do git) ou em variável de ambiente do ambiente de execução (cron/VPS).
 
-### Pendência de versionamento (ainda não resolvida)
+### Versionamento (resolvido em 2026-10-13)
 
-Confirmado em 2026-10-13: este projeto **não tem `.git` nem `.gitignore`** — nenhum commit, nenhum histórico, nenhuma forma de rollback existe hoje. Isso precisa ser decidido **antes da primeira automação real** (código sem controle de versão não tem como voltar atrás se der errado). Opção curta proposta: `git init` local (sem remoto por enquanto) + `.gitignore` cobrindo `node_modules/`, `.env`/`.env.*`, `dist/`/`build/`, e os artefatos de ferramenta já presentes (`graphify-out/cache/`, `.rtk/`, `.serena/logs/`) — decisão e execução ficam para quando o usuário autorizar explicitamente (não feito nesta tarefa).
+Projeto tem `.git` e `.gitignore` (node_modules/, .env/.env.*, dist/, build/, graphify-out/cache/, .rtk/, .serena/logs/, *.log) e repositório remoto privado no GitHub: **https://github.com/mateusriosx-web/MAESTRI** (branch `master`). Commit inicial `c341695`. `gh` CLI instalado em `C:\Users\mateu\bin\gh.exe`, autenticado via device flow na conta `mateusriosx-web`. Antes do primeiro commit, todos os arquivos staged foram revisados contra padrão de segredo (`.env|secret|key|token|password|credential`) — nenhum achado real (só "design tokens" de CSS da skill de UI). Ver `DIARIO_DE_BORDO.md` (2026-10-13) para o passo a passo. **Nota:** o nome do repositório remoto reflete o workspace Maestri compartilhado, mas o conteúdo commitado é só esta pasta — nenhum outro projeto foi tocado ou commitado. Esta tarefa de transformação em template (2026-10-13) **não** criou novo commit/remoto nem fez push — só editou arquivos locais (ver `DIARIO_DE_BORDO.md`).
 
 ## Premissas inegociáveis
 
@@ -34,22 +42,26 @@ O arquivo `DIARIO_DE_BORDO.md` na raiz é o registro de continuidade do projeto.
 
 ## Time de agentes (`.claude/agents/`)
 
-**Hierarquia:** o Stakeholder (Mateus) fala **diretamente com o `cto`** — este projeto não tem `product-manager` (decisão do usuário, mantida). O `cto` é o arquiteto técnico e orquestrador dos especialistas.
+**Hierarquia:** o usuário fala **diretamente com o `cto`** — sem `product-manager` por padrão neste template. O `cto` é o arquiteto técnico e orquestrador dos especialistas.
 
-| Agente | Papel |
-|---|---|
-| `cto` | Arquiteto/orquestrador técnico — recebe o pedido direto do Stakeholder, decide arquitetura da automação, delega |
-| `spec-lookup` | O Oráculo — consulta a especificação real de cada automação (seu `README.md`/código); nunca inventa regra de negócio |
-| `backend-dev` | Responsável por automação cuja lógica central é integração entre sistemas/scripts/API — ver "Responsável único" abaixo |
-| `data-analyst` | Responsável por automação cuja lógica central é processamento/análise de dados (ETL, planilhas, exploração, classificação via LLM) — ver "Responsável único" abaixo |
-| `frontend-dev` | Implementação de interface/painel, quando a automação tiver uma tela |
-| `devops-infra` | Cron, deploy, Docker, integrações externas, VPS |
-| `security-auditor` | Caça injeção, falha de autenticação/CORS e vazamento de dado sensível — acionado quando há exposição (rota HTTP) ou dado sensível |
-| `calc-auditor` | Revisa cálculo financeiro — **não é padrão**, só ativado quando a automação tiver cálculo financeiro relevante |
-| `migration-guardian` | Revisa alteração de schema de banco — **não é padrão**, só ativado quando a automação alterar schema |
-| `qa-e2e` | Simulação de clique/fluxo do usuário quando houver tela |
-| `tech-writer` | Documentação de cada automação (Mermaid.js quando houver fluxo relevante) |
-| `test-runner` | Executa testes, reporta só o veredito — nunca escreve teste |
+**Papéis são responsabilidades, não modelos/clientes fixos.** Nenhum papel abaixo depende de um fornecedor específico (Antigravity, Codex, etc.) — o modelo/cliente real de cada terminal Maestri é configuração desta máquina, registrada separadamente em `MODELOS_CLIENTES.local.md`, não aqui.
+
+| Agente | Papel | Camada |
+|---|---|---|
+| `cto` | Arquiteto/orquestrador técnico — recebe o pedido direto do usuário, decide arquitetura, delega | Principal |
+| `backend-dev` | Responsável por automação/feature cuja lógica central é integração entre sistemas/scripts/API/servidor | Principal |
+| `frontend-dev` | Implementação de interface/painel React/TS, quando houver tela | Principal |
+| `spec-lookup` | O Oráculo — consulta a especificação real (README/código) de cada automação/feature; nunca inventa regra de negócio | Principal |
+| `test-runner` | Executa testes, reporta só o veredito — nunca escreve teste | Principal |
+| `data-analyst` | Responsável por automação/feature cuja lógica central é processamento/análise de dados (ETL, planilhas, exploração, classificação via LLM) | Sob demanda |
+| `security-auditor` | Caça injeção, falha de autenticação/CORS e vazamento de dado sensível — acionado quando há exposição (rota HTTP) ou dado sensível | Sob demanda |
+| `qa-e2e` | Simulação de clique/fluxo do usuário (Simulador de Interface) quando houver tela | Sob demanda |
+| `devops-infra` | Cron, deploy, Docker, integrações externas, VPS | Sob demanda |
+| `tech-writer` | Documentação (Mermaid.js quando houver fluxo relevante) | Sob demanda |
+| `calc-auditor` | Revisa cálculo financeiro — **instrução ainda não existe neste template**, só ativar após criar/revisar (ver abaixo) | Sob demanda, condicional |
+| `migration-guardian` | Revisa alteração de schema de banco — **instrução ainda não existe neste template**, só ativar após criar/revisar (ver abaixo) | Sob demanda, condicional |
+
+Quando a automação/feature tiver as duas naturezas (integração + dados), ver "Responsável único pela entrega" abaixo para como `backend-dev` e `data-analyst` dividem o trabalho.
 
 ### Equipe conforme a tarefa e o risco (fluxo mínimo)
 
@@ -61,7 +73,7 @@ O time completo acima é o **catálogo disponível**, não a equipe obrigatória
   - Houver exposição (rota HTTP, API pública) ou dado sensível (credencial de terceiro, PII) → `security-auditor`.
   - Houver cálculo financeiro relevante → `calc-auditor` (avisar usuário antes de ativar, pois não é papel padrão).
   - Houver alteração de schema de banco → `migration-guardian` (avisar usuário antes de ativar, idem).
-- **Pré-requisito antes da primeira ativação de `calc-auditor` ou `migration-guardian`:** confirmado em 2026-10-13 que `.claude/agents/calc-auditor.md` e `.claude/agents/migration-guardian.md` **não existem** neste projeto (só os terminais Maestri estão conectados/disponíveis — não há instrução escrita para eles aqui). Antes de ativar qualquer um dos dois pela primeira vez, o `cto` precisa: (1) criar o arquivo de instrução específico para o AUTOMACAO_HD (nunca copiar as regras do Analise de Custos — este projeto não tem DRE/folha/plano de contas, então as regras de negócio daquele projeto não se aplicam aqui); (2) revisar esse arquivo com o usuário antes do primeiro uso real. Isso não foi feito agora — não crie os arquivos nem ative os terminais sem essa revisão.
+- **Pré-requisito antes da primeira ativação de `calc-auditor` ou `migration-guardian`:** confirmado em 2026-10-13 que `.claude/agents/calc-auditor.md` e `.claude/agents/migration-guardian.md` **não existem** neste projeto (só os terminais Maestri estão conectados/disponíveis — não há instrução escrita para eles aqui). Antes de ativar qualquer um dos dois pela primeira vez, o `cto` precisa: (1) criar o arquivo de instrução específico para este template (nunca copiar as regras do Analise de Custos — este projeto não tem DRE/folha/plano de contas, então as regras de negócio daquele projeto não se aplicam aqui); (2) revisar esse arquivo com o usuário antes do primeiro uso real. Isso não foi feito agora — não crie os arquivos nem ative os terminais sem essa revisão.
   - Precisar de cron/deploy/ambiente → `devops-infra`.
   - Mudança estruturalmente relevante (novo endpoint, novo fluxo entre sistemas) → `tech-writer`, ao final.
 - **Correção trivial** (typo, ajuste de uma linha, troca de parâmetro): resolva direto, sem acionar `cto` nem montar equipe — execução e verificação proporcionais ao tamanho da mudança (não precisa de teste formal nem relatório estruturado completo, mas continua exigindo rodar/conferir antes de dizer "feito").
@@ -81,7 +93,7 @@ Toda automação tem **um e só um** responsável pela **consolidação e entreg
 O `cto` entrega este pacote curto a quem for executar — cada agente recebe só o necessário, nunca a conversa inteira:
 
 ```
-Projeto: AUTOMACAO_HD
+Projeto: <nome do projeto ativo>
 Automação: automacoes/<nome>
 Objetivo: <1-2 frases, o que precisa existir ao final>
 Responsável: <agente único>
@@ -120,9 +132,15 @@ Nunca logs massivos ou saída bruta de comando colada — resumir é obrigatóri
 - Em automações críticas (financeira, sincronização sem supervisão humana), o `cto` (ou o `spec-lookup`, se a dúvida for de regra de negócio) confere se os **critérios de aceite realmente cobrem o processo real** que está sendo automatizado — não só se o código roda sem erro.
 - Auditores (`calc-auditor`, `security-auditor`, `migration-guardian`) complementam essa validação conforme o risco específico que cada um cobre — não substituem a verificação do `cto`/`test-runner`.
 
+### Portabilidade e reuso
+
+- **`MODELOS_CLIENTES.local.md`** — cadastro de qual cliente/modelo real roda cada papel nesta máquina (fatos confirmados via `maestri check`, nunca suposição). Separado deste arquivo de propósito: papéis/instruções não dependem de fornecedor específico.
+- **`GUIAS.md`** — guia de instalação/autenticação/validação de ferramentas, guia para duplicar este template num projeto novo, guia para levar o template a outra máquina, e checklist da primeira entrega.
+- **`scripts/setup-maquina.ps1`** — instalador PowerShell idempotente das ferramentas do template (RTK, Serena, Graphify, UI UX Pro Max). Não instala dependências de uma aplicação Node/React futura — isso é escopo do projeto que vier a usar o template, não deste script. Qualquer mudança de configuração GLOBAL (ex.: registro MCP) pede confirmação antes de aplicar.
+
 ### Dualidade: subagente Claude Code (Task) vs. terminal Maestri
 
-Os arquivos em `.claude/agents/*.md` são invocáveis via `Task` dentro de uma sessão Claude Code normal. A diversidade real de modelo por agente (quando configurada) existe nos terminais recrutados no Maestri — workspace compartilhado com outros projetos (ex.: Analise de Custos). Antes de delegar a um terminal Maestri real, rode `maestri list` para confirmar quem está conectado e avise no início da mensagem qual é o projeto ativo (AUTOMACAO_HD) — os terminais são genéricos e atendem múltiplos projetos, então cada um precisa saber em qual projeto está trabalhando naquela tarefa.
+Os arquivos em `.claude/agents/*.md` são invocáveis via `Task` dentro de uma sessão Claude Code normal. A diversidade real de modelo por agente (quando configurada) existe nos terminais recrutados no Maestri — workspace compartilhado com outros projetos (ex.: Analise de Custos). Antes de delegar a um terminal Maestri real, rode `maestri list` para confirmar quem está conectado e avise no início da mensagem qual é o projeto/template ativo — os terminais são genéricos e atendem múltiplos projetos, então cada um precisa saber em qual projeto está trabalhando naquela tarefa.
 
 **Fluxo padrão para automação nova:**
 0. Usuário (Stakeholder) descreve o processo a automatizar direto ao `cto`, que consulta `DIARIO_DE_BORDO.md` e `spec-lookup` se necessário.
@@ -141,7 +159,7 @@ Os arquivos em `.claude/agents/*.md` são invocáveis via `Task` dentro de uma s
 - **Graphify** — grafo de conhecimento do repositório em `graphify-out/` (instalado e gerado em 2026-10-13, 62 nós/28 relações iniciais). É a **consulta definitiva** para localizar código/doc — nenhum agente deve varrer o diretório inteiro (`Grep -r`/`Glob` amplo) para achar o que precisa antes de tentar `python -m graphify query/path/explain` primeiro. Rodar `python -m graphify update .` depois de mudanças estruturais relevantes para manter o grafo atualizado.
 - **RTK** — binário oficial `rtk 0.52.0` (`rtk-ai/rtk`, instalado em `C:\Users\mateu\bin\rtk.exe`, no PATH), configurado **localmente só neste projeto** (nunca `-g`/global, para não afetar outros projetos). Claude Code: instruções injetadas em `CLAUDE.md` (sem hook automático — chamar `rtk <subcomando>` explicitamente). Antigravity/`agy` (os 11 terminais Maestri deste projeto): plugin automático em `.agents/plugins/rtk/`. Detalhe completo, limitações e validação em `.claude/skills/rtk/SKILL.md` e `DIARIO_DE_BORDO.md` (2026-10-13).
 - **Caveman** — skill em `.agents/skills/caveman/SKILL.md`. Respostas ultra-concisas: sem saudação, sem repetir o pedido, sem resumo final, direto ao ponto. Bloco "Caveman Mode" presente em todos os `.claude/agents/*.md` deste projeto.
-- **Serena** (`serena-agent 2.0.0`, `oraios/serena`, instalado via `uv tool install`) — busca/edição de código no nível de símbolo (LSP, backend gratuito, sem plugin JetBrains), para a stack Node/TypeScript/React prevista. Projeto registrado em `.serena/project.yml` (exclusões de `node_modules`/`dist`/`build`/`.env`/segredos já configuradas). Conectada via MCP nos terminais `agy` de **BACK** e **FRONT**, restrita ao AUTOMACAO_HD — registrada no config global do Antigravity (`agy mcp add`, sem suporte a escopo por projeto nessa CLI), com o comando do servidor fixando `--project` no AUTOMACAO_HD. **Isso não é garantia absoluta de isolamento:** é um fato comprovado (a entrada "serena" aparece em `agy mcp list` de qualquer terminal `agy` do computador, e o `--project` inicial fixa qual pasta o servidor ativa ao iniciar), mas não foi testado o que acontece se algum fluxo tentar trocar de projeto em tempo de execução dentro de uma sessão conectada — ver limitação em `DIARIO_DE_BORDO.md` (2026-10-13). **Status real (reiniciado e verificado em 2026-10-13):** BACK e FRONT já foram reiniciados e, de dentro dos terminais reais, confirmaram o servidor `enabled` e as ferramentas (`find_symbol`/`find_referencing_symbols`/`replace_symbol_body`) registradas/acessíveis — **chamada de ferramenta de ponta a ponta de dentro desses terminais ainda não foi feita** (pendência não-bloqueante). **Não configurada** para `data-analyst`/ANALISTA DE DADOS (condicional a confirmação de trabalho em Node/TS). Ver `.claude/agents/backend-dev.md`/`frontend-dev.md` para quando usar Serena vs. Graphify vs. busca textual, e `DIARIO_DE_BORDO.md` para a validação real e a limitação do `tsconfig.json`.
+- **Serena** (`serena-agent 2.0.0`, `oraios/serena`, instalado via `uv tool install`) — busca/edição de código no nível de símbolo (LSP, backend gratuito, sem plugin JetBrains), para a stack Node/TypeScript/React prevista. Projeto registrado em `.serena/project.yml` (exclusões de `node_modules`/`dist`/`build`/`.env`/segredos já configuradas). Conectada via MCP nos terminais `agy` de **BACK** e **FRONT**, restrita a este template — registrada no config global do Antigravity (`agy mcp add`, sem suporte a escopo por projeto nessa CLI), com o comando do servidor fixando `--project` neste template. **Isso não é garantia absoluta de isolamento:** é um fato comprovado (a entrada "serena" aparece em `agy mcp list` de qualquer terminal `agy` do computador, e o `--project` inicial fixa qual pasta o servidor ativa ao iniciar), mas não foi testado o que acontece se algum fluxo tentar trocar de projeto em tempo de execução dentro de uma sessão conectada — ver limitação em `DIARIO_DE_BORDO.md` (2026-10-13). **Status real (reiniciado e verificado em 2026-10-13):** BACK e FRONT já foram reiniciados e, de dentro dos terminais reais, confirmaram o servidor `enabled` e as ferramentas (`find_symbol`/`find_referencing_symbols`/`replace_symbol_body`) registradas/acessíveis — **chamada de ferramenta de ponta a ponta de dentro desses terminais ainda não foi feita** (pendência não-bloqueante). **Não configurada** para `data-analyst`/ANALISTA DE DADOS (condicional a confirmação de trabalho em Node/TS). Ver `.claude/agents/backend-dev.md`/`frontend-dev.md` para quando usar Serena vs. Graphify vs. busca textual, e `DIARIO_DE_BORDO.md` para a validação real e a limitação do `tsconfig.json`.
 - **UI UX Pro Max** (skill, origem [nextlevelbuilder/ui-ux-pro-max-skill](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill), MIT, instalada em 2026-10-13 via `npx ui-ux-pro-max-cli init --ai claude` — **escopo local, só este projeto**, nenhuma instalação global) — base de dados consultável de padrões de UI/UX (estilos, cores, tipografia, componentes por stack, diretrizes de acessibilidade/UX) em `.claude/skills/ui-ux-pro-max/`, consultada via `python .claude/skills/ui-ux-pro-max/scripts/search.py --domain <domínio> [--stack react] "<termo>"`. **Instalada e consulta real validada, inclusive dentro do terminal real do FRONT (2026-10-13)** — query `--domain ux "loading state"` rodada de dentro do terminal `agy` do FRONT (após restart) retornou 2 resultados reais do CSV. **Não confirmado** se o cliente descobre a skill automaticamente — ativação é por chamada explícita do script (ver `.claude/agents/frontend-dev.md`). Nuance confirmada: o terminal abre em `.maestri/roles/<uuid>/`, não na raiz do projeto — rodar com `cd` para a raiz ou caminho absoluto. Não substitui regra de negócio nem validação visual real no navegador; não redesenha tela existente sem pedido.
 
 ## O que NUNCA fazer sem perguntar

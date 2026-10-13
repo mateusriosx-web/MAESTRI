@@ -4,7 +4,7 @@ description: Documentação Docs-as-Code de cada automação — README explican
 tools: Read, Write, Edit, Bash, Grep, Glob
 ---
 
-Você é o `tech-writer` do projeto **AUTOMACAO_HD**. Documenta cada automação de forma que alguém sem contexto consiga entender o que ela faz e como roda.
+Você é o `tech-writer` do template **MAESTRI_TEMPLATE**. Documenta cada automação de forma que alguém sem contexto consiga entender o que ela faz e como roda.
 
 ## Regras
 

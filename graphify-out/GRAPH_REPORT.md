@@ -1,13 +1,18 @@
 # Graph Report - AUTOMACAO_HD  (2026-10-13)
 
 ## Corpus Check
-- 158 files · ~225,256 words
+- 163 files · ~226,138 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 2203 nodes · 2731 edges · 174 communities (143 shown, 31 thin omitted)
+- 2236 nodes · 2761 edges · 187 communities (157 shown, 30 thin omitted)
 - Extraction: 92% EXTRACTED · 8% INFERRED · 0% AMBIGUOUS · INFERRED: 210 edges (avg confidence: 0.75)
 - Token cost: 0 input · 0 output
+
+## Graph Freshness
+- Built from commit: `c3416958`
+- Run `git rev-parse HEAD` and compare to check if the graph is stale.
+- Run `graphify update .` after code changes (no API cost).
 
 ## Community Hubs (Navigation)
 - [[_COMMUNITY_CLAUDE|CLAUDE.md]]
@@ -160,6 +165,18 @@
 - [[_COMMUNITY_.test_init_framework|.test_init_framework]]
 - [[_COMMUNITY_.test_custom_output_path|.test_custom_output_path]]
 - [[_COMMUNITY_.test_base_config_structure|.test_base_config_structure]]
+- [[_COMMUNITY_Cadastro de clientesmodelos — por máquina|Cadastro de clientes/modelos — por máquina]]
+- [[_COMMUNITY_none|none]]
+- [[_COMMUNITY_radius|radius]]
+- [[_COMMUNITY_50|50]]
+- [[_COMMUNITY_800|800]]
+- [[_COMMUNITY_padding-y|padding-y]]
+- [[_COMMUNITY_950|950]]
+- [[_COMMUNITY_destructive|destructive]]
+- [[_COMMUNITY_destructive-foreground|destructive-foreground]]
+- [[_COMMUNITY_muted|muted]]
+- [[_COMMUNITY_primary-foreground|primary-foreground]]
+- [[_COMMUNITY_ring|ring]]
 
 ## God Nodes (most connected - your core abstractions)
 1. `TailwindConfigGenerator` - 57 edges
@@ -188,11 +205,11 @@
 ## Import Cycles
 - None detected.
 
-## Communities (174 total, 31 thin omitted)
+## Communities (187 total, 30 thin omitted)
 
 ### Community 0 - "CLAUDE.md"
-Cohesion: 0.11
-Nodes (17): Command output, Convenção de estrutura, Coordenação de alterações paralelas, Diário de bordo, Dualidade: subagente Claude Code (Task) vs. terminal Maestri, Equipe conforme a tarefa e o risco (fluxo mínimo), Ferramentas de otimização de token instaladas, Modelo de delegação (obrigatório, use em toda tarefa não-trivial) (+9 more)
+Cohesion: 0.05
+Nodes (34): Command output, Configuração desta máquina (não é identidade do template), Convenção de estrutura, Coordenação de alterações paralelas, Diário de bordo, Dualidade: subagente Claude Code (Task) vs. terminal Maestri, Equipe conforme a tarefa e o risco (fluxo mínimo), Ferramentas de otimização de token instaladas (+26 more)
 
 ### Community 1 - "cto.md"
 Cohesion: 0.29
@@ -215,8 +232,8 @@ Cohesion: 0.40
 Nodes (4): Caveman Mode (cultura obrigatória), Economia de token (obrigatório), Fontes primárias (por automação), Regras
 
 ### Community 6 - "Diário de Bordo — AUTOMACAO_HD"
-Cohesion: 0.14
-Nodes (13): 2026-10-13 — BACK e FRONT reiniciados; conexão MCP da Serena confirmada dentro dos terminais reais, 2026-10-13 — Correção: "responsável único" não é exclusividade de execução, 2026-10-13 — Correções da reavaliação (6 itens: relatório Maestri, status Serena, teste uniforme, auditores condicionais, linguagem de isolamento, versionamento), 2026-10-13 — Ferramentas de otimização de token (Graphify, RTK, Caveman), 2026-10-13 — Melhorias na estrutura agêntica (equipe por risco, responsável único, delegação, relatório), 2026-10-13 — Projeto criado, 2026-10-13 — RTK oficial (rtk-ai/rtk) instalado e validado, 2026-10-13 — Serena (oraios/serena) instalada e configurada para BACK/FRONT, validada de verdade (+5 more)
+Cohesion: 0.13
+Nodes (14): 2026-10-13 — Repositório autossuficiente (README.md + PREPARACAO.md), 2026-10-13 — Transformação em template (MAESTRI_TEMPLATE), Arquivos novos criados, Backup (antes de qualquer alteração), Conteúdo de negócio removido das instruções ativas, Diário de Bordo — MAESTRI_TEMPLATE, Equipe realinhada ao pedido, ESTADO ATUAL (+6 more)
 
 ### Community 7 - "devops-infra.md"
 Cohesion: 0.50
@@ -251,20 +268,20 @@ Cohesion: 0.07
 Nodes (46): read_rows(), TestAccessibilityGuidance, TestChartsTypographyAndIcons, TestCurrentReactGuidance, TestSemanticColors, _catalog_date(), _check_app_interface_contract(), _check_catalog_contract() (+38 more)
 
 ### Community 40 - "core.py"
-Cohesion: 0.05
-Nodes (44): BM25, detect_domain(), get_cip_brief(), _load_csv(), Load CSV and return list of dicts, Core search function using BM25, Auto-detect the most relevant domain from query, Main search function with auto-domain detection (+36 more)
+Cohesion: 0.07
+Nodes (35): BM25, detect_domain(), get_cip_brief(), _load_csv(), Load CSV and return list of dicts, Core search function using BM25, Auto-detect the most relevant domain from query, Main search function with auto-domain detection (+27 more)
 
 ### Community 41 - "gray"
 Cohesion: 0.05
 Nodes (53): $type, $value, $type, $value, $type, $value, $type, $value (+45 more)
 
 ### Community 42 - "color"
-Cohesion: 0.04
-Nodes (48): $type, $value, background, destructive, destructive-foreground, foreground, muted, muted-foreground (+40 more)
+Cohesion: 0.11
+Nodes (19): $type, $value, background, destructive-foreground, muted, primary-foreground, secondary, secondary-foreground (+11 more)
 
 ### Community 43 - "button"
-Cohesion: 0.06
-Nodes (45): $type, $value, $type, $value, bg, fg, font-size, hover-bg (+37 more)
+Cohesion: 0.15
+Nodes (17): $type, $value, $type, $value, bg, bg, border, padding (+9 more)
 
 ### Community 44 - "Tailwind CSS Utility Reference"
 Cohesion: 0.05
@@ -287,8 +304,8 @@ Cohesion: 0.06
 Nodes (35): 1. Visual Communication First, 2. Minimal Text Integration, 3. Expert Craftsmanship, 4. Systematic Patterns, Analog Meditation, Approach, Canvas Boundaries, Canvas Design System (+27 more)
 
 ### Community 49 - "design_system.py"
-Cohesion: 0.08
-Nodes (30): ansi_ljust(), _detect_page_type(), format_ascii_box(), format_markdown(), format_master_md(), format_page_override_md(), generate_design_system(), _generate_intelligent_overrides() (+22 more)
+Cohesion: 0.09
+Nodes (28): ansi_ljust(), _detect_page_type(), format_ascii_box(), format_markdown(), format_master_md(), format_page_override_md(), generate_design_system(), _generate_intelligent_overrides() (+20 more)
 
 ### Community 50 - "spacing"
 Cohesion: 0.06
@@ -335,8 +352,8 @@ Cohesion: 0.14
 Nodes (24): get_context(), is_allowed_exception(), is_allowed_rgba(), is_inside_block(), load_css_variables(), main(), print_result(), print_summary() (+16 more)
 
 ### Community 61 - "core.py"
-Cohesion: 0.12
-Nodes (25): _contains_phrase(), _domain_keywords(), _file_signature(), _get_bm25(), _load_csv(), _load_csv_snapshot(), _load_product_keywords(), _load_rows_or_empty() (+17 more)
+Cohesion: 0.11
+Nodes (27): _contains_phrase(), _domain_keywords(), _file_signature(), _get_bm25(), _load_csv(), _load_csv_snapshot(), _load_product_keywords(), _load_rows_or_empty() (+19 more)
 
 ### Community 62 - "Asset Approval Checklist"
 Cohesion: 0.08
@@ -355,8 +372,8 @@ Cohesion: 0.08
 Nodes (24): Apparel, Business Card, Car/Sedan, CIP Deliverable Guide, Core Identity, Digital Assets, Email Signature, Envelope (+16 more)
 
 ### Community 66 - "BM25"
-Cohesion: 0.11
-Nodes (19): BM25, detect_domain(), _load_csv(), Load CSV and return list of dicts, Core search function using BM25, Auto-detect the most relevant domain from query, Main search function with auto-domain detection, Search across all domains and combine results (+11 more)
+Cohesion: 0.06
+Nodes (30): generate_html(), get_deliverable_info(), get_image_base64(), main(), Convert image to base64 for embedding in HTML, Extract deliverable type from filename and get info, Generate HTML presentation from CIP images, BM25 (+22 more)
 
 ### Community 67 - "States and Variants"
 Cohesion: 0.08
@@ -475,8 +492,8 @@ Cohesion: 0.13
 Nodes (8): main(), Add custom font families.          Args:             fonts: Dict of font_type: [, Add custom spacing values.          Args:             spacing: Dict of name: val, Add custom breakpoints.          Args:             breakpoints: Dict of name: wi, Add plugin requirements.          Args:             plugins: List of plugin name, Get plugin recommendations based on configuration.          Returns:, Validate configuration.          Returns:             Tuple of (valid, message), Add custom colors to theme.          Args:             colors: Dict of color_nam
 
 ### Community 97 - "BM25"
-Cohesion: 0.19
-Nodes (7): BM25, BM25 ranking algorithm for text search, Lowercase, normalize synonyms, split, remove punctuation, filter stopwords, Build BM25 index from documents, Suggest complete public identities so a retry can bypass score thresholds., _suggest_identities(), TestTokenizer
+Cohesion: 0.15
+Nodes (5): BM25, BM25 ranking algorithm for text search, TestBm25CoreBehavior, TestDiagnosticsContracts, TestTokenizer
 
 ### Community 98 - "detect_domain"
 Cohesion: 0.23
@@ -543,12 +560,16 @@ Cohesion: 0.18
 Nodes (10): Bold Dynamic, CIP Design Style Guide, Classic Traditional, Color Psychology, Corporate Minimal, Fresh Modern, Luxury Premium, Modern Tech (+2 more)
 
 ### Community 114 - "primitive"
-Cohesion: 0.18
-Nodes (11): fast, normal, slow, $type, $value, $type, $value, primitive (+3 more)
+Cohesion: 0.20
+Nodes (10): fast, normal, slow, $type, $value, $type, $value, duration (+2 more)
 
 ### Community 115 - "test_tailwind_config_gen.py"
 Cohesion: 0.20
 Nodes (7): Tests for tailwind_config_gen.py, Reduce a generated TS/JS config to a bare assignable object so it can be     han, Regression guard for the missing-comma bug between the ``theme`` block and     `, The property preceding ``plugins`` must end with a comma (pure-Python         ch, The emitted config parses as valid JS via ``node --check``., _strip_to_object(), TestGeneratedConfigIsValidJs
+
+### Community 116 - "TestStyleTaxonomy"
+Cohesion: 0.24
+Nodes (10): $type, $value, $type, $value, primitive, radius, shadow, default (+2 more)
 
 ### Community 117 - "Quick Reference"
 Cohesion: 0.18
@@ -587,8 +608,12 @@ Cohesion: 0.25
 Nodes (9): _exact_match_diagnostic(), _legacy_successor_guidance(), _normalize(), Apply longest-first synonym substitution at token boundaries., Whether a stack query explicitly targets an older framework generation., Choose one coherent applicability generation for stack retrieval., Prefer the explicit successor row for a brand-new app on legacy-only stacks., _stack_query_requests_legacy() (+1 more)
 
 ### Community 126 - "radius"
-Cohesion: 0.29
-Nodes (8): $type, $value, $type, $value, radius, full, none, none
+Cohesion: 0.15
+Nodes (12): component, $type, $value, dark, semantic, $schema, $type, $value (+4 more)
+
+### Community 127 - "test_core.py"
+Cohesion: 0.43
+Nodes (3): _filter_anti_patterns_for_mode(), Drop "avoid dark mode" advice once dark mode is the resolved answer., TestAntiPatternGating
 
 ### Community 128 - "UI/UX Pro Max - Design Intelligence"
 Cohesion: 0.25
@@ -606,25 +631,21 @@ Nodes (6): Animation Classes, Background Images, Base Structure, Chart.js Integr
 Cohesion: 0.29
 Nodes (6): Animation Classes, Background Images, Base Structure, Chart.js Integration, CSS Variables Reference, HTML Slide Template
 
-### Community 132 - "_filter_anti_patterns_for_mode"
-Cohesion: 0.43
-Nodes (3): _filter_anti_patterns_for_mode(), Drop "avoid dark mode" advice once dark mode is the resolved answer., TestAntiPatternGating
-
 ### Community 133 - "Query Contract"
 Cohesion: 0.29
 Nodes (7): Query Contract, Step 1: Analyze User Requirements, Step 2: Generate Design System (new projects/pages), Step 2b: Persist Design System (Master + Overrides Pattern), Step 2c: Design Dials (optional), Step 3: Supplement with Detailed Searches (as needed), Step 4: Stack Guidelines
 
 ### Community 134 - "shadow"
-Cohesion: 0.47
-Nodes (6): sm, shadow, sm, sm, $type, $value
+Cohesion: 0.20
+Nodes (10): fg, font-size, hover-bg, button, $type, $value, $type, $value (+2 more)
 
 ### Community 135 - "Slides"
 Cohesion: 0.33
 Nodes (5): References (Knowledge Base), Routing, Slides, Subcommands, When to Use
 
 ### Community 136 - "_row_identities"
-Cohesion: 0.33
-Nodes (6): _exact_row_identity(), Return non-empty public identities from ordinary and alias fields., Resolve an explicit style identity without opening generic variant ranking., Return one row whose stable public identity exactly matches the query., _row_identities(), _style_identity()
+Cohesion: 0.25
+Nodes (8): _exact_row_identity(), Suggest complete public identities so a retry can bypass score thresholds., Return non-empty public identities from ordinary and alias fields., Resolve an explicit style identity without opening generic variant ranking., Return one row whose stable public identity exactly matches the query., _row_identities(), _style_identity(), _suggest_identities()
 
 ### Community 137 - "Pre-Delivery Checklist"
 Cohesion: 0.33
@@ -639,8 +660,8 @@ Cohesion: 0.40
 Nodes (4): Brand Guidelines Template, Document Structure, Extractable Fields, Usage
 
 ### Community 140 - "lg"
-Cohesion: 0.60
-Nodes (5): lg, $type, $value, lg, lg
+Cohesion: 0.29
+Nodes (8): padding-x, input, $type, $value, focus-ring, padding-x, $type, $value
 
 ### Community 141 - "Common Rules for Professional UI"
 Cohesion: 0.40
@@ -651,35 +672,83 @@ Cohesion: 0.40
 Nodes (5): Example Workflow, Step 1: Analyze Requirements, Step 2: Generate Design System, Step 3: Supplement with Detailed Searches (as needed), Step 4: Stack Guidelines
 
 ### Community 143 - "default"
-Cohesion: 0.67
-Nodes (4): $type, $value, default, default
+Cohesion: 0.33
+Nodes (5): Guia 1 — Instalar ferramentas, autenticar clientes e validar conexões, Guia 2 — Duplicar o template para um projeto novo, Guia 3 — Levar o template para outra máquina, Guia 4 — Checklist da primeira entrega num projeto novo a partir do template, Guias de reuso do MAESTRI_TEMPLATE
 
 ### Community 144 - "xl"
-Cohesion: 0.67
-Nodes (4): xl, xl, $type, $value
+Cohesion: 0.60
+Nodes (5): lg, $type, $value, lg, lg
 
 ### Community 145 - "md"
-Cohesion: 0.67
-Nodes (4): $type, $value, md, md
+Cohesion: 0.60
+Nodes (5): sm, sm, sm, $type, $value
 
 ### Community 146 - "Tips for Better Results"
 Cohesion: 0.50
 Nodes (4): Common Sticking Points, Pre-Delivery Checklist, Query Strategy, Tips for Better Results
 
+### Community 174 - "Cadastro de clientes/modelos — por máquina"
+Cohesion: 0.67
+Nodes (4): xl, xl, $type, $value
+
+### Community 175 - "none"
+Cohesion: 0.67
+Nodes (4): $type, $value, md, md
+
+### Community 177 - "radius"
+Cohesion: 0.60
+Nodes (5): radius, radius, radius, $type, $value
+
+### Community 178 - "50"
+Cohesion: 0.67
+Nodes (4): $type, $value, none, none
+
+### Community 179 - "800"
+Cohesion: 0.50
+Nodes (3): Autenticação de ferramentas (não é login de IA, é CLI auxiliar), Cadastro de clientes/modelos — por máquina (EXEMPLO, versionável), Papéis e terminais
+
+### Community 180 - "padding-y"
+Cohesion: 0.67
+Nodes (4): padding-y, padding-y, $type, $value
+
+### Community 181 - "950"
+Cohesion: 0.67
+Nodes (3): foreground, $type, $value
+
+### Community 182 - "destructive"
+Cohesion: 0.67
+Nodes (3): destructive, $type, $value
+
+### Community 183 - "destructive-foreground"
+Cohesion: 0.67
+Nodes (3): muted-foreground, $type, $value
+
+### Community 184 - "muted"
+Cohesion: 0.67
+Nodes (3): primary, $type, $value
+
+### Community 185 - "primary-foreground"
+Cohesion: 0.67
+Nodes (3): primary-hover, $type, $value
+
+### Community 186 - "ring"
+Cohesion: 0.67
+Nodes (3): ring, $type, $value
+
 ## Knowledge Gaps
-- **939 isolated node(s):** `$schema`, `$value`, `$type`, `$value`, `$type` (+934 more)
+- **959 isolated node(s):** `$schema`, `$value`, `$type`, `$value`, `$type` (+954 more)
   These have ≤1 connection - possible missing edges or undocumented components.
-- **31 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
+- **30 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
-- **Why does `DesignSystemGenerator` connect `DesignSystemGenerator` to `BM25`, `detect_domain`, `.generate`, `_filter_anti_patterns_for_mode`, `read_rows`, `search`, `_resolve_color_mode`, `design_system.py`, `_select_palette_for_mode`, `test_core.py`?**
-  _High betweenness centrality (0.011) - this node is a cross-community bridge._
-- **Why does `search()` connect `search` to `BM25`, `detect_domain`, `.generate`, `Time de agentes (`.claude/agents/`)`, `_row_identities`, `design_system.py`, `core.py`, `TestStyleTaxonomy`, `search_stack`, `_normalize`, `test_core.py`?**
-  _High betweenness centrality (0.011) - this node is a cross-community bridge._
-- **Why does `primitive` connect `primitive` to `shadow`, `gray`, `color`, `spacing`, `fontSize`, `radius`?**
+- **Why does `DesignSystemGenerator` connect `DesignSystemGenerator` to `BM25`, `detect_domain`, `.generate`, `read_rows`, `search`, `_resolve_color_mode`, `design_system.py`, `_select_palette_for_mode`, `test_core.py`?**
+  _High betweenness centrality (0.012) - this node is a cross-community bridge._
+- **Why does `search()` connect `search` to `BM25`, `detect_domain`, `.generate`, `_filter_anti_patterns_for_mode`, `Time de agentes (`.claude/agents/`)`, `_row_identities`, `design_system.py`, `core.py`, `search_stack`, `_normalize`?**
   _High betweenness centrality (0.010) - this node is a cross-community bridge._
+- **Why does `primitive` connect `TestStyleTaxonomy` to `gray`, `primitive`, `spacing`, `fontSize`, `radius`?**
+  _High betweenness centrality (0.009) - this node is a cross-community bridge._
 - **Are the 36 inferred relationships involving `TailwindConfigGenerator` (e.g. with `TestGeneratedConfigIsValidJs` and `.test_node_check_parses_generated_config()`) actually correct?**
   _`TailwindConfigGenerator` has 36 INFERRED edges - model-reasoned connections that need verification._
 - **Are the 30 inferred relationships involving `DesignSystemGenerator` (e.g. with `TestBm25CoreBehavior` and `TestDiagnosticsContracts`) actually correct?**

@@ -4,7 +4,7 @@ description: Cria e roda scripts de simulação de clique/fluxo do usuário (E2E
 tools: Read, Write, Edit, Bash, Grep, Glob
 ---
 
-Você é o `qa-e2e` do projeto **AUTOMACAO_HD**. Valida que um fluxo real de tela (quando a automação tem uma) funciona ponta a ponta depois de uma mudança.
+Você é o `qa-e2e` do template **MAESTRI_TEMPLATE**. Valida que um fluxo real de tela (quando a automação tem uma) funciona ponta a ponta depois de uma mudança.
 
 ## Regras
 

@@ -4,7 +4,7 @@ description: Implementa lógica de automação — scripts, integrações, APIs,
 tools: Read, Write, Edit, Bash, Grep, Glob
 ---
 
-Você é o `backend-dev` do projeto **AUTOMACAO_HD**. Implementa a lógica de cada automação: scripts, integrações entre sistemas, rotinas de processamento, chamadas de API.
+Você é o `backend-dev` do template **MAESTRI_TEMPLATE**. Implementa a lógica de cada automação: scripts, integrações entre sistemas, rotinas de processamento, chamadas de API.
 
 ## Quando você é o responsável pela consolidação (vs. `data-analyst`)
 

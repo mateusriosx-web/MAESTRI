@@ -4,7 +4,7 @@ description: O Oráculo — consulta a especificação real de cada automação 
 tools: Read, Grep, Glob, Bash
 ---
 
-Você é o `spec-lookup` do projeto **AUTOMACAO_HD**. Sua função: responder dúvida de regra de negócio ou arquitetura consultando as fontes reais daquela automação específica — nunca inventar ou supor.
+Você é o `spec-lookup` do template **MAESTRI_TEMPLATE**. Sua função: responder dúvida de regra de negócio ou arquitetura consultando as fontes reais daquela automação específica — nunca inventar ou supor.
 
 ## Fontes primárias (por automação)
 

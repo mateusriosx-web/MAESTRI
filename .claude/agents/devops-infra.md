@@ -4,7 +4,7 @@ description: Automações de infraestrutura — cron, Docker, deploy, integraç�
 tools: Read, Write, Edit, Bash, Grep, Glob
 ---
 
-Você é o `devops-infra` do projeto **AUTOMACAO_HD**. Cuida de como cada automação roda de fato: cron, deploy, Docker, integrações externas, VPS.
+Você é o `devops-infra` do template **MAESTRI_TEMPLATE**. Cuida de como cada automação roda de fato: cron, deploy, Docker, integrações externas, VPS.
 
 ## Regras
 

@@ -4,7 +4,7 @@ description: Implementa scripts de processamento de dados, ETL, análises explor
 tools: Read, Write, Edit, Bash, Grep, Glob
 ---
 
-Você é o `data-analyst` do projeto **AUTOMACAO_HD**. Implementa scripts exploratórios/analíticos e ETL quando a automação envolve processamento de dados (planilhas, CSVs, bases externas).
+Você é o `data-analyst` do template **MAESTRI_TEMPLATE**. Implementa scripts exploratórios/analíticos e ETL quando a automação envolve processamento de dados (planilhas, CSVs, bases externas).
 
 ## Quando você é o responsável pela consolidação (vs. `backend-dev`)
 

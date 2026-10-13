@@ -55,53 +55,53 @@
     "semantic_hash": ""
   },
   ".claude/agents/backend-dev.md": {
-    "mtime": 1791914105.0107596,
-    "ast_hash": "d846ab2afcb545aed66e0736c22fd460",
+    "mtime": 1791930513.762169,
+    "ast_hash": "2d6d7b339f0c21b11273979ce528bc8a",
     "semantic_hash": ""
   },
   ".claude/agents/cto.md": {
-    "mtime": 1791914169.0191717,
-    "ast_hash": "db28c3d6e0b8929b9c093ce3df608d4c",
+    "mtime": 1791930554.8939779,
+    "ast_hash": "09318dc6a82534e556a18a5fabcac262",
     "semantic_hash": ""
   },
   ".claude/agents/data-analyst.md": {
-    "mtime": 1791914108.8050227,
-    "ast_hash": "2d4ebfc42d6d02a14ede855e2fb7aa90",
+    "mtime": 1791930513.8505168,
+    "ast_hash": "f64576ac5c4edb92d3574da23f20efde",
     "semantic_hash": ""
   },
   ".claude/agents/devops-infra.md": {
-    "mtime": 1791914138.8912299,
-    "ast_hash": "9de0b7c5505dabf0908cdc270b6fa09a",
+    "mtime": 1791930513.8885436,
+    "ast_hash": "c9a0855a4d4bf0e098566ee8c6c0edf4",
     "semantic_hash": ""
   },
   ".claude/agents/frontend-dev.md": {
-    "mtime": 1791929469.3123138,
-    "ast_hash": "a2f6e9df572fb86af70a02a83d81d8b4",
+    "mtime": 1791930513.9256938,
+    "ast_hash": "88e4f80b9b676b0eb4edc1fc23e6d681",
     "semantic_hash": ""
   },
   ".claude/agents/qa-e2e.md": {
-    "mtime": 1791911890.2290993,
-    "ast_hash": "5a80993ff93ff0c8c48e2cdb1e91432b",
+    "mtime": 1791930513.963427,
+    "ast_hash": "f536206804a92d5bc9697a492e6946c7",
     "semantic_hash": ""
   },
   ".claude/agents/security-auditor.md": {
-    "mtime": 1791911894.5577605,
-    "ast_hash": "742c9693c8953c87f9322ad6b82817f2",
+    "mtime": 1791930513.9995563,
+    "ast_hash": "33ba3c3b46156a3d2add6d84d9d8bcd1",
     "semantic_hash": ""
   },
   ".claude/agents/spec-lookup.md": {
-    "mtime": 1791911912.218046,
-    "ast_hash": "96811ffb6763bfaa46e0b100b838f9e4",
+    "mtime": 1791930514.0466487,
+    "ast_hash": "d79dbb1f8ad5f685b7989fd3c831c22c",
     "semantic_hash": ""
   },
   ".claude/agents/tech-writer.md": {
-    "mtime": 1791912186.4138787,
-    "ast_hash": "62a2b70777f0abd5a633c73fcd7f3eb9",
+    "mtime": 1791930514.0857303,
+    "ast_hash": "b72a8cba2569b8cae9335d0ba6003505",
     "semantic_hash": ""
   },
   ".claude/agents/test-runner.md": {
-    "mtime": 1791911919.4871478,
-    "ast_hash": "aa78ef9318c84e0e10dbcc9819ae6b66",
+    "mtime": 1791930514.1252098,
+    "ast_hash": "b406584c85373807073a687a6af870d2",
     "semantic_hash": ""
   },
   ".maestri/roles/007b5ff7-7878-4d86-b98e-8dafa26405e4/AGENTS.md": {
@@ -215,13 +215,13 @@
     "semantic_hash": ""
   },
   "CLAUDE.md": {
-    "mtime": 1791929507.6963701,
-    "ast_hash": "1aa05f5d98acdcba14f6306643dd3347",
+    "mtime": 1791931759.3152728,
+    "ast_hash": "a869d24c8da5ec6e0ff283530e1f5395",
     "semantic_hash": ""
   },
   "DIARIO_DE_BORDO.md": {
-    "mtime": 1791929556.5645094,
-    "ast_hash": "33b8b7d0b14155aee808e68af6f1e62b",
+    "mtime": 1791931479.017238,
+    "ast_hash": "56fa5a7a55189b4fec0f0aa202b51e75",
     "semantic_hash": ""
   },
   ".agents/skills/caveman/SKILL.md": {
@@ -812,6 +812,31 @@
   ".claude/skills/ui-ux-pro-max/SKILL.md": {
     "mtime": 1791929407.1549966,
     "ast_hash": "59d136be468705c5353c6771bb820737",
+    "semantic_hash": ""
+  },
+  "scripts/setup-maquina.ps1": {
+    "mtime": 1791931069.0439765,
+    "ast_hash": "7fc33199c058913962cb6d253d1bc6c9",
+    "semantic_hash": ""
+  },
+  "GUIAS.md": {
+    "mtime": 1791931779.8915358,
+    "ast_hash": "dbad82ea1387186e47a594b714db9790",
+    "semantic_hash": ""
+  },
+  "PREPARACAO.md": {
+    "mtime": 1791931771.2008617,
+    "ast_hash": "b404f733c74e8b2fa667f32d99d35a79",
+    "semantic_hash": ""
+  },
+  "README.md": {
+    "mtime": 1791931776.0668516,
+    "ast_hash": "d26a0b3bc0394813d97b84f5c2dd8bac",
+    "semantic_hash": ""
+  },
+  "MODELOS_CLIENTES.example.md": {
+    "mtime": 1791931737.8056107,
+    "ast_hash": "c51a5791b38ef9f3a34587e3db29a0b8",
     "semantic_hash": ""
   }
 }

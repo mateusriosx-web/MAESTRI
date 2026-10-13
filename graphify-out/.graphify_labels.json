@@ -172,5 +172,18 @@
   "170": ".test_write_config_invalid_path",
   "171": ".test_init_framework",
   "172": ".test_custom_output_path",
-  "173": ".test_base_config_structure"
+  "173": ".test_base_config_structure",
+  "174": "Cadastro de clientes/modelos — por máquina",
+  "175": "none",
+  "176": "setup-maquina.ps1",
+  "177": "radius",
+  "178": "50",
+  "179": "800",
+  "180": "padding-y",
+  "181": "950",
+  "182": "destructive",
+  "183": "destructive-foreground",
+  "184": "muted",
+  "185": "primary-foreground",
+  "186": "ring"
 }
