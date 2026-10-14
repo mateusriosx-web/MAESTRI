@@ -191,3 +191,7 @@ output was clearly expected, contradicting its exit code, or garbled.
 ## Orientação Prisma opcional
 
 Consulte [PRISMA_SKILLS.md](./PRISMA_SKILLS.md) somente quando o projeto usar Prisma. As três skills oficiais estão incluídas localmente; preservar versão/provider, sem instalar ORM ou conectar bancos durante o preparo do template.
+
+## Orientação Better Auth opcional
+
+Consulte [BETTER_AUTH.md](./BETTER_AUTH.md) somente quando o projeto precisar de autenticação/controle de acesso. Nenhuma skill foi copiada localmente (repositório oficial de skills não declara licença) — consultar a documentação/skills oficiais sob demanda. Nunca substituir autenticação existente de um projeto sem plano próprio aprovado pelo usuário; nunca instalar Better Auth no próprio template nem criar banco/tela de demonstração.

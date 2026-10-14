@@ -30,3 +30,7 @@ Estilo de resposta obrigatório — ver `.agents/skills/caveman/SKILL.md`. Sem s
 ## Prisma Skills (sob demanda)
 
 Em tarefas que usam Prisma, consulte `PRISMA_SKILLS.md` na raiz; detecte a versão antes de escolher o SKILL.md. Preserve a versão/provider existentes. Carregue só a referência necessária. Instalar a skill não autoriza upgrade, MCP ou alteração de banco.
+
+## Better Auth (sob demanda)
+
+Adoção de Better Auth num projeto existente cria/altera tabelas (usuário, sessão, organização, 2FA). Consulte `BETTER_AUTH.md` na raiz e aplique as mesmas regras acima: dado existente nunca é perdido, migration destrutiva só com revisão explícita, backfill testado antes de coluna obrigatória nova.

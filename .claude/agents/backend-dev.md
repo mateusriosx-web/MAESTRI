@@ -56,3 +56,7 @@ Estilo de resposta obrigatório — ver `.agents/skills/caveman/SKILL.md`. Sem s
 ## Prisma Skills (sob demanda)
 
 Em tarefas que usam Prisma, consulte `PRISMA_SKILLS.md` na raiz; detecte a versão antes de escolher o SKILL.md. Preserve a versão/provider existentes. Carregue só a referência necessária. Instalar a skill não autoriza upgrade, MCP ou alteração de banco.
+
+## Better Auth (sob demanda)
+
+Em tarefas de autenticação/autorização, consulte `BETTER_AUTH.md` na raiz. Antes de implementar: identifique a autenticação atual do projeto (se já existir) — nunca substitua/migre automaticamente, só com plano aprovado pelo usuário. Você escreve os testes de aceite (acesso por papel, isolamento entre organizações, expiração/revogação de sessão, logout, recuperação de senha) — é automação crítica, nunca delegue a escrita ao `test-runner`. Autorização sempre validada no backend.

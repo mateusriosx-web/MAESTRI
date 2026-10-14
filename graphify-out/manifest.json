@@ -270,8 +270,8 @@
     "semantic_hash": ""
   },
   ".claude/agents/backend-dev.md": {
-    "mtime": 1791992614.2000673,
-    "ast_hash": "c0fd1f612695290d3cab66fa8d1098b4",
+    "mtime": 1792003022.1927743,
+    "ast_hash": "76dd44ad539326de6d4568715f0b8d32",
     "semantic_hash": ""
   },
   ".claude/agents/calc-auditor.md": {
@@ -295,13 +295,13 @@
     "semantic_hash": ""
   },
   ".claude/agents/frontend-dev.md": {
-    "mtime": 1791930513.9256938,
-    "ast_hash": "88e4f80b9b676b0eb4edc1fc23e6d681",
+    "mtime": 1792003048.812547,
+    "ast_hash": "e9cd2e5c1b3984a29ba8c443977628f0",
     "semantic_hash": ""
   },
   ".claude/agents/migration-guardian.md": {
-    "mtime": 1791992614.2011864,
-    "ast_hash": "4c4bd4401d765d376e09cbe0986a79cc",
+    "mtime": 1792003035.647552,
+    "ast_hash": "e59328608377f10d5edb6c0b3c473ff3",
     "semantic_hash": ""
   },
   ".claude/agents/qa-e2e.md": {
@@ -310,8 +310,8 @@
     "semantic_hash": ""
   },
   ".claude/agents/security-auditor.md": {
-    "mtime": 1791930513.9995563,
-    "ast_hash": "33ba3c3b46156a3d2add6d84d9d8bcd1",
+    "mtime": 1792003028.7959232,
+    "ast_hash": "8624d85ac8a792c6d846a1cfb20b7dc8",
     "semantic_hash": ""
   },
   ".claude/agents/spec-lookup.md": {
@@ -325,8 +325,8 @@
     "semantic_hash": ""
   },
   ".claude/agents/test-runner.md": {
-    "mtime": 1791992614.2032444,
-    "ast_hash": "05514167ab5736ba63ac9854d46f8692",
+    "mtime": 1792003041.787819,
+    "ast_hash": "6af78f6327dd28399b2210895be923d2",
     "semantic_hash": ""
   },
   ".claude/skills/banner-design/SKILL.md": {
@@ -745,13 +745,13 @@
     "semantic_hash": ""
   },
   "CLAUDE.md": {
-    "mtime": 1791992614.2047937,
-    "ast_hash": "cca7268f979afdc71ce136a80de5cd6f",
+    "mtime": 1792003000.6106086,
+    "ast_hash": "7e9d7090fb457e3915016a7422e1f877",
     "semantic_hash": ""
   },
   "DIARIO_DE_BORDO.md": {
-    "mtime": 1791992614.207401,
-    "ast_hash": "6e7ea034bab3acb0612fff14389c417e",
+    "mtime": 1792003108.5604715,
+    "ast_hash": "335218e9e10b05f9daa4ac8fc614ac12",
     "semantic_hash": ""
   },
   "GUIAS.md": {
@@ -765,13 +765,13 @@
     "semantic_hash": ""
   },
   "PREPARACAO.md": {
-    "mtime": 1791992614.2068558,
-    "ast_hash": "c95975708a34a66be22b71282e470394",
+    "mtime": 1792003061.640773,
+    "ast_hash": "015b3369467ceae8126554c8ed3af399",
     "semantic_hash": ""
   },
   "README.md": {
-    "mtime": 1791992614.2047937,
-    "ast_hash": "9201fa26e13bc2377b95c0188131b6fc",
+    "mtime": 1792003005.9692998,
+    "ast_hash": "72b9c0b14a48c56a29cf87ef554c3581",
     "semantic_hash": ""
   },
   ".claude/skills/prisma-cli/SKILL.md": {
@@ -972,6 +972,11 @@
   "PRISMA_SKILLS.md": {
     "mtime": 1791992631.8146663,
     "ast_hash": "3fb9d4040136f5afb6123ab8497cb0f7",
+    "semantic_hash": ""
+  },
+  "BETTER_AUTH.md": {
+    "mtime": 1792002992.4975667,
+    "ast_hash": "8283cb1dd7a9ce939c38a608415313fe",
     "semantic_hash": ""
   }
 }

@@ -57,6 +57,10 @@ python .claude/skills/ui-ux-pro-max/scripts/search.py --domain <style|color|char
 
 Siga a skill `rtk` (`.claude/skills/rtk/SKILL.md`): consulte `python -m graphify query/path/explain` antes de `Grep`/`Glob` amplo. Para comando com saída grande, chame o binário real explicitamente (`rtk ls`, `rtk grep -r`, `rtk git status/diff/log`, `rtk test <cmd>`) — não há hook automático no Claude Code aqui, só nos terminais Antigravity do Maestri.
 
+## Better Auth (sob demanda)
+
+Em tela de login/sessão/organização, consulte `BETTER_AUTH.md` na raiz. **Esconder botão/rota de navegação no cliente nunca é controle de acesso** — a proteção real é sempre validada no backend (`backend-dev`); sua tela só reflete o estado, não o garante.
+
 ## Caveman Mode (cultura obrigatória)
 
 Estilo de resposta obrigatório — ver `.agents/skills/caveman/SKILL.md`. Sem saudação, sem repetir o pedido, sem resumo final. Direto ao ponto.

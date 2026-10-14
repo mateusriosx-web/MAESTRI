@@ -6,12 +6,12 @@ Registro de continuidade do projeto. Toda sessão nova deve consultar este arqui
 
 ## ESTADO ATUAL
 
-- **Tarefa ativa:** ajustes de portabilidade (7 frentes) + complementos (calc-auditor/migration-guardian, 3 simulações, exclusões Graphify, registro RTK, alcance de `-AutoYes`/`-ConfirmGlobalChanges`) — concluída. Ver entradas "Ajustes de portabilidade pós-teste em outra máquina" e "Três simulações documentais..." (com a seção "Complementos fechados nesta mesma data") abaixo.
+- **Tarefa ativa:** ajustes de portabilidade (7 frentes) + complementos (calc-auditor/migration-guardian, 3 simulações, exclusões Graphify, registro RTK, alcance de `-AutoYes`/`-ConfirmGlobalChanges`, skills Prisma) — committed em `cfb6b8a`. Depois: guia Better Auth sob demanda — concluído, sem commit ainda. Ver entradas "Ajustes de portabilidade pós-teste em outra máquina", "Três simulações documentais..." e "Better Auth: guia central sob demanda, sem skill local" abaixo.
 - **Responsável:** `cto` (sessão principal).
 - **Estado desta preparação (escala Preparado/Validado/Parcial/Bloqueado, ver `PREPARACAO.md` Passo 10):** **Parcial** nesta máquina — Graphify/Serena/UI UX Pro Max OK, RTK com binário fora do PATH desta sessão PowerShell (achado pré-existente, não novo) e registro MCP global da Serena pendente de autorização explícita (`-ConfirmGlobalChanges`), ambos esperados/não-bloqueantes.
-- **Próximo passo:** usuário decide quando testar o fluxo completo (clone → `PREPARACAO.md` → script → adaptação → recrutamento) numa máquina/pasta realmente limpa, e quando autorizar escolha real de cliente/modelo por papel — isto ainda não foi feito (ver pendências nas entradas desta data).
+- **Próximo passo:** usuário decide quando testar o fluxo completo (clone → `PREPARACAO.md` → script → adaptação → recrutamento) numa máquina/pasta realmente limpa, quando autorizar escolha real de cliente/modelo por papel, e quando commitar o guia Better Auth — nada disso foi feito ainda.
 - **Bloqueios:** nenhum.
-- **Referências:** `README.md`, `PREPARACAO.md`, `CLAUDE.md`, `MODELOS_CLIENTES.local.md`, `GUIAS.md`, `scripts/setup-maquina.ps1`, `.claude/agents/calc-auditor.md`, `.claude/agents/migration-guardian.md`, `.graphifyignore`, entradas de 2026-10-14 abaixo.
+- **Referências:** `README.md`, `PREPARACAO.md`, `CLAUDE.md`, `MODELOS_CLIENTES.local.md`, `GUIAS.md`, `scripts/setup-maquina.ps1`, `.claude/agents/calc-auditor.md`, `.claude/agents/migration-guardian.md`, `.graphifyignore`, `PRISMA_SKILLS.md`, `BETTER_AUTH.md`, entradas de 2026-10-14 abaixo.
 
 ## 2026-10-14 — Ajustes de portabilidade pós-teste em outra máquina
 
@@ -176,4 +176,18 @@ Pedido: impedir que o cadastro real de clientes/modelos (que contém dados de co
 
 ## 2026-10-14 — Prisma Skills locais
 
-Incluídas prisma-cli, prisma-client-api e prisma-orm-setup da origem oficial prisma/skills, licença MIT, revisão be16a8740d01363d13552b317042431ee8dfc581. Guia PRISMA_SKILLS.md centraliza compatibilidade por versão e leitura explícita sob demanda; README, CLAUDE, preparação e CTO/BACK/Migration/SPEC/TESTER apontam para ele. Nenhum ORM, MCP ou banco foi instalado, atualizado ou acessado. Instalação e referências conferidas localmente; uso em terminais reais e em banco ainda não testado. Sem commit/push.
+Incluídas prisma-cli, prisma-client-api e prisma-orm-setup da origem oficial prisma/skills, licença MIT, revisão be16a8740d01363d13552b317042431ee8dfc581. Guia PRISMA_SKILLS.md centraliza compatibilidade por versão e leitura explícita sob demanda; README, CLAUDE, preparação e CTO/BACK/Migration/SPEC/TESTER apontam para ele. Nenhum ORM, MCP ou banco foi instalado, atualizado ou acessado. Instalação e referências conferidas localmente; uso em terminais reais e em banco ainda não testado.
+
+**Commit:** `cfb6b8a` (junto com os complementos de portabilidade da entrada anterior) — autorizado explicitamente pelo usuário depois desta entrada ter sido escrita; sem push.
+
+## 2026-10-14 — Better Auth: guia central sob demanda, sem skill local
+
+Pedido: integrar orientação oficial de Better Auth (https://better-auth.com/docs/introduction, https://github.com/better-auth/better-auth, licença MIT) para uso sob demanda em projetos Node/TS/React (login/sessão, verificação de e-mail/2FA, organizações/papéis, autorização no backend/isolamento entre tenants, cookies/segredo/origens).
+
+**Achado antes de instalar:** existe repositório oficial de skills (`https://github.com/better-auth/skills`, mantido pela própria better-auth — `alex@better-auth.com`, `marketplace.json` v1.0.0, commit `20c9e88a5c007461a703f1c213572b073196113e`), com 6 skills (`best-practices`, `create-auth`, `emailAndPassword`, `organization`, `twoFactor`, `security`) cobrindo exatamente os tópicos pedidos. **Mas esse repositório não declara licença** (API do GitHub: `license: null`; nenhum arquivo `LICENSE`) — diferente do caso Prisma (MIT explícito). Registrado ao usuário antes de copiar qualquer arquivo; decisão do usuário: **não instalar localmente**, só referenciar a origem oficial.
+
+**O que foi feito:** criado `BETTER_AUTH.md` (guia central) documentando origem/licença do framework (MIT) e a ausência de licença do repositório de skills (por isso nenhuma cópia local), os tópicos a orientar, responsabilidades (BACK implementa+testa, Segurança revisa, Migration revisa schema, TESTER executa, FRONT integra sem assumir que UI esconde = proteção), os testes de aceite esperados (acesso por papel, isolamento entre organizações, expiração/revogação de sessão, logout, recuperação de senha) e a regra de projeto existente (identificar auth atual antes de qualquer adoção, nunca migrar automaticamente). Referenciado em `README.md`, `CLAUDE.md`, `PREPARACAO.md` e nas seções "Better Auth (sob demanda)" de `.claude/agents/backend-dev.md`, `security-auditor.md`, `migration-guardian.md`, `test-runner.md`, `frontend-dev.md`.
+
+**Verificações reais executadas:** `gh api repos/better-auth/skills` (license null, default branch, commit HEAD), `gh api .../contents/*` lendo o frontmatter das 6 `SKILL.md` e o `.claude-plugin/marketplace.json` para confirmar tópicos/versão/autor — não foi assumido por suposição.
+
+**Pendências reais:** nenhum SKILL.md copiado (decisão deliberada pela ausência de licença); nenhuma implementação real de Better Auth num projeto, nenhum teste de aceite executado, nenhum MCP configurado. Nenhum ORM/banco/tela de demonstração criado. Sem commit/push nesta tarefa.

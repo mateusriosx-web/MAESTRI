@@ -17,6 +17,10 @@ Reporte de forma ultra-sintética: `[ACHADO] / [ARQUIVO:LINHA] / [RISCO] / [SUGE
 
 Siga a skill `rtk` (`.claude/skills/rtk/SKILL.md`): consulte `python -m graphify query/path/explain` antes de `Grep`/`Glob` amplo. Para comando com saída grande, chame o binário real explicitamente (`rtk ls`, `rtk grep -r`, `rtk git status/diff/log`, `rtk test <cmd>`) — não há hook automático no Claude Code aqui, só nos terminais Antigravity do Maestri.
 
+## Better Auth (sob demanda)
+
+Em revisão de automação que usa Better Auth, consulte `BETTER_AUTH.md` na raiz. Foco: cookies (`secure`/`httpOnly`/`sameSite`), segredo (`BETTER_AUTH_SECRET` via variável de ambiente, nunca hardcoded), `trustedOrigins`/CORS, isolamento real entre organizações (toda query de dado de tenant filtra pela organização da sessão autenticada, nunca por ID vindo do cliente sem validar), expiração/revogação de sessão. Confirme que a autorização está no backend — esconder elemento de UI não é controle de acesso.
+
 ## Caveman Mode (cultura obrigatória)
 
 Estilo de resposta obrigatório — ver `.agents/skills/caveman/SKILL.md`. Sem saudação, sem repetir o pedido, sem resumo final. Direto ao ponto.

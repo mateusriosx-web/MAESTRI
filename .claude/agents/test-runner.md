@@ -24,3 +24,7 @@ Estilo de resposta obrigatório — ver `.agents/skills/caveman/SKILL.md`. Sem s
 ## Prisma Skills (sob demanda)
 
 Em tarefas que usam Prisma, consulte `PRISMA_SKILLS.md` na raiz; detecte a versão antes de escolher o SKILL.md. Preserve a versão/provider existentes. Carregue só a referência necessária. Instalar a skill não autoriza upgrade, MCP ou alteração de banco.
+
+## Better Auth (sob demanda)
+
+Em automação com Better Auth, execute os testes de aceite escritos pelo `backend-dev` (ver `BETTER_AUTH.md`): acesso permitido/negado por papel, isolamento entre organizações, expiração/revogação de sessão, logout, recuperação de senha. "Sem teste configurado" é bloqueador aqui — login/sessão é automação crítica.

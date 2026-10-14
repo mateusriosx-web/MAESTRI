@@ -1260,7 +1260,7 @@
       "source_location": "L3",
       "_origin": "ast",
       "id": "claude_skills_design_system_templates_design_tokens_starter_primitive",
-      "community": 114,
+      "community": 210,
       "norm_label": "primitive"
     },
     {
@@ -1270,7 +1270,7 @@
       "source_location": "L4",
       "_origin": "ast",
       "id": "claude_skills_design_system_templates_design_tokens_starter_primitive_color",
-      "community": 194,
+      "community": 41,
       "norm_label": "color"
     },
     {
@@ -1290,7 +1290,7 @@
       "source_location": "L6",
       "_origin": "ast",
       "id": "claude_skills_design_system_templates_design_tokens_starter_gray_50",
-      "community": 224,
+      "community": 41,
       "norm_label": "50"
     },
     {
@@ -1300,7 +1300,7 @@
       "source_location": "L6",
       "_origin": "ast",
       "id": "claude_skills_design_system_templates_design_tokens_starter_50_value",
-      "community": 224,
+      "community": 41,
       "norm_label": "$value"
     },
     {
@@ -1310,7 +1310,7 @@
       "source_location": "L6",
       "_origin": "ast",
       "id": "claude_skills_design_system_templates_design_tokens_starter_50_type",
-      "community": 224,
+      "community": 41,
       "norm_label": "$type"
     },
     {
@@ -1440,7 +1440,7 @@
       "source_location": "L11",
       "_origin": "ast",
       "id": "claude_skills_design_system_templates_design_tokens_starter_gray_500",
-      "community": 194,
+      "community": 41,
       "norm_label": "500"
     },
     {
@@ -1450,7 +1450,7 @@
       "source_location": "L11",
       "_origin": "ast",
       "id": "claude_skills_design_system_templates_design_tokens_starter_500_value",
-      "community": 194,
+      "community": 41,
       "norm_label": "$value"
     },
     {
@@ -1460,7 +1460,7 @@
       "source_location": "L11",
       "_origin": "ast",
       "id": "claude_skills_design_system_templates_design_tokens_starter_500_type",
-      "community": 194,
+      "community": 41,
       "norm_label": "$type"
     },
     {
@@ -1470,7 +1470,7 @@
       "source_location": "L12",
       "_origin": "ast",
       "id": "claude_skills_design_system_templates_design_tokens_starter_gray_600",
-      "community": 221,
+      "community": 41,
       "norm_label": "600"
     },
     {
@@ -1480,7 +1480,7 @@
       "source_location": "L12",
       "_origin": "ast",
       "id": "claude_skills_design_system_templates_design_tokens_starter_600_value",
-      "community": 221,
+      "community": 41,
       "norm_label": "$value"
     },
     {
@@ -1490,7 +1490,7 @@
       "source_location": "L12",
       "_origin": "ast",
       "id": "claude_skills_design_system_templates_design_tokens_starter_600_type",
-      "community": 221,
+      "community": 41,
       "norm_label": "$type"
     },
     {
@@ -1500,7 +1500,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "claude_skills_design_system_templates_design_tokens_starter_gray_700",
-      "community": 223,
+      "community": 41,
       "norm_label": "700"
     },
     {
@@ -1510,7 +1510,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "claude_skills_design_system_templates_design_tokens_starter_700_value",
-      "community": 223,
+      "community": 41,
       "norm_label": "$value"
     },
     {
@@ -1520,7 +1520,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "claude_skills_design_system_templates_design_tokens_starter_700_type",
-      "community": 223,
+      "community": 41,
       "norm_label": "$type"
     },
     {
@@ -1530,7 +1530,7 @@
       "source_location": "L14",
       "_origin": "ast",
       "id": "claude_skills_design_system_templates_design_tokens_starter_gray_800",
-      "community": 225,
+      "community": 41,
       "norm_label": "800"
     },
     {
@@ -1540,7 +1540,7 @@
       "source_location": "L14",
       "_origin": "ast",
       "id": "claude_skills_design_system_templates_design_tokens_starter_800_value",
-      "community": 225,
+      "community": 41,
       "norm_label": "$value"
     },
     {
@@ -1550,7 +1550,7 @@
       "source_location": "L14",
       "_origin": "ast",
       "id": "claude_skills_design_system_templates_design_tokens_starter_800_type",
-      "community": 225,
+      "community": 41,
       "norm_label": "$type"
     },
     {
@@ -1590,7 +1590,7 @@
       "source_location": "L16",
       "_origin": "ast",
       "id": "claude_skills_design_system_templates_design_tokens_starter_gray_950",
-      "community": 228,
+      "community": 41,
       "norm_label": "950"
     },
     {
@@ -1600,7 +1600,7 @@
       "source_location": "L16",
       "_origin": "ast",
       "id": "claude_skills_design_system_templates_design_tokens_starter_950_value",
-      "community": 228,
+      "community": 41,
       "norm_label": "$value"
     },
     {
@@ -1610,7 +1610,7 @@
       "source_location": "L16",
       "_origin": "ast",
       "id": "claude_skills_design_system_templates_design_tokens_starter_950_type",
-      "community": 228,
+      "community": 41,
       "norm_label": "$type"
     },
     {
@@ -1620,7 +1620,7 @@
       "source_location": "L18",
       "_origin": "ast",
       "id": "claude_skills_design_system_templates_design_tokens_starter_color_blue",
-      "community": 194,
+      "community": 41,
       "norm_label": "blue"
     },
     {
@@ -1630,7 +1630,7 @@
       "source_location": "L19",
       "_origin": "ast",
       "id": "claude_skills_design_system_templates_design_tokens_starter_blue_50",
-      "community": 224,
+      "community": 41,
       "norm_label": "50"
     },
     {
@@ -1640,7 +1640,7 @@
       "source_location": "L20",
       "_origin": "ast",
       "id": "claude_skills_design_system_templates_design_tokens_starter_blue_500",
-      "community": 194,
+      "community": 41,
       "norm_label": "500"
     },
     {
@@ -1650,7 +1650,7 @@
       "source_location": "L21",
       "_origin": "ast",
       "id": "claude_skills_design_system_templates_design_tokens_starter_blue_600",
-      "community": 221,
+      "community": 41,
       "norm_label": "600"
     },
     {
@@ -1660,7 +1660,7 @@
       "source_location": "L22",
       "_origin": "ast",
       "id": "claude_skills_design_system_templates_design_tokens_starter_blue_700",
-      "community": 223,
+      "community": 41,
       "norm_label": "700"
     },
     {
@@ -1670,7 +1670,7 @@
       "source_location": "L23",
       "_origin": "ast",
       "id": "claude_skills_design_system_templates_design_tokens_starter_blue_800",
-      "community": 225,
+      "community": 41,
       "norm_label": "800"
     },
     {
@@ -1680,7 +1680,7 @@
       "source_location": "L25",
       "_origin": "ast",
       "id": "claude_skills_design_system_templates_design_tokens_starter_color_red",
-      "community": 194,
+      "community": 41,
       "norm_label": "red"
     },
     {
@@ -1690,7 +1690,7 @@
       "source_location": "L26",
       "_origin": "ast",
       "id": "claude_skills_design_system_templates_design_tokens_starter_red_500",
-      "community": 194,
+      "community": 41,
       "norm_label": "500"
     },
     {
@@ -1700,7 +1700,7 @@
       "source_location": "L27",
       "_origin": "ast",
       "id": "claude_skills_design_system_templates_design_tokens_starter_red_600",
-      "community": 221,
+      "community": 41,
       "norm_label": "600"
     },
     {
@@ -1710,7 +1710,7 @@
       "source_location": "L28",
       "_origin": "ast",
       "id": "claude_skills_design_system_templates_design_tokens_starter_red_700",
-      "community": 223,
+      "community": 41,
       "norm_label": "700"
     },
     {
@@ -1720,7 +1720,7 @@
       "source_location": "L30",
       "_origin": "ast",
       "id": "claude_skills_design_system_templates_design_tokens_starter_color_green",
-      "community": 194,
+      "community": 41,
       "norm_label": "green"
     },
     {
@@ -1730,7 +1730,7 @@
       "source_location": "L31",
       "_origin": "ast",
       "id": "claude_skills_design_system_templates_design_tokens_starter_green_500",
-      "community": 194,
+      "community": 41,
       "norm_label": "500"
     },
     {
@@ -1740,7 +1740,7 @@
       "source_location": "L32",
       "_origin": "ast",
       "id": "claude_skills_design_system_templates_design_tokens_starter_green_600",
-      "community": 221,
+      "community": 41,
       "norm_label": "600"
     },
     {
@@ -1750,7 +1750,7 @@
       "source_location": "L34",
       "_origin": "ast",
       "id": "claude_skills_design_system_templates_design_tokens_starter_color_yellow",
-      "community": 194,
+      "community": 41,
       "norm_label": "yellow"
     },
     {
@@ -1760,7 +1760,7 @@
       "source_location": "L35",
       "_origin": "ast",
       "id": "claude_skills_design_system_templates_design_tokens_starter_yellow_500",
-      "community": 194,
+      "community": 41,
       "norm_label": "500"
     },
     {
@@ -1770,7 +1770,7 @@
       "source_location": "L37",
       "_origin": "ast",
       "id": "claude_skills_design_system_templates_design_tokens_starter_color_white",
-      "community": 194,
+      "community": 41,
       "norm_label": "white"
     },
     {
@@ -1780,7 +1780,7 @@
       "source_location": "L37",
       "_origin": "ast",
       "id": "claude_skills_design_system_templates_design_tokens_starter_white_value",
-      "community": 194,
+      "community": 41,
       "norm_label": "$value"
     },
     {
@@ -1790,7 +1790,7 @@
       "source_location": "L37",
       "_origin": "ast",
       "id": "claude_skills_design_system_templates_design_tokens_starter_white_type",
-      "community": 194,
+      "community": 41,
       "norm_label": "$type"
     },
     {
@@ -2180,7 +2180,7 @@
       "source_location": "L54",
       "_origin": "ast",
       "id": "claude_skills_design_system_templates_design_tokens_starter_fontsize_sm",
-      "community": 89,
+      "community": 224,
       "norm_label": "sm"
     },
     {
@@ -2190,7 +2190,7 @@
       "source_location": "L54",
       "_origin": "ast",
       "id": "claude_skills_design_system_templates_design_tokens_starter_sm_value",
-      "community": 89,
+      "community": 224,
       "norm_label": "$value"
     },
     {
@@ -2200,7 +2200,7 @@
       "source_location": "L54",
       "_origin": "ast",
       "id": "claude_skills_design_system_templates_design_tokens_starter_sm_type",
-      "community": 89,
+      "community": 224,
       "norm_label": "$type"
     },
     {
@@ -2240,7 +2240,7 @@
       "source_location": "L56",
       "_origin": "ast",
       "id": "claude_skills_design_system_templates_design_tokens_starter_fontsize_lg",
-      "community": 89,
+      "community": 223,
       "norm_label": "lg"
     },
     {
@@ -2250,7 +2250,7 @@
       "source_location": "L56",
       "_origin": "ast",
       "id": "claude_skills_design_system_templates_design_tokens_starter_lg_value",
-      "community": 89,
+      "community": 223,
       "norm_label": "$value"
     },
     {
@@ -2260,7 +2260,7 @@
       "source_location": "L56",
       "_origin": "ast",
       "id": "claude_skills_design_system_templates_design_tokens_starter_lg_type",
-      "community": 89,
+      "community": 223,
       "norm_label": "$type"
     },
     {
@@ -2270,7 +2270,7 @@
       "source_location": "L57",
       "_origin": "ast",
       "id": "claude_skills_design_system_templates_design_tokens_starter_fontsize_xl",
-      "community": 89,
+      "community": 226,
       "norm_label": "xl"
     },
     {
@@ -2280,7 +2280,7 @@
       "source_location": "L57",
       "_origin": "ast",
       "id": "claude_skills_design_system_templates_design_tokens_starter_xl_value",
-      "community": 89,
+      "community": 226,
       "norm_label": "$value"
     },
     {
@@ -2290,7 +2290,7 @@
       "source_location": "L57",
       "_origin": "ast",
       "id": "claude_skills_design_system_templates_design_tokens_starter_xl_type",
-      "community": 89,
+      "community": 226,
       "norm_label": "$type"
     },
     {
@@ -2390,7 +2390,7 @@
       "source_location": "L62",
       "_origin": "ast",
       "id": "claude_skills_design_system_templates_design_tokens_starter_primitive_radius",
-      "community": 89,
+      "community": 210,
       "norm_label": "radius"
     },
     {
@@ -2400,7 +2400,7 @@
       "source_location": "L63",
       "_origin": "ast",
       "id": "claude_skills_design_system_templates_design_tokens_starter_radius_none",
-      "community": 89,
+      "community": 228,
       "norm_label": "none"
     },
     {
@@ -2410,7 +2410,7 @@
       "source_location": "L63",
       "_origin": "ast",
       "id": "claude_skills_design_system_templates_design_tokens_starter_none_value",
-      "community": 89,
+      "community": 228,
       "norm_label": "$value"
     },
     {
@@ -2420,7 +2420,7 @@
       "source_location": "L63",
       "_origin": "ast",
       "id": "claude_skills_design_system_templates_design_tokens_starter_none_type",
-      "community": 89,
+      "community": 228,
       "norm_label": "$type"
     },
     {
@@ -2430,7 +2430,7 @@
       "source_location": "L64",
       "_origin": "ast",
       "id": "claude_skills_design_system_templates_design_tokens_starter_radius_sm",
-      "community": 89,
+      "community": 224,
       "norm_label": "sm"
     },
     {
@@ -2440,7 +2440,7 @@
       "source_location": "L65",
       "_origin": "ast",
       "id": "claude_skills_design_system_templates_design_tokens_starter_radius_default",
-      "community": 89,
+      "community": 225,
       "norm_label": "default"
     },
     {
@@ -2450,7 +2450,7 @@
       "source_location": "L65",
       "_origin": "ast",
       "id": "claude_skills_design_system_templates_design_tokens_starter_default_value",
-      "community": 89,
+      "community": 225,
       "norm_label": "$value"
     },
     {
@@ -2460,7 +2460,7 @@
       "source_location": "L65",
       "_origin": "ast",
       "id": "claude_skills_design_system_templates_design_tokens_starter_default_type",
-      "community": 89,
+      "community": 225,
       "norm_label": "$type"
     },
     {
@@ -2470,7 +2470,7 @@
       "source_location": "L66",
       "_origin": "ast",
       "id": "claude_skills_design_system_templates_design_tokens_starter_radius_md",
-      "community": 89,
+      "community": 210,
       "norm_label": "md"
     },
     {
@@ -2480,7 +2480,7 @@
       "source_location": "L66",
       "_origin": "ast",
       "id": "claude_skills_design_system_templates_design_tokens_starter_md_value",
-      "community": 89,
+      "community": 210,
       "norm_label": "$value"
     },
     {
@@ -2490,7 +2490,7 @@
       "source_location": "L66",
       "_origin": "ast",
       "id": "claude_skills_design_system_templates_design_tokens_starter_md_type",
-      "community": 89,
+      "community": 210,
       "norm_label": "$type"
     },
     {
@@ -2500,7 +2500,7 @@
       "source_location": "L67",
       "_origin": "ast",
       "id": "claude_skills_design_system_templates_design_tokens_starter_radius_lg",
-      "community": 89,
+      "community": 223,
       "norm_label": "lg"
     },
     {
@@ -2510,7 +2510,7 @@
       "source_location": "L68",
       "_origin": "ast",
       "id": "claude_skills_design_system_templates_design_tokens_starter_radius_xl",
-      "community": 89,
+      "community": 226,
       "norm_label": "xl"
     },
     {
@@ -2520,7 +2520,7 @@
       "source_location": "L69",
       "_origin": "ast",
       "id": "claude_skills_design_system_templates_design_tokens_starter_radius_full",
-      "community": 89,
+      "community": 210,
       "norm_label": "full"
     },
     {
@@ -2530,7 +2530,7 @@
       "source_location": "L69",
       "_origin": "ast",
       "id": "claude_skills_design_system_templates_design_tokens_starter_full_value",
-      "community": 89,
+      "community": 210,
       "norm_label": "$value"
     },
     {
@@ -2540,7 +2540,7 @@
       "source_location": "L69",
       "_origin": "ast",
       "id": "claude_skills_design_system_templates_design_tokens_starter_full_type",
-      "community": 89,
+      "community": 210,
       "norm_label": "$type"
     },
     {
@@ -2550,7 +2550,7 @@
       "source_location": "L71",
       "_origin": "ast",
       "id": "claude_skills_design_system_templates_design_tokens_starter_primitive_shadow",
-      "community": 89,
+      "community": 210,
       "norm_label": "shadow"
     },
     {
@@ -2560,7 +2560,7 @@
       "source_location": "L72",
       "_origin": "ast",
       "id": "claude_skills_design_system_templates_design_tokens_starter_shadow_none",
-      "community": 89,
+      "community": 228,
       "norm_label": "none"
     },
     {
@@ -2570,7 +2570,7 @@
       "source_location": "L73",
       "_origin": "ast",
       "id": "claude_skills_design_system_templates_design_tokens_starter_shadow_sm",
-      "community": 89,
+      "community": 224,
       "norm_label": "sm"
     },
     {
@@ -2580,7 +2580,7 @@
       "source_location": "L74",
       "_origin": "ast",
       "id": "claude_skills_design_system_templates_design_tokens_starter_shadow_default",
-      "community": 89,
+      "community": 225,
       "norm_label": "default"
     },
     {
@@ -2590,7 +2590,7 @@
       "source_location": "L75",
       "_origin": "ast",
       "id": "claude_skills_design_system_templates_design_tokens_starter_shadow_md",
-      "community": 89,
+      "community": 210,
       "norm_label": "md"
     },
     {
@@ -2600,7 +2600,7 @@
       "source_location": "L76",
       "_origin": "ast",
       "id": "claude_skills_design_system_templates_design_tokens_starter_shadow_lg",
-      "community": 89,
+      "community": 223,
       "norm_label": "lg"
     },
     {
@@ -3330,7 +3330,7 @@
       "source_location": "L111",
       "_origin": "ast",
       "id": "claude_skills_design_system_templates_design_tokens_starter_button_padding_y",
-      "community": 226,
+      "community": 178,
       "norm_label": "padding-y"
     },
     {
@@ -3340,7 +3340,7 @@
       "source_location": "L111",
       "_origin": "ast",
       "id": "claude_skills_design_system_templates_design_tokens_starter_padding_y_value",
-      "community": 226,
+      "community": 178,
       "norm_label": "$value"
     },
     {
@@ -3350,7 +3350,7 @@
       "source_location": "L111",
       "_origin": "ast",
       "id": "claude_skills_design_system_templates_design_tokens_starter_padding_y_type",
-      "community": 226,
+      "community": 178,
       "norm_label": "$type"
     },
     {
@@ -3490,7 +3490,7 @@
       "source_location": "L120",
       "_origin": "ast",
       "id": "claude_skills_design_system_templates_design_tokens_starter_input_padding_y",
-      "community": 226,
+      "community": 178,
       "norm_label": "padding-y"
     },
     {
@@ -3630,7 +3630,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "claude_skills_design_scripts_cip_core",
-      "community": 197,
+      "community": 40,
       "norm_label": "core.py"
     },
     {
@@ -3640,7 +3640,7 @@
       "source_location": "L42",
       "_origin": "ast",
       "id": "claude_skills_design_scripts_cip_core_bm25",
-      "community": 210,
+      "community": 40,
       "norm_label": "bm25"
     },
     {
@@ -3650,7 +3650,7 @@
       "source_location": "L45",
       "_origin": "ast",
       "id": "claude_skills_design_scripts_cip_core_bm25_init",
-      "community": 210,
+      "community": 40,
       "norm_label": ".__init__()"
     },
     {
@@ -3660,7 +3660,7 @@
       "source_location": "L55",
       "_origin": "ast",
       "id": "claude_skills_design_scripts_cip_core_bm25_tokenize",
-      "community": 210,
+      "community": 40,
       "norm_label": ".tokenize()"
     },
     {
@@ -3670,7 +3670,7 @@
       "source_location": "L60",
       "_origin": "ast",
       "id": "claude_skills_design_scripts_cip_core_bm25_fit",
-      "community": 210,
+      "community": 40,
       "norm_label": ".fit()"
     },
     {
@@ -3680,7 +3680,7 @@
       "source_location": "L79",
       "_origin": "ast",
       "id": "claude_skills_design_scripts_cip_core_bm25_score",
-      "community": 210,
+      "community": 40,
       "norm_label": ".score()"
     },
     {
@@ -3690,7 +3690,7 @@
       "source_location": "L105",
       "_origin": "ast",
       "id": "claude_skills_design_scripts_cip_core_load_csv",
-      "community": 197,
+      "community": 40,
       "norm_label": "_load_csv()"
     },
     {
@@ -3700,7 +3700,7 @@
       "source_location": "L111",
       "_origin": "ast",
       "id": "claude_skills_design_scripts_cip_core_search_csv",
-      "community": 197,
+      "community": 40,
       "norm_label": "_search_csv()"
     },
     {
@@ -3710,7 +3710,7 @@
       "source_location": "L136",
       "_origin": "ast",
       "id": "claude_skills_design_scripts_cip_core_detect_domain",
-      "community": 197,
+      "community": 40,
       "norm_label": "detect_domain()"
     },
     {
@@ -3720,7 +3720,7 @@
       "source_location": "L152",
       "_origin": "ast",
       "id": "claude_skills_design_scripts_cip_core_search",
-      "community": 197,
+      "community": 40,
       "norm_label": "search()"
     },
     {
@@ -3730,7 +3730,7 @@
       "source_location": "L174",
       "_origin": "ast",
       "id": "claude_skills_design_scripts_cip_core_search_all",
-      "community": 197,
+      "community": 40,
       "norm_label": "search_all()"
     },
     {
@@ -3740,7 +3740,7 @@
       "source_location": "L184",
       "_origin": "ast",
       "id": "claude_skills_design_scripts_cip_core_get_cip_brief",
-      "community": 197,
+      "community": 40,
       "norm_label": "get_cip_brief()"
     },
     {
@@ -3750,7 +3750,7 @@
       "source_location": "L43",
       "_origin": "ast",
       "id": "claude_skills_design_scripts_cip_core_rationale_43",
-      "community": 210,
+      "community": 40,
       "norm_label": "bm25 ranking algorithm for text search"
     },
     {
@@ -3760,7 +3760,7 @@
       "source_location": "L56",
       "_origin": "ast",
       "id": "claude_skills_design_scripts_cip_core_rationale_56",
-      "community": 210,
+      "community": 40,
       "norm_label": "lowercase, split, remove punctuation, filter short words"
     },
     {
@@ -3770,7 +3770,7 @@
       "source_location": "L61",
       "_origin": "ast",
       "id": "claude_skills_design_scripts_cip_core_rationale_61",
-      "community": 210,
+      "community": 40,
       "norm_label": "build bm25 index from documents"
     },
     {
@@ -3780,7 +3780,7 @@
       "source_location": "L80",
       "_origin": "ast",
       "id": "claude_skills_design_scripts_cip_core_rationale_80",
-      "community": 210,
+      "community": 40,
       "norm_label": "score all documents against query"
     },
     {
@@ -3790,7 +3790,7 @@
       "source_location": "L106",
       "_origin": "ast",
       "id": "claude_skills_design_scripts_cip_core_rationale_106",
-      "community": 197,
+      "community": 40,
       "norm_label": "load csv and return list of dicts"
     },
     {
@@ -3800,7 +3800,7 @@
       "source_location": "L112",
       "_origin": "ast",
       "id": "claude_skills_design_scripts_cip_core_rationale_112",
-      "community": 197,
+      "community": 40,
       "norm_label": "core search function using bm25"
     },
     {
@@ -3810,7 +3810,7 @@
       "source_location": "L137",
       "_origin": "ast",
       "id": "claude_skills_design_scripts_cip_core_rationale_137",
-      "community": 197,
+      "community": 40,
       "norm_label": "auto-detect the most relevant domain from query"
     },
     {
@@ -3820,7 +3820,7 @@
       "source_location": "L153",
       "_origin": "ast",
       "id": "claude_skills_design_scripts_cip_core_rationale_153",
-      "community": 197,
+      "community": 40,
       "norm_label": "main search function with auto-domain detection"
     },
     {
@@ -3830,7 +3830,7 @@
       "source_location": "L175",
       "_origin": "ast",
       "id": "claude_skills_design_scripts_cip_core_rationale_175",
-      "community": 197,
+      "community": 40,
       "norm_label": "search across all domains and combine results"
     },
     {
@@ -3840,7 +3840,7 @@
       "source_location": "L185",
       "_origin": "ast",
       "id": "claude_skills_design_scripts_cip_core_rationale_185",
-      "community": 197,
+      "community": 40,
       "norm_label": "generate a comprehensive cip brief for a brand"
     },
     {
@@ -3990,7 +3990,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "claude_skills_design_scripts_cip_render_html",
-      "community": 215,
+      "community": 40,
       "norm_label": "render-html.py"
     },
     {
@@ -4000,7 +4000,7 @@
       "source_location": "L99",
       "_origin": "ast",
       "id": "claude_skills_design_scripts_cip_render_html_get_image_base64",
-      "community": 215,
+      "community": 40,
       "norm_label": "get_image_base64()"
     },
     {
@@ -4010,7 +4010,7 @@
       "source_location": "L109",
       "_origin": "ast",
       "id": "claude_skills_design_scripts_cip_render_html_get_deliverable_info",
-      "community": 215,
+      "community": 40,
       "norm_label": "get_deliverable_info()"
     },
     {
@@ -4020,7 +4020,7 @@
       "source_location": "L124",
       "_origin": "ast",
       "id": "claude_skills_design_scripts_cip_render_html_generate_html",
-      "community": 215,
+      "community": 40,
       "norm_label": "generate_html()"
     },
     {
@@ -4030,7 +4030,7 @@
       "source_location": "L392",
       "_origin": "ast",
       "id": "claude_skills_design_scripts_cip_render_html_main",
-      "community": 215,
+      "community": 40,
       "norm_label": "main()"
     },
     {
@@ -4040,7 +4040,7 @@
       "source_location": "L100",
       "_origin": "ast",
       "id": "claude_skills_design_scripts_cip_render_html_rationale_100",
-      "community": 215,
+      "community": 40,
       "norm_label": "convert image to base64 for embedding in html"
     },
     {
@@ -4050,7 +4050,7 @@
       "source_location": "L110",
       "_origin": "ast",
       "id": "claude_skills_design_scripts_cip_render_html_rationale_110",
-      "community": 215,
+      "community": 40,
       "norm_label": "extract deliverable type from filename and get info"
     },
     {
@@ -4060,7 +4060,7 @@
       "source_location": "L125",
       "_origin": "ast",
       "id": "claude_skills_design_scripts_cip_render_html_rationale_125",
-      "community": 215,
+      "community": 40,
       "norm_label": "generate html presentation from cip images"
     },
     {
@@ -4070,7 +4070,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "claude_skills_design_scripts_cip_search",
-      "community": 220,
+      "community": 40,
       "norm_label": "search.py"
     },
     {
@@ -4080,7 +4080,7 @@
       "source_location": "L17",
       "_origin": "ast",
       "id": "claude_skills_design_scripts_cip_search_format_results",
-      "community": 220,
+      "community": 40,
       "norm_label": "format_results()"
     },
     {
@@ -4090,7 +4090,7 @@
       "source_location": "L32",
       "_origin": "ast",
       "id": "claude_skills_design_scripts_cip_search_format_brief",
-      "community": 220,
+      "community": 40,
       "norm_label": "format_brief()"
     },
     {
@@ -4100,7 +4100,7 @@
       "source_location": "L65",
       "_origin": "ast",
       "id": "claude_skills_design_scripts_cip_search_main",
-      "community": 220,
+      "community": 40,
       "norm_label": "main()"
     },
     {
@@ -4110,7 +4110,7 @@
       "source_location": "L18",
       "_origin": "ast",
       "id": "claude_skills_design_scripts_cip_search_rationale_18",
-      "community": 220,
+      "community": 40,
       "norm_label": "format search results for display"
     },
     {
@@ -4120,7 +4120,7 @@
       "source_location": "L33",
       "_origin": "ast",
       "id": "claude_skills_design_scripts_cip_search_rationale_33",
-      "community": 220,
+      "community": 40,
       "norm_label": "format cip brief for display"
     },
     {
@@ -4300,7 +4300,7 @@
       "source_location": "L37",
       "_origin": "ast",
       "id": "claude_skills_design_scripts_logo_core_bm25",
-      "community": 211,
+      "community": 66,
       "norm_label": "bm25"
     },
     {
@@ -4310,7 +4310,7 @@
       "source_location": "L40",
       "_origin": "ast",
       "id": "claude_skills_design_scripts_logo_core_bm25_init",
-      "community": 211,
+      "community": 66,
       "norm_label": ".__init__()"
     },
     {
@@ -4320,7 +4320,7 @@
       "source_location": "L50",
       "_origin": "ast",
       "id": "claude_skills_design_scripts_logo_core_bm25_tokenize",
-      "community": 211,
+      "community": 66,
       "norm_label": ".tokenize()"
     },
     {
@@ -4330,7 +4330,7 @@
       "source_location": "L55",
       "_origin": "ast",
       "id": "claude_skills_design_scripts_logo_core_bm25_fit",
-      "community": 211,
+      "community": 66,
       "norm_label": ".fit()"
     },
     {
@@ -4340,7 +4340,7 @@
       "source_location": "L74",
       "_origin": "ast",
       "id": "claude_skills_design_scripts_logo_core_bm25_score",
-      "community": 211,
+      "community": 66,
       "norm_label": ".score()"
     },
     {
@@ -4400,7 +4400,7 @@
       "source_location": "L38",
       "_origin": "ast",
       "id": "claude_skills_design_scripts_logo_core_rationale_38",
-      "community": 211,
+      "community": 66,
       "norm_label": "bm25 ranking algorithm for text search"
     },
     {
@@ -4410,7 +4410,7 @@
       "source_location": "L51",
       "_origin": "ast",
       "id": "claude_skills_design_scripts_logo_core_rationale_51",
-      "community": 211,
+      "community": 66,
       "norm_label": "lowercase, split, remove punctuation, filter short words"
     },
     {
@@ -4420,7 +4420,7 @@
       "source_location": "L56",
       "_origin": "ast",
       "id": "claude_skills_design_scripts_logo_core_rationale_56",
-      "community": 211,
+      "community": 66,
       "norm_label": "build bm25 index from documents"
     },
     {
@@ -4430,7 +4430,7 @@
       "source_location": "L75",
       "_origin": "ast",
       "id": "claude_skills_design_scripts_logo_core_rationale_75",
-      "community": 211,
+      "community": 66,
       "norm_label": "score all documents against query"
     },
     {
@@ -6540,7 +6540,7 @@
       "source_location": "L296",
       "_origin": "ast",
       "id": "claude_skills_ui_ux_pro_max_scripts_core_bm25_tokenize",
-      "community": 61,
+      "community": 97,
       "norm_label": ".tokenize()"
     },
     {
@@ -6550,7 +6550,7 @@
       "source_location": "L302",
       "_origin": "ast",
       "id": "claude_skills_ui_ux_pro_max_scripts_core_bm25_fit",
-      "community": 61,
+      "community": 97,
       "norm_label": ".fit()"
     },
     {
@@ -6670,7 +6670,7 @@
       "source_location": "L504",
       "_origin": "ast",
       "id": "claude_skills_ui_ux_pro_max_scripts_core_suggest_identities",
-      "community": 136,
+      "community": 97,
       "norm_label": "_suggest_identities()"
     },
     {
@@ -6890,7 +6890,7 @@
       "source_location": "L297",
       "_origin": "ast",
       "id": "claude_skills_ui_ux_pro_max_scripts_core_rationale_297",
-      "community": 61,
+      "community": 97,
       "norm_label": "lowercase, normalize synonyms, split, remove punctuation, filter stopwords"
     },
     {
@@ -6900,7 +6900,7 @@
       "source_location": "L303",
       "_origin": "ast",
       "id": "claude_skills_ui_ux_pro_max_scripts_core_rationale_303",
-      "community": 61,
+      "community": 97,
       "norm_label": "build bm25 index from documents"
     },
     {
@@ -6990,7 +6990,7 @@
       "source_location": "L505",
       "_origin": "ast",
       "id": "claude_skills_ui_ux_pro_max_scripts_core_rationale_505",
-      "community": 136,
+      "community": 97,
       "norm_label": "suggest complete public identities so a retry can bypass score thresholds."
     },
     {
@@ -7150,7 +7150,7 @@
       "source_location": "L90",
       "_origin": "ast",
       "id": "claude_skills_ui_ux_pro_max_scripts_design_system_resolve_dial",
-      "community": 78,
+      "community": 132,
       "norm_label": "_resolve_dial()"
     },
     {
@@ -7320,7 +7320,7 @@
       "source_location": "L319",
       "_origin": "ast",
       "id": "claude_skills_ui_ux_pro_max_scripts_design_system_designsystemgenerator_multi_domain_search",
-      "community": 78,
+      "community": 132,
       "norm_label": "._multi_domain_search()"
     },
     {
@@ -7360,7 +7360,7 @@
       "source_location": "L445",
       "_origin": "ast",
       "id": "claude_skills_ui_ux_pro_max_scripts_design_system_designsystemgenerator_extract_results",
-      "community": 78,
+      "community": 132,
       "norm_label": "._extract_results()"
     },
     {
@@ -7370,7 +7370,7 @@
       "source_location": "L449",
       "_origin": "ast",
       "id": "claude_skills_ui_ux_pro_max_scripts_design_system_designsystemgenerator_generate",
-      "community": 78,
+      "community": 132,
       "norm_label": ".generate()"
     },
     {
@@ -7420,7 +7420,7 @@
       "source_location": "L791",
       "_origin": "ast",
       "id": "claude_skills_ui_ux_pro_max_scripts_design_system_format_markdown",
-      "community": 49,
+      "community": 194,
       "norm_label": "format_markdown()"
     },
     {
@@ -7430,7 +7430,7 @@
       "source_location": "L919",
       "_origin": "ast",
       "id": "claude_skills_ui_ux_pro_max_scripts_design_system_generate_design_system",
-      "community": 49,
+      "community": 194,
       "norm_label": "generate_design_system()"
     },
     {
@@ -7520,7 +7520,7 @@
       "source_location": "L91",
       "_origin": "ast",
       "id": "claude_skills_ui_ux_pro_max_scripts_design_system_rationale_91",
-      "community": 78,
+      "community": 132,
       "norm_label": "bucket a 1-10 dial value into its tier config. returns none if value is none."
     },
     {
@@ -7640,7 +7640,7 @@
       "source_location": "L321",
       "_origin": "ast",
       "id": "claude_skills_ui_ux_pro_max_scripts_design_system_rationale_321",
-      "community": 78,
+      "community": 132,
       "norm_label": "execute searches across multiple domains."
     },
     {
@@ -7680,7 +7680,7 @@
       "source_location": "L446",
       "_origin": "ast",
       "id": "claude_skills_ui_ux_pro_max_scripts_design_system_rationale_446",
-      "community": 78,
+      "community": 132,
       "norm_label": "extract results list from search result dict."
     },
     {
@@ -7690,7 +7690,7 @@
       "source_location": "L451",
       "_origin": "ast",
       "id": "claude_skills_ui_ux_pro_max_scripts_design_system_rationale_451",
-      "community": 78,
+      "community": 132,
       "norm_label": "generate complete design system recommendation.          variance/motion/density"
     },
     {
@@ -7740,7 +7740,7 @@
       "source_location": "L792",
       "_origin": "ast",
       "id": "claude_skills_ui_ux_pro_max_scripts_design_system_rationale_792",
-      "community": 49,
+      "community": 194,
       "norm_label": "format design system as markdown."
     },
     {
@@ -7750,7 +7750,7 @@
       "source_location": "L923",
       "_origin": "ast",
       "id": "claude_skills_ui_ux_pro_max_scripts_design_system_rationale_923",
-      "community": 49,
+      "community": 194,
       "norm_label": "main entry point for design system generation.      args:         query: search"
     },
     {
@@ -7900,7 +7900,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "claude_skills_ui_ux_pro_max_scripts_search",
-      "community": 66,
+      "community": 49,
       "norm_label": "search.py"
     },
     {
@@ -7910,7 +7910,7 @@
       "source_location": "L44",
       "_origin": "ast",
       "id": "claude_skills_ui_ux_pro_max_scripts_search_format_output",
-      "community": 66,
+      "community": 49,
       "norm_label": "format_output()"
     },
     {
@@ -7920,7 +7920,7 @@
       "source_location": "L45",
       "_origin": "ast",
       "id": "claude_skills_ui_ux_pro_max_scripts_search_rationale_45",
-      "community": 66,
+      "community": 49,
       "norm_label": "format results for claude consumption (token-optimized)"
     },
     {
@@ -8090,7 +8090,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "claude_skills_ui_ux_pro_max_scripts_tests_test_core",
-      "community": 97,
+      "community": 194,
       "norm_label": "test_core.py"
     },
     {
@@ -8160,7 +8160,7 @@
       "source_location": "L65",
       "_origin": "ast",
       "id": "claude_skills_ui_ux_pro_max_scripts_tests_test_core_testbm25corebehavior",
-      "community": 97,
+      "community": 194,
       "norm_label": "testbm25corebehavior"
     },
     {
@@ -8170,7 +8170,7 @@
       "source_location": "L66",
       "_origin": "ast",
       "id": "claude_skills_ui_ux_pro_max_scripts_tests_test_core_testbm25corebehavior_test_empty_documents_produce_no_scores_or_vocab",
-      "community": 97,
+      "community": 194,
       "norm_label": ".test_empty_documents_produce_no_scores_or_vocab()"
     },
     {
@@ -8180,7 +8180,7 @@
       "source_location": "L72",
       "_origin": "ast",
       "id": "claude_skills_ui_ux_pro_max_scripts_tests_test_core_testbm25corebehavior_test_bm25_cache_rebuilds_after_file_mtime_changes",
-      "community": 97,
+      "community": 194,
       "norm_label": ".test_bm25_cache_rebuilds_after_file_mtime_changes()"
     },
     {
@@ -8190,7 +8190,7 @@
       "source_location": "L87",
       "_origin": "ast",
       "id": "claude_skills_ui_ux_pro_max_scripts_tests_test_core_testbm25corebehavior_test_search_uses_one_verified_rows_and_index_snapshot",
-      "community": 97,
+      "community": 194,
       "norm_label": ".test_search_uses_one_verified_rows_and_index_snapshot()"
     },
     {
@@ -8460,7 +8460,7 @@
       "source_location": "L252",
       "_origin": "ast",
       "id": "claude_skills_ui_ux_pro_max_scripts_tests_test_core_testpersistence",
-      "community": 49,
+      "community": 194,
       "norm_label": "testpersistence"
     },
     {
@@ -8470,7 +8470,7 @@
       "source_location": "L253",
       "_origin": "ast",
       "id": "claude_skills_ui_ux_pro_max_scripts_tests_test_core_testpersistence_test_concurrent_non_force_persist_has_one_writer",
-      "community": 49,
+      "community": 194,
       "norm_label": ".test_concurrent_non_force_persist_has_one_writer()"
     },
     {
@@ -8480,7 +8480,7 @@
       "source_location": "L271",
       "_origin": "ast",
       "id": "claude_skills_ui_ux_pro_max_scripts_tests_test_core_testpersistence_test_persist_then_skip_then_force",
-      "community": 49,
+      "community": 194,
       "norm_label": ".test_persist_then_skip_then_force()"
     },
     {
@@ -8490,7 +8490,7 @@
       "source_location": "L306",
       "_origin": "ast",
       "id": "claude_skills_ui_ux_pro_max_scripts_tests_test_core_testpersistence_test_persist_writes_only_under_output_dir",
-      "community": 49,
+      "community": 194,
       "norm_label": ".test_persist_writes_only_under_output_dir()"
     },
     {
@@ -8530,7 +8530,7 @@
       "source_location": "L326",
       "_origin": "ast",
       "id": "claude_skills_ui_ux_pro_max_scripts_tests_test_core_testdiagnosticscontracts",
-      "community": 97,
+      "community": 194,
       "norm_label": "testdiagnosticscontracts"
     },
     {
@@ -8540,7 +8540,7 @@
       "source_location": "L327",
       "_origin": "ast",
       "id": "claude_skills_ui_ux_pro_max_scripts_tests_test_core_testdiagnosticscontracts_test_diagnostics_opt_in_is_additive_for_domain_search",
-      "community": 97,
+      "community": 194,
       "norm_label": ".test_diagnostics_opt_in_is_additive_for_domain_search()"
     },
     {
@@ -8550,7 +8550,7 @@
       "source_location": "L335",
       "_origin": "ast",
       "id": "claude_skills_ui_ux_pro_max_scripts_tests_test_core_testdiagnosticscontracts_test_diagnostics_opt_in_is_additive_for_stack_search",
-      "community": 97,
+      "community": 194,
       "norm_label": ".test_diagnostics_opt_in_is_additive_for_stack_search()"
     },
     {
@@ -8830,7 +8830,7 @@
       "source_location": "L101",
       "_origin": "ast",
       "id": "claude_skills_ui_ux_pro_max_scripts_tests_test_data_contracts_testreasoningcontract_test_decision_rules_use_closed_array_grammar",
-      "community": 72,
+      "community": 123,
       "norm_label": ".test_decision_rules_use_closed_array_grammar()"
     },
     {
@@ -8900,7 +8900,7 @@
       "source_location": "L187",
       "_origin": "ast",
       "id": "claude_skills_ui_ux_pro_max_scripts_tests_test_data_contracts_testreasoningcontract_test_constraints_reach_domain_queries",
-      "community": 78,
+      "community": 72,
       "norm_label": ".test_constraints_reach_domain_queries()"
     },
     {
@@ -8910,7 +8910,7 @@
       "source_location": "L209",
       "_origin": "ast",
       "id": "claude_skills_ui_ux_pro_max_scripts_tests_test_data_contracts_testreasoningcontract_test_canonical_style_priority_is_not_limited_to_bm25_top_three",
-      "community": 78,
+      "community": 72,
       "norm_label": ".test_canonical_style_priority_is_not_limited_to_bm25_top_three()"
     },
     {
@@ -8920,7 +8920,7 @@
       "source_location": "L218",
       "_origin": "ast",
       "id": "claude_skills_ui_ux_pro_max_scripts_tests_test_data_contracts_testreasoningcontract_test_duplicate_semantic_reasoning_labels_fail_validation",
-      "community": 39,
+      "community": 72,
       "norm_label": ".test_duplicate_semantic_reasoning_labels_fail_validation()"
     },
     {
@@ -9290,7 +9290,7 @@
       "source_location": "L138",
       "_origin": "ast",
       "id": "claude_skills_ui_ux_pro_max_scripts_tests_test_design_system_mode_testendtoendcoherence",
-      "community": 59,
+      "community": 78,
       "norm_label": "testendtoendcoherence"
     },
     {
@@ -9300,7 +9300,7 @@
       "source_location": "L143",
       "_origin": "ast",
       "id": "claude_skills_ui_ux_pro_max_scripts_tests_test_design_system_mode_testendtoendcoherence_test_dark_query_gets_a_dark_background",
-      "community": 59,
+      "community": 78,
       "norm_label": ".test_dark_query_gets_a_dark_background()"
     },
     {
@@ -9310,7 +9310,7 @@
       "source_location": "L151",
       "_origin": "ast",
       "id": "claude_skills_ui_ux_pro_max_scripts_tests_test_design_system_mode_testendtoendcoherence_test_generator_exports_every_semantic_foreground_pair",
-      "community": 59,
+      "community": 78,
       "norm_label": ".test_generator_exports_every_semantic_foreground_pair()"
     },
     {
@@ -9320,7 +9320,7 @@
       "source_location": "L171",
       "_origin": "ast",
       "id": "claude_skills_ui_ux_pro_max_scripts_tests_test_design_system_mode_testendtoendcoherence_test_dark_query_foreground_is_lighter_than_background",
-      "community": 59,
+      "community": 78,
       "norm_label": ".test_dark_query_foreground_is_lighter_than_background()"
     },
     {
@@ -9330,7 +9330,7 @@
       "source_location": "L179",
       "_origin": "ast",
       "id": "claude_skills_ui_ux_pro_max_scripts_tests_test_design_system_mode_testendtoendcoherence_test_dark_query_does_not_advise_against_dark_mode",
-      "community": 59,
+      "community": 78,
       "norm_label": ".test_dark_query_does_not_advise_against_dark_mode()"
     },
     {
@@ -9340,7 +9340,7 @@
       "source_location": "L183",
       "_origin": "ast",
       "id": "claude_skills_ui_ux_pro_max_scripts_tests_test_design_system_mode_testendtoendcoherence_test_light_query_keeps_a_light_background",
-      "community": 59,
+      "community": 78,
       "norm_label": ".test_light_query_keeps_a_light_background()"
     },
     {
@@ -9350,7 +9350,7 @@
       "source_location": "L139",
       "_origin": "ast",
       "id": "claude_skills_ui_ux_pro_max_scripts_tests_test_design_system_mode_rationale_139",
-      "community": 59,
+      "community": 78,
       "norm_label": "the exact reproduction from issue #428."
     },
     {
@@ -9790,7 +9790,7 @@
       "source_location": "L41",
       "_origin": "ast",
       "id": "claude_skills_ui_ux_pro_max_scripts_tests_test_text_layout_resilience_testtextlayoutretrieval",
-      "community": 73,
+      "community": 219,
       "norm_label": "testtextlayoutretrieval"
     },
     {
@@ -9800,7 +9800,7 @@
       "source_location": "L42",
       "_origin": "ast",
       "id": "claude_skills_ui_ux_pro_max_scripts_tests_test_text_layout_resilience_testtextlayoutretrieval_test_locked_queries_return_the_canonical_identity_first",
-      "community": 73,
+      "community": 219,
       "norm_label": ".test_locked_queries_return_the_canonical_identity_first()"
     },
     {
@@ -9810,7 +9810,7 @@
       "source_location": "L58",
       "_origin": "ast",
       "id": "claude_skills_ui_ux_pro_max_scripts_tests_test_text_layout_resilience_testtextlayoutretrieval_test_tailwind_query_returns_compact_label_layout_first",
-      "community": 73,
+      "community": 219,
       "norm_label": ".test_tailwind_query_returns_compact_label_layout_first()"
     },
     {
@@ -10634,6 +10634,16 @@
       "norm_label": "prisma skills (sob demanda)"
     },
     {
+      "label": "Better Auth (sob demanda)",
+      "file_type": "document",
+      "source_file": ".claude/agents/backend-dev.md",
+      "source_location": "L60",
+      "_origin": "ast",
+      "id": "claude_agents_backend_dev_better_auth_sob_demanda",
+      "community": 2,
+      "norm_label": "better auth (sob demanda)"
+    },
+    {
       "label": "calc-auditor.md",
       "file_type": "document",
       "source_file": ".claude/agents/calc-auditor.md",
@@ -10934,10 +10944,20 @@
       "norm_label": "economia de token (obrigatorio)"
     },
     {
-      "label": "Caveman Mode (cultura obrigat\u00f3ria)",
+      "label": "Better Auth (sob demanda)",
       "file_type": "document",
       "source_file": ".claude/agents/frontend-dev.md",
       "source_location": "L60",
+      "_origin": "ast",
+      "id": "claude_agents_frontend_dev_better_auth_sob_demanda",
+      "community": 4,
+      "norm_label": "better auth (sob demanda)"
+    },
+    {
+      "label": "Caveman Mode (cultura obrigat\u00f3ria)",
+      "file_type": "document",
+      "source_file": ".claude/agents/frontend-dev.md",
+      "source_location": "L64",
       "_origin": "ast",
       "id": "claude_agents_frontend_dev_caveman_mode_cultura_obrigat\u00f3ria",
       "community": 4,
@@ -11002,6 +11022,16 @@
       "id": "claude_agents_migration_guardian_prisma_skills_sob_demanda",
       "community": 140,
       "norm_label": "prisma skills (sob demanda)"
+    },
+    {
+      "label": "Better Auth (sob demanda)",
+      "file_type": "document",
+      "source_file": ".claude/agents/migration-guardian.md",
+      "source_location": "L34",
+      "_origin": "ast",
+      "id": "claude_agents_migration_guardian_better_auth_sob_demanda",
+      "community": 140,
+      "norm_label": "better auth (sob demanda)"
     },
     {
       "label": "qa-e2e.md",
@@ -11074,10 +11104,20 @@
       "norm_label": "economia de token (obrigatorio)"
     },
     {
-      "label": "Caveman Mode (cultura obrigat\u00f3ria)",
+      "label": "Better Auth (sob demanda)",
       "file_type": "document",
       "source_file": ".claude/agents/security-auditor.md",
       "source_location": "L20",
+      "_origin": "ast",
+      "id": "claude_agents_security_auditor_better_auth_sob_demanda",
+      "community": 9,
+      "norm_label": "better auth (sob demanda)"
+    },
+    {
+      "label": "Caveman Mode (cultura obrigat\u00f3ria)",
+      "file_type": "document",
+      "source_file": ".claude/agents/security-auditor.md",
+      "source_location": "L24",
       "_origin": "ast",
       "id": "claude_agents_security_auditor_caveman_mode_cultura_obrigat\u00f3ria",
       "community": 9,
@@ -11232,6 +11272,16 @@
       "id": "claude_agents_test_runner_prisma_skills_sob_demanda",
       "community": 11,
       "norm_label": "prisma skills (sob demanda)"
+    },
+    {
+      "label": "Better Auth (sob demanda)",
+      "file_type": "document",
+      "source_file": ".claude/agents/test-runner.md",
+      "source_location": "L28",
+      "_origin": "ast",
+      "id": "claude_agents_test_runner_better_auth_sob_demanda",
+      "community": 11,
+      "norm_label": "better auth (sob demanda)"
     },
     {
       "label": "SKILL.md",
@@ -27634,13 +27684,93 @@
       "norm_label": "claude.md"
     },
     {
+      "label": "BETTER_AUTH.md",
+      "file_type": "document",
+      "source_file": "BETTER_AUTH.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "better_auth",
+      "community": 215,
+      "norm_label": "better_auth.md"
+    },
+    {
+      "label": "Better Auth \u2014 uso sob demanda",
+      "file_type": "document",
+      "source_file": "BETTER_AUTH.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "better_auth_better_auth_uso_sob_demanda",
+      "community": 220,
+      "norm_label": "better auth \u2014 uso sob demanda"
+    },
+    {
+      "label": "Origem e licen\u00e7a",
+      "file_type": "document",
+      "source_file": "BETTER_AUTH.md",
+      "source_location": "L5",
+      "_origin": "ast",
+      "id": "better_auth_origem_e_licen\u00e7a",
+      "community": 220,
+      "norm_label": "origem e licenca"
+    },
+    {
+      "label": "Antes de qualquer implementa\u00e7\u00e3o",
+      "file_type": "document",
+      "source_file": "BETTER_AUTH.md",
+      "source_location": "L12",
+      "_origin": "ast",
+      "id": "better_auth_antes_de_qualquer_implementa\u00e7\u00e3o",
+      "community": 220,
+      "norm_label": "antes de qualquer implementacao"
+    },
+    {
+      "label": "O que orientar (consultar a documenta\u00e7\u00e3o oficial/skills para o \"como\")",
+      "file_type": "document",
+      "source_file": "BETTER_AUTH.md",
+      "source_location": "L18",
+      "_origin": "ast",
+      "id": "better_auth_o_que_orientar_consultar_a_documenta\u00e7\u00e3o_oficial_skills_para_o_como",
+      "community": 220,
+      "norm_label": "o que orientar (consultar a documentacao oficial/skills para o \"como\")"
+    },
+    {
+      "label": "Responsabilidades",
+      "file_type": "document",
+      "source_file": "BETTER_AUTH.md",
+      "source_location": "L27",
+      "_origin": "ast",
+      "id": "better_auth_responsabilidades",
+      "community": 220,
+      "norm_label": "responsabilidades"
+    },
+    {
+      "label": "Testes de aceite esperados (antes de declarar \"pronto\")",
+      "file_type": "document",
+      "source_file": "BETTER_AUTH.md",
+      "source_location": "L35",
+      "_origin": "ast",
+      "id": "better_auth_testes_de_aceite_esperados_antes_de_declarar_pronto",
+      "community": 220,
+      "norm_label": "testes de aceite esperados (antes de declarar \"pronto\")"
+    },
+    {
+      "label": "Registro no di\u00e1rio",
+      "file_type": "document",
+      "source_file": "BETTER_AUTH.md",
+      "source_location": "L47",
+      "_origin": "ast",
+      "id": "better_auth_registro_no_di\u00e1rio",
+      "community": 220,
+      "norm_label": "registro no diario"
+    },
+    {
       "label": "CLAUDE.md",
       "file_type": "document",
       "source_file": "CLAUDE.md",
       "source_location": "L1",
       "_origin": "ast",
       "id": "claude",
-      "community": 0,
+      "community": 215,
       "norm_label": "claude.md"
     },
     {
@@ -27650,7 +27780,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "claude_claude_md",
-      "community": 0,
+      "community": 197,
       "norm_label": "claude.md"
     },
     {
@@ -27660,7 +27790,7 @@
       "source_location": "L7",
       "_origin": "ast",
       "id": "claude_sobre_este_template",
-      "community": 0,
+      "community": 197,
       "norm_label": "sobre este template"
     },
     {
@@ -27670,7 +27800,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "claude_configura\u00e7\u00e3o_desta_m\u00e1quina_n\u00e3o_\u00e9_identidade_do_template_fato_datado_n\u00e3o_instru\u00e7\u00e3o_permanente",
-      "community": 0,
+      "community": 197,
       "norm_label": "configuracao desta maquina (nao e identidade do template \u2014 fato datado, nao instrucao permanente)"
     },
     {
@@ -27680,7 +27810,7 @@
       "source_location": "L23",
       "_origin": "ast",
       "id": "claude_conven\u00e7\u00e3o_de_estrutura",
-      "community": 0,
+      "community": 197,
       "norm_label": "convencao de estrutura"
     },
     {
@@ -27690,7 +27820,7 @@
       "source_location": "L29",
       "_origin": "ast",
       "id": "claude_versionamento_resolvido_em_2026_10_13",
-      "community": 0,
+      "community": 197,
       "norm_label": "versionamento (resolvido em 2026-10-13)"
     },
     {
@@ -27700,7 +27830,7 @@
       "source_location": "L33",
       "_origin": "ast",
       "id": "claude_premissas_inegoci\u00e1veis",
-      "community": 0,
+      "community": 197,
       "norm_label": "premissas inegociaveis"
     },
     {
@@ -27710,7 +27840,7 @@
       "source_location": "L41",
       "_origin": "ast",
       "id": "claude_di\u00e1rio_de_bordo",
-      "community": 0,
+      "community": 197,
       "norm_label": "diario de bordo"
     },
     {
@@ -27720,7 +27850,7 @@
       "source_location": "L47",
       "_origin": "ast",
       "id": "claude_time_de_agentes_claude_agents",
-      "community": 0,
+      "community": 211,
       "norm_label": "time de agentes (`.claude/agents/`)"
     },
     {
@@ -27730,7 +27860,7 @@
       "source_location": "L70",
       "_origin": "ast",
       "id": "claude_equipe_conforme_a_tarefa_e_o_risco_fluxo_m\u00ednimo",
-      "community": 0,
+      "community": 211,
       "norm_label": "equipe conforme a tarefa e o risco (fluxo minimo)"
     },
     {
@@ -27740,7 +27870,7 @@
       "source_location": "L86",
       "_origin": "ast",
       "id": "claude_respons\u00e1vel_\u00fanico_pela_entrega_backend_dev_vs_data_analyst_n\u00e3o_\u00e9_exclusividade_de_execu\u00e7\u00e3o",
-      "community": 0,
+      "community": 211,
       "norm_label": "responsavel unico pela entrega (`backend-dev` vs. `data-analyst`) \u2014 nao e exclusividade de execucao"
     },
     {
@@ -27750,7 +27880,7 @@
       "source_location": "L95",
       "_origin": "ast",
       "id": "claude_modelo_de_delega\u00e7\u00e3o_obrigat\u00f3rio_use_em_toda_tarefa_n\u00e3o_trivial",
-      "community": 0,
+      "community": 211,
       "norm_label": "modelo de delegacao (obrigatorio, use em toda tarefa nao-trivial)"
     },
     {
@@ -27760,7 +27890,7 @@
       "source_location": "L112",
       "_origin": "ast",
       "id": "claude_coordena\u00e7\u00e3o_de_altera\u00e7\u00f5es_paralelas",
-      "community": 0,
+      "community": 211,
       "norm_label": "coordenacao de alteracoes paralelas"
     },
     {
@@ -27770,7 +27900,7 @@
       "source_location": "L119",
       "_origin": "ast",
       "id": "claude_relat\u00f3rios_verific\u00e1veis_substitui_status_arquivos_modificados",
-      "community": 0,
+      "community": 211,
       "norm_label": "relatorios verificaveis (substitui `[status] / [arquivos modificados]`)"
     },
     {
@@ -27780,7 +27910,7 @@
       "source_location": "L132",
       "_origin": "ast",
       "id": "claude_valida\u00e7\u00e3o_de_crit\u00e9rios_de_aceite",
-      "community": 0,
+      "community": 211,
       "norm_label": "validacao de criterios de aceite"
     },
     {
@@ -27790,7 +27920,7 @@
       "source_location": "L139",
       "_origin": "ast",
       "id": "claude_portabilidade_e_reuso",
-      "community": 0,
+      "community": 211,
       "norm_label": "portabilidade e reuso"
     },
     {
@@ -27800,7 +27930,7 @@
       "source_location": "L145",
       "_origin": "ast",
       "id": "claude_dualidade_subagente_claude_code_task_vs_terminal_maestri",
-      "community": 0,
+      "community": 211,
       "norm_label": "dualidade: subagente claude code (task) vs. terminal maestri"
     },
     {
@@ -27810,7 +27940,7 @@
       "source_location": "L161",
       "_origin": "ast",
       "id": "claude_ferramentas_de_otimiza\u00e7\u00e3o_de_token_instaladas",
-      "community": 0,
+      "community": 197,
       "norm_label": "ferramentas de otimizacao de token instaladas"
     },
     {
@@ -27820,7 +27950,7 @@
       "source_location": "L169",
       "_origin": "ast",
       "id": "claude_o_que_nunca_fazer_sem_perguntar",
-      "community": 0,
+      "community": 197,
       "norm_label": "o que nunca fazer sem perguntar"
     },
     {
@@ -27830,7 +27960,7 @@
       "source_location": "L177",
       "_origin": "ast",
       "id": "claude_verifica\u00e7\u00e3o_antes_de_afirmar",
-      "community": 0,
+      "community": 197,
       "norm_label": "verificacao antes de afirmar"
     },
     {
@@ -27840,7 +27970,7 @@
       "source_location": "L182",
       "_origin": "ast",
       "id": "claude_command_output",
-      "community": 0,
+      "community": 215,
       "norm_label": "command output"
     },
     {
@@ -27850,8 +27980,18 @@
       "source_location": "L191",
       "_origin": "ast",
       "id": "claude_orienta\u00e7\u00e3o_prisma_opcional",
-      "community": 0,
+      "community": 215,
       "norm_label": "orientacao prisma opcional"
+    },
+    {
+      "label": "Orienta\u00e7\u00e3o Better Auth opcional",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": "L195",
+      "_origin": "ast",
+      "id": "claude_orienta\u00e7\u00e3o_better_auth_opcional",
+      "community": 215,
+      "norm_label": "orientacao better auth opcional"
     },
     {
       "label": "DIARIO_DE_BORDO.md",
@@ -28084,6 +28224,16 @@
       "norm_label": "2026-10-14 \u2014 prisma skills locais"
     },
     {
+      "label": "2026-10-14 \u2014 Better Auth: guia central sob demanda, sem skill local",
+      "file_type": "document",
+      "source_file": "DIARIO_DE_BORDO.md",
+      "source_location": "L183",
+      "_origin": "ast",
+      "id": "diario_de_bordo_2026_10_14_better_auth_guia_central_sob_demanda_sem_skill_local",
+      "community": 6,
+      "norm_label": "2026-10-14 \u2014 better auth: guia central sob demanda, sem skill local"
+    },
+    {
       "label": "GUIAS.md",
       "file_type": "document",
       "source_file": "GUIAS.md",
@@ -28190,7 +28340,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "preparacao",
-      "community": 0,
+      "community": 215,
       "norm_label": "preparacao.md"
     },
     {
@@ -28334,13 +28484,23 @@
       "norm_label": "orientacao prisma opcional"
     },
     {
+      "label": "Orienta\u00e7\u00e3o Better Auth opcional",
+      "file_type": "document",
+      "source_file": "PREPARACAO.md",
+      "source_location": "L167",
+      "_origin": "ast",
+      "id": "preparacao_orienta\u00e7\u00e3o_better_auth_opcional",
+      "community": 0,
+      "norm_label": "orientacao better auth opcional"
+    },
+    {
       "label": "PRISMA_SKILLS.md",
       "file_type": "document",
       "source_file": "PRISMA_SKILLS.md",
       "source_location": "L1",
       "_origin": "ast",
       "id": "prisma_skills",
-      "community": 0,
+      "community": 215,
       "norm_label": "prisma_skills.md"
     },
     {
@@ -28350,7 +28510,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "prisma_skills_prisma_skills_uso_sob_demanda",
-      "community": 0,
+      "community": 234,
       "norm_label": "prisma skills \u2014 uso sob demanda"
     },
     {
@@ -28360,7 +28520,7 @@
       "source_location": "L7",
       "_origin": "ast",
       "id": "prisma_skills_sele\u00e7\u00e3o_e_compatibilidade",
-      "community": 0,
+      "community": 234,
       "norm_label": "selecao e compatibilidade"
     },
     {
@@ -28370,7 +28530,7 @@
       "source_location": "L16",
       "_origin": "ast",
       "id": "prisma_skills_pap\u00e9is_e_ativa\u00e7\u00e3o",
-      "community": 0,
+      "community": 234,
       "norm_label": "papeis e ativacao"
     },
     {
@@ -28380,7 +28540,7 @@
       "source_location": "L20",
       "_origin": "ast",
       "id": "prisma_skills_prepara\u00e7\u00e3o_e_valida\u00e7\u00e3o",
-      "community": 0,
+      "community": 234,
       "norm_label": "preparacao e validacao"
     },
     {
@@ -28390,7 +28550,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "readme",
-      "community": 0,
+      "community": 215,
       "norm_label": "readme.md"
     },
     {
@@ -28400,7 +28560,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "readme_maestri_template",
-      "community": 0,
+      "community": 221,
       "norm_label": "maestri_template"
     },
     {
@@ -28410,7 +28570,7 @@
       "source_location": "L5",
       "_origin": "ast",
       "id": "readme_para_preparar_este_workspace_num_caminho_m\u00e1quina_novo",
-      "community": 0,
+      "community": 221,
       "norm_label": "para preparar este workspace num caminho/maquina novo"
     },
     {
@@ -28420,7 +28580,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "readme_mapa_do_reposit\u00f3rio",
-      "community": 0,
+      "community": 221,
       "norm_label": "mapa do repositorio"
     },
     {
@@ -28430,7 +28590,7 @@
       "source_location": "L27",
       "_origin": "ast",
       "id": "readme_pr\u00e9_requisitos_da_m\u00e1quina",
-      "community": 0,
+      "community": 221,
       "norm_label": "pre-requisitos da maquina"
     },
     {
@@ -28440,8 +28600,18 @@
       "source_location": "L31",
       "_origin": "ast",
       "id": "readme_orienta\u00e7\u00e3o_prisma_opcional",
-      "community": 0,
+      "community": 221,
       "norm_label": "orientacao prisma opcional"
+    },
+    {
+      "label": "Orienta\u00e7\u00e3o Better Auth opcional",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L35",
+      "_origin": "ast",
+      "id": "readme_orienta\u00e7\u00e3o_better_auth_opcional",
+      "community": 221,
+      "norm_label": "orientacao better auth opcional"
     }
   ],
   "links": [
@@ -33872,7 +34042,7 @@
       "source_location": "L26",
       "weight": 1.0,
       "source": "claude_skills_design_scripts_cip_generate",
-      "target": "claude_skills_design_scripts_logo_core",
+      "target": "claude_skills_ui_ux_pro_max_scripts_core",
       "confidence_score": 1.0
     },
     {
@@ -34071,7 +34241,7 @@
       "source_location": "L20",
       "weight": 1.0,
       "source": "claude_skills_design_scripts_cip_render_html",
-      "target": "claude_skills_design_scripts_logo_core",
+      "target": "claude_skills_ui_ux_pro_max_scripts_core",
       "confidence_score": 1.0
     },
     {
@@ -34175,7 +34345,7 @@
       "source_location": "L14",
       "weight": 1.0,
       "source": "claude_skills_design_scripts_cip_search",
-      "target": "claude_skills_design_scripts_logo_core",
+      "target": "claude_skills_ui_ux_pro_max_scripts_core",
       "confidence_score": 1.0
     },
     {
@@ -34527,127 +34697,6 @@
       "weight": 1.0,
       "source": "claude_skills_design_scripts_logo_core",
       "target": "claude_skills_design_scripts_logo_core_search_csv",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": ".claude/skills/design/scripts/logo/search.py",
-      "source_location": "L12",
-      "weight": 1.0,
-      "source": "claude_skills_design_scripts_logo_search",
-      "target": "claude_skills_design_scripts_logo_core",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": ".claude/skills/ui-ux-pro-max/scripts/design_system.py",
-      "source_location": "L27",
-      "weight": 1.0,
-      "source": "claude_skills_ui_ux_pro_max_scripts_design_system",
-      "target": "claude_skills_design_scripts_logo_core",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": ".claude/skills/ui-ux-pro-max/scripts/search.py",
-      "source_location": "L32",
-      "weight": 1.0,
-      "source": "claude_skills_ui_ux_pro_max_scripts_search",
-      "target": "claude_skills_design_scripts_logo_core",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": ".claude/skills/ui-ux-pro-max/scripts/tests/test_core.py",
-      "source_location": "L27",
-      "weight": 1.0,
-      "source": "claude_skills_ui_ux_pro_max_scripts_tests_test_core",
-      "target": "claude_skills_design_scripts_logo_core",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": ".claude/skills/ui-ux-pro-max/scripts/tests/test_core_data_quality.py",
-      "source_location": "L13",
-      "weight": 1.0,
-      "source": "claude_skills_ui_ux_pro_max_scripts_tests_test_core_data_quality",
-      "target": "claude_skills_design_scripts_logo_core",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": ".claude/skills/ui-ux-pro-max/scripts/tests/test_data_contracts.py",
-      "source_location": "L18",
-      "weight": 1.0,
-      "source": "claude_skills_ui_ux_pro_max_scripts_tests_test_data_contracts",
-      "target": "claude_skills_design_scripts_logo_core",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": ".claude/skills/ui-ux-pro-max/scripts/tests/test_native_desktop_stack_freshness.py",
-      "source_location": "L14",
-      "weight": 1.0,
-      "source": "claude_skills_ui_ux_pro_max_scripts_tests_test_native_desktop_stack_freshness",
-      "target": "claude_skills_design_scripts_logo_core",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": ".claude/skills/ui-ux-pro-max/scripts/tests/test_style_taxonomy.py",
-      "source_location": "L15",
-      "weight": 1.0,
-      "source": "claude_skills_ui_ux_pro_max_scripts_tests_test_style_taxonomy",
-      "target": "claude_skills_design_scripts_logo_core",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": ".claude/skills/ui-ux-pro-max/scripts/tests/test_text_layout_resilience.py",
-      "source_location": "L13",
-      "weight": 1.0,
-      "source": "claude_skills_ui_ux_pro_max_scripts_tests_test_text_layout_resilience",
-      "target": "claude_skills_design_scripts_logo_core",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": ".claude/skills/ui-ux-pro-max/scripts/tests/test_web_stack_freshness.py",
-      "source_location": "L14",
-      "weight": 1.0,
-      "source": "claude_skills_ui_ux_pro_max_scripts_tests_test_web_stack_freshness",
-      "target": "claude_skills_design_scripts_logo_core",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": ".claude/skills/ui-ux-pro-max/scripts/validate_data.py",
-      "source_location": "L31",
-      "weight": 1.0,
-      "source": "claude_skills_ui_ux_pro_max_scripts_validate_data",
-      "target": "claude_skills_design_scripts_logo_core",
       "confidence_score": 1.0
     },
     {
@@ -35042,6 +35091,17 @@
       "weight": 1.0,
       "source": "claude_skills_design_scripts_logo_search",
       "target": "claude_skills_design_scripts_logo_search_generate_design_brief",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": ".claude/skills/design/scripts/logo/search.py",
+      "source_location": "L12",
+      "weight": 1.0,
+      "source": "claude_skills_design_scripts_logo_search",
+      "target": "claude_skills_ui_ux_pro_max_scripts_core",
       "confidence_score": 1.0
     },
     {
@@ -38237,6 +38297,116 @@
       "weight": 1.0,
       "source": "claude_skills_ui_ux_pro_max_scripts_core",
       "target": "claude_skills_ui_ux_pro_max_scripts_core_valid_max_results",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": ".claude/skills/ui-ux-pro-max/scripts/design_system.py",
+      "source_location": "L27",
+      "weight": 1.0,
+      "source": "claude_skills_ui_ux_pro_max_scripts_design_system",
+      "target": "claude_skills_ui_ux_pro_max_scripts_core",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": ".claude/skills/ui-ux-pro-max/scripts/search.py",
+      "source_location": "L32",
+      "weight": 1.0,
+      "source": "claude_skills_ui_ux_pro_max_scripts_search",
+      "target": "claude_skills_ui_ux_pro_max_scripts_core",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": ".claude/skills/ui-ux-pro-max/scripts/tests/test_core.py",
+      "source_location": "L27",
+      "weight": 1.0,
+      "source": "claude_skills_ui_ux_pro_max_scripts_tests_test_core",
+      "target": "claude_skills_ui_ux_pro_max_scripts_core",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": ".claude/skills/ui-ux-pro-max/scripts/tests/test_core_data_quality.py",
+      "source_location": "L13",
+      "weight": 1.0,
+      "source": "claude_skills_ui_ux_pro_max_scripts_tests_test_core_data_quality",
+      "target": "claude_skills_ui_ux_pro_max_scripts_core",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": ".claude/skills/ui-ux-pro-max/scripts/tests/test_data_contracts.py",
+      "source_location": "L18",
+      "weight": 1.0,
+      "source": "claude_skills_ui_ux_pro_max_scripts_tests_test_data_contracts",
+      "target": "claude_skills_ui_ux_pro_max_scripts_core",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": ".claude/skills/ui-ux-pro-max/scripts/tests/test_native_desktop_stack_freshness.py",
+      "source_location": "L14",
+      "weight": 1.0,
+      "source": "claude_skills_ui_ux_pro_max_scripts_tests_test_native_desktop_stack_freshness",
+      "target": "claude_skills_ui_ux_pro_max_scripts_core",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": ".claude/skills/ui-ux-pro-max/scripts/tests/test_style_taxonomy.py",
+      "source_location": "L15",
+      "weight": 1.0,
+      "source": "claude_skills_ui_ux_pro_max_scripts_tests_test_style_taxonomy",
+      "target": "claude_skills_ui_ux_pro_max_scripts_core",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": ".claude/skills/ui-ux-pro-max/scripts/tests/test_text_layout_resilience.py",
+      "source_location": "L13",
+      "weight": 1.0,
+      "source": "claude_skills_ui_ux_pro_max_scripts_tests_test_text_layout_resilience",
+      "target": "claude_skills_ui_ux_pro_max_scripts_core",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": ".claude/skills/ui-ux-pro-max/scripts/tests/test_web_stack_freshness.py",
+      "source_location": "L14",
+      "weight": 1.0,
+      "source": "claude_skills_ui_ux_pro_max_scripts_tests_test_web_stack_freshness",
+      "target": "claude_skills_ui_ux_pro_max_scripts_core",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": ".claude/skills/ui-ux-pro-max/scripts/validate_data.py",
+      "source_location": "L31",
+      "weight": 1.0,
+      "source": "claude_skills_ui_ux_pro_max_scripts_validate_data",
+      "target": "claude_skills_ui_ux_pro_max_scripts_core",
       "confidence_score": 1.0
     },
     {
@@ -45778,6 +45948,16 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": ".claude/agents/backend-dev.md",
+      "source_location": "L60",
+      "weight": 1.0,
+      "source": "claude_agents_backend_dev",
+      "target": "claude_agents_backend_dev_better_auth_sob_demanda",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".claude/agents/backend-dev.md",
       "source_location": "L52",
       "weight": 1.0,
       "source": "claude_agents_backend_dev",
@@ -46051,6 +46231,16 @@
       "source_location": "L60",
       "weight": 1.0,
       "source": "claude_agents_frontend_dev",
+      "target": "claude_agents_frontend_dev_better_auth_sob_demanda",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".claude/agents/frontend-dev.md",
+      "source_location": "L64",
+      "weight": 1.0,
+      "source": "claude_agents_frontend_dev",
       "target": "claude_agents_frontend_dev_caveman_mode_cultura_obrigat\u00f3ria",
       "confidence_score": 1.0
     },
@@ -46092,6 +46282,16 @@
       "weight": 1.0,
       "source": "claude_agents_frontend_dev",
       "target": "claude_agents_frontend_dev_ui_ux_pro_max_skill_consulta_de_design_sob_demanda",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".claude/agents/migration-guardian.md",
+      "source_location": "L34",
+      "weight": 1.0,
+      "source": "claude_agents_migration_guardian",
+      "target": "claude_agents_migration_guardian_better_auth_sob_demanda",
       "confidence_score": 1.0
     },
     {
@@ -46179,6 +46379,16 @@
       "confidence": "EXTRACTED",
       "source_file": ".claude/agents/security-auditor.md",
       "source_location": "L20",
+      "weight": 1.0,
+      "source": "claude_agents_security_auditor",
+      "target": "claude_agents_security_auditor_better_auth_sob_demanda",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".claude/agents/security-auditor.md",
+      "source_location": "L24",
       "weight": 1.0,
       "source": "claude_agents_security_auditor",
       "target": "claude_agents_security_auditor_caveman_mode_cultura_obrigat\u00f3ria",
@@ -46282,6 +46492,16 @@
       "weight": 1.0,
       "source": "claude_agents_tech_writer",
       "target": "claude_agents_tech_writer_regras",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".claude/agents/test-runner.md",
+      "source_location": "L28",
+      "weight": 1.0,
+      "source": "claude_agents_test_runner",
+      "target": "claude_agents_test_runner_better_auth_sob_demanda",
       "confidence_score": 1.0
     },
     {
@@ -61667,6 +61887,106 @@
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
+      "source_file": "BETTER_AUTH.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "better_auth",
+      "target": "better_auth_better_auth_uso_sob_demanda",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "CLAUDE.md",
+      "source_location": "L197",
+      "weight": 1.0,
+      "source": "claude",
+      "target": "better_auth",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "PREPARACAO.md",
+      "source_location": "L169",
+      "weight": 1.0,
+      "source": "preparacao",
+      "target": "better_auth",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L37",
+      "weight": 1.0,
+      "source": "readme",
+      "target": "better_auth",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "BETTER_AUTH.md",
+      "source_location": "L12",
+      "weight": 1.0,
+      "source": "better_auth_better_auth_uso_sob_demanda",
+      "target": "better_auth_antes_de_qualquer_implementa\u00e7\u00e3o",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "BETTER_AUTH.md",
+      "source_location": "L18",
+      "weight": 1.0,
+      "source": "better_auth_better_auth_uso_sob_demanda",
+      "target": "better_auth_o_que_orientar_consultar_a_documenta\u00e7\u00e3o_oficial_skills_para_o_como",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "BETTER_AUTH.md",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "better_auth_better_auth_uso_sob_demanda",
+      "target": "better_auth_origem_e_licen\u00e7a",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "BETTER_AUTH.md",
+      "source_location": "L47",
+      "weight": 1.0,
+      "source": "better_auth_better_auth_uso_sob_demanda",
+      "target": "better_auth_registro_no_di\u00e1rio",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "BETTER_AUTH.md",
+      "source_location": "L27",
+      "weight": 1.0,
+      "source": "better_auth_better_auth_uso_sob_demanda",
+      "target": "better_auth_responsabilidades",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "BETTER_AUTH.md",
+      "source_location": "L35",
+      "weight": 1.0,
+      "source": "better_auth_better_auth_uso_sob_demanda",
+      "target": "better_auth_testes_de_aceite_esperados_antes_de_declarar_pronto",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
       "source_file": "CLAUDE.md",
       "source_location": "L1",
       "weight": 1.0,
@@ -61888,6 +62208,16 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "CLAUDE.md",
+      "source_location": "L195",
+      "weight": 1.0,
+      "source": "claude_command_output",
+      "target": "claude_orienta\u00e7\u00e3o_better_auth_opcional",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CLAUDE.md",
       "source_location": "L191",
       "weight": 1.0,
       "source": "claude_command_output",
@@ -61942,6 +62272,16 @@
       "weight": 1.0,
       "source": "diario_de_bordo_di\u00e1rio_de_bordo_maestri_template",
       "target": "diario_de_bordo_2026_10_14_ajustes_de_portabilidade_p\u00f3s_teste_em_outra_m\u00e1quina",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "DIARIO_DE_BORDO.md",
+      "source_location": "L183",
+      "weight": 1.0,
+      "source": "diario_de_bordo_di\u00e1rio_de_bordo_maestri_template",
+      "target": "diario_de_bordo_2026_10_14_better_auth_guia_central_sob_demanda_sem_skill_local",
       "confidence_score": 1.0
     },
     {
@@ -62228,6 +62568,16 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "PREPARACAO.md",
+      "source_location": "L167",
+      "weight": 1.0,
+      "source": "preparacao_procedimento_de_prepara\u00e7\u00e3o_\u00fanico_n\u00e3o_duplique_isto_em_outro_arquivo",
+      "target": "preparacao_orienta\u00e7\u00e3o_better_auth_opcional",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "PREPARACAO.md",
       "source_location": "L163",
       "weight": 1.0,
       "source": "preparacao_procedimento_de_prepara\u00e7\u00e3o_\u00fanico_n\u00e3o_duplique_isto_em_outro_arquivo",
@@ -62428,6 +62778,16 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "README.md",
+      "source_location": "L35",
+      "weight": 1.0,
+      "source": "readme_maestri_template",
+      "target": "readme_orienta\u00e7\u00e3o_better_auth_opcional",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
       "source_location": "L31",
       "weight": 1.0,
       "source": "readme_maestri_template",
@@ -62456,5 +62816,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "a65691a0f1828a63eb3bd647b0fd97d0bf4cf52c"
+  "built_at_commit": "cfb6b8a25207eb77ae01f17f4ffd795a7d524a5c"
 }

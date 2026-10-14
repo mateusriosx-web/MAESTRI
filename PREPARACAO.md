@@ -163,3 +163,7 @@ Atualize `DIARIO_DE_BORDO.md` (bloco "ESTADO ATUAL" + nova entrada) com: qual do
 ## Orientação Prisma opcional
 
 Consulte [PRISMA_SKILLS.md](./PRISMA_SKILLS.md) somente quando o projeto usar Prisma. As três skills oficiais estão incluídas localmente; preservar versão/provider, sem instalar ORM ou conectar bancos durante o preparo do template.
+
+## Orientação Better Auth opcional
+
+Consulte [BETTER_AUTH.md](./BETTER_AUTH.md) somente quando o projeto precisar de autenticação/controle de acesso. Nenhuma skill oficial foi copiada (repositório de skills sem licença declarada) — consulta sob demanda à documentação/skills oficiais. Em projeto existente, identifique a autenticação atual antes de propor qualquer adoção; nunca instalar Better Auth no próprio template nem criar banco/tela de demonstração durante o preparo.
