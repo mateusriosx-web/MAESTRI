@@ -6,7 +6,7 @@ Modelo reutilizável de "vibe coding" para projetos em Node.js, TypeScript, Reac
 
 Depois de clonar, peça ao seu agente/CLI:
 
-> Clone \<URL\> e siga as instruções do repositório para preparar este workspace.
+> Clone \[<URL\>](https://github.com/mateusriosx-web/MAESTRI) e siga as instruções do repositório para preparar este workspace.
 
 Isso deve levar o agente direto a **[`PREPARACAO.md`](./PREPARACAO.md)** — o único procedimento de preparação deste repositório (identifica a raiz do projeto, assume o papel de `cto`, instala/valida ferramentas, adapta nomes/caminhos, prepara a equipe com autorização, orienta autenticações e registra tudo no diário). Não há um segundo procedimento em outro arquivo — se algo parecer duplicado, é bug de documentação, avise.
 
