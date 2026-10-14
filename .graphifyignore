@@ -1,0 +1,6 @@
+# Dados internos extensos de skills: catálogos/snapshots grandes e fixtures
+# de teste que não ajudam a navegar a arquitetura do projeto e só incham o
+# grafo. .gitignore já cobre segredos/build/node_modules - este arquivo só
+# soma exclusões (nunca reintroduz algo que o .gitignore já excluiu).
+.claude/skills/*/data/**
+.claude/skills/*/scripts/tests/fixtures/**

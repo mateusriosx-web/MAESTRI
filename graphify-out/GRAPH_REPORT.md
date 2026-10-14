@@ -1,16 +1,16 @@
-# Graph Report - AUTOMACAO_HD  (2026-10-13)
+# Graph Report - AUTOMACAO_HD  (2026-10-14)
 
 ## Corpus Check
-- 163 files · ~226,138 words
+- 190 files · ~135,759 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 2236 nodes · 2761 edges · 187 communities (157 shown, 30 thin omitted)
-- Extraction: 92% EXTRACTED · 8% INFERRED · 0% AMBIGUOUS · INFERRED: 210 edges (avg confidence: 0.75)
+- 2844 nodes · 3342 edges · 234 communities (201 shown, 33 thin omitted)
+- Extraction: 94% EXTRACTED · 6% INFERRED · 0% AMBIGUOUS · INFERRED: 210 edges (avg confidence: 0.75)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `c3416958`
+- Built from commit: `a65691a0`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -125,13 +125,13 @@
 - [[_COMMUNITY_HTML Slide Template|HTML Slide Template]]
 - [[_COMMUNITY__filter_anti_patterns_for_mode|_filter_anti_patterns_for_mode]]
 - [[_COMMUNITY_Query Contract|Query Contract]]
-- [[_COMMUNITY_shadow|shadow]]
+- [[_COMMUNITY_calc-auditor|calc-auditor.md]]
 - [[_COMMUNITY_Slides|Slides]]
 - [[_COMMUNITY__row_identities|_row_identities]]
 - [[_COMMUNITY_Pre-Delivery Checklist|Pre-Delivery Checklist]]
 - [[_COMMUNITY_Prerequisites|Prerequisites]]
 - [[_COMMUNITY_Brand Guidelines Template|Brand Guidelines Template]]
-- [[_COMMUNITY_lg|lg]]
+- [[_COMMUNITY_migration-guardian|migration-guardian.md]]
 - [[_COMMUNITY_Common Rules for Professional UI|Common Rules for Professional UI]]
 - [[_COMMUNITY_Example Workflow|Example Workflow]]
 - [[_COMMUNITY_default|default]]
@@ -167,16 +167,64 @@
 - [[_COMMUNITY_.test_base_config_structure|.test_base_config_structure]]
 - [[_COMMUNITY_Cadastro de clientesmodelos — por máquina|Cadastro de clientes/modelos — por máquina]]
 - [[_COMMUNITY_none|none]]
+- [[_COMMUNITY_setup-maquina.ps1|setup-maquina.ps1]]
+- [[_COMMUNITY_none|none]]
+- [[_COMMUNITY_input|input]]
+- [[_COMMUNITY_800|800]]
+- [[_COMMUNITY_TestStyleTaxonomy|TestStyleTaxonomy]]
+- [[_COMMUNITY_button|button]]
+- [[_COMMUNITY_$type|$type]]
 - [[_COMMUNITY_radius|radius]]
+- [[_COMMUNITY_destructive-foreground|destructive-foreground]]
+- [[_COMMUNITY_muted|muted]]
+- [[_COMMUNITY_primary|primary]]
+- [[_COMMUNITY_primary-foreground|primary-foreground]]
+- [[_COMMUNITY_ring|ring]]
+- [[_COMMUNITY_secondary-foreground|secondary-foreground]]
+- [[_COMMUNITY_prisma db pull|prisma db pull]]
+- [[_COMMUNITY_prisma init|prisma init]]
+- [[_COMMUNITY_prisma migrate deploy|prisma migrate deploy]]
+- [[_COMMUNITY_Constructor Options|Constructor Options]]
+- [[_COMMUNITY_color|color]]
+- [[_COMMUNITY_Transactions|Transactions]]
+- [[_COMMUNITY_MySQL Setup|MySQL Setup]]
+- [[_COMMUNITY_search|search]]
+- [[_COMMUNITY_prisma db execute|prisma db execute]]
+- [[_COMMUNITY_MongoDB Setup|MongoDB Setup]]
+- [[_COMMUNITY_SQLite Setup|SQLite Setup]]
+- [[_COMMUNITY_prisma migrate diff|prisma migrate diff]]
+- [[_COMMUNITY_prisma migrate reset|prisma migrate reset]]
+- [[_COMMUNITY_Prisma ORM 7 CLI reference|Prisma ORM 7 CLI reference]]
+- [[_COMMUNITY_PostgreSQL Setup|PostgreSQL Setup]]
+- [[_COMMUNITY_SQL Server Setup|SQL Server Setup]]
+- [[_COMMUNITY_CockroachDB Setup|CockroachDB Setup]]
+- [[_COMMUNITY_prisma format|prisma format]]
+- [[_COMMUNITY_prisma migrate resolve|prisma migrate resolve]]
+- [[_COMMUNITY_prisma validate|prisma validate]]
+- [[_COMMUNITY_BM25|BM25]]
+- [[_COMMUNITY_BM25|BM25]]
+- [[_COMMUNITY_prisma migrate status|prisma migrate status]]
+- [[_COMMUNITY_SKILL|SKILL.md]]
+- [[_COMMUNITY_Quick Reference|Quick Reference]]
+- [[_COMMUNITY_generate_html|generate_html]]
+- [[_COMMUNITY_prisma mcp|prisma mcp]]
+- [[_COMMUNITY_prisma debug|prisma debug]]
+- [[_COMMUNITY_Prisma ORM setup|Prisma ORM setup]]
+- [[_COMMUNITY_TestTextLayoutDataContracts|TestTextLayoutDataContracts]]
+- [[_COMMUNITY_main|main]]
+- [[_COMMUNITY_$type|$type]]
+- [[_COMMUNITY_Prisma Client Setup|Prisma Client Setup]]
+- [[_COMMUNITY_$type|$type]]
 - [[_COMMUNITY_50|50]]
 - [[_COMMUNITY_800|800]]
 - [[_COMMUNITY_padding-y|padding-y]]
+- [[_COMMUNITY_AI safety checkpoint for destructive commands|AI safety checkpoint for destructive commands]]
 - [[_COMMUNITY_950|950]]
 - [[_COMMUNITY_destructive|destructive]]
-- [[_COMMUNITY_destructive-foreground|destructive-foreground]]
-- [[_COMMUNITY_muted|muted]]
-- [[_COMMUNITY_primary-foreground|primary-foreground]]
-- [[_COMMUNITY_ring|ring]]
+- [[_COMMUNITY_foreground|foreground]]
+- [[_COMMUNITY_muted-foreground|muted-foreground]]
+- [[_COMMUNITY_primary-hover|primary-hover]]
+- [[_COMMUNITY_prisma complete|prisma complete]]
 
 ## God Nodes (most connected - your core abstractions)
 1. `TailwindConfigGenerator` - 57 edges
@@ -205,19 +253,19 @@
 ## Import Cycles
 - None detected.
 
-## Communities (187 total, 30 thin omitted)
+## Communities (234 total, 33 thin omitted)
 
 ### Community 0 - "CLAUDE.md"
-Cohesion: 0.05
-Nodes (34): Command output, Configuração desta máquina (não é identidade do template), Convenção de estrutura, Coordenação de alterações paralelas, Diário de bordo, Dualidade: subagente Claude Code (Task) vs. terminal Maestri, Equipe conforme a tarefa e o risco (fluxo mínimo), Ferramentas de otimização de token instaladas (+26 more)
+Cohesion: 0.04
+Nodes (43): Command output, Configuração desta máquina (não é identidade do template — fato datado, não instrução permanente), Convenção de estrutura, Coordenação de alterações paralelas, Diário de bordo, Dualidade: subagente Claude Code (Task) vs. terminal Maestri, Equipe conforme a tarefa e o risco (fluxo mínimo), Ferramentas de otimização de token instaladas (+35 more)
 
 ### Community 1 - "cto.md"
-Cohesion: 0.29
-Nodes (6): Caveman Mode (cultura obrigatória), Delegação, Economia de token (obrigatório), Escopo do projeto, O que nunca fazer sem perguntar, Processo padrão
+Cohesion: 0.25
+Nodes (7): Caveman Mode (cultura obrigatória), Delegação, Economia de token (obrigatório), Escopo do projeto, O que nunca fazer sem perguntar, Prisma Skills (sob demanda), Processo padrão
 
 ### Community 2 - "backend-dev.md"
-Cohesion: 0.29
-Nodes (6): Antes de codar, Caveman Mode (cultura obrigatória), Economia de token (obrigatório), Quando você é o responsável pela consolidação (vs. `data-analyst`), Regras, Serena (MCP) — localizar e editar símbolos de código
+Cohesion: 0.25
+Nodes (7): Antes de codar, Caveman Mode (cultura obrigatória), Economia de token (obrigatório), Prisma Skills (sob demanda), Quando você é o responsável pela consolidação (vs. `data-analyst`), Regras, Serena (MCP) — localizar e editar símbolos de código
 
 ### Community 3 - "data-analyst.md"
 Cohesion: 0.29
@@ -228,12 +276,12 @@ Cohesion: 0.29
 Nodes (6): Antes de codar, Caveman Mode (cultura obrigatória), Economia de token (obrigatório), Regras, Serena (MCP) — localizar e editar símbolos de código, UI UX Pro Max (skill) — consulta de design sob demanda
 
 ### Community 5 - "spec-lookup.md"
-Cohesion: 0.40
-Nodes (4): Caveman Mode (cultura obrigatória), Economia de token (obrigatório), Fontes primárias (por automação), Regras
+Cohesion: 0.33
+Nodes (5): Caveman Mode (cultura obrigatória), Economia de token (obrigatório), Fontes primárias (por automação), Prisma Skills (sob demanda), Regras
 
 ### Community 6 - "Diário de Bordo — AUTOMACAO_HD"
-Cohesion: 0.13
-Nodes (14): 2026-10-13 — Repositório autossuficiente (README.md + PREPARACAO.md), 2026-10-13 — Transformação em template (MAESTRI_TEMPLATE), Arquivos novos criados, Backup (antes de qualquer alteração), Conteúdo de negócio removido das instruções ativas, Diário de Bordo — MAESTRI_TEMPLATE, Equipe realinhada ao pedido, ESTADO ATUAL (+6 more)
+Cohesion: 0.09
+Nodes (22): 2026-10-13 — Cadastro pessoal de clientes/modelos removido do conteúdo versionável, 2026-10-13 — Repositório autossuficiente (README.md + PREPARACAO.md), 2026-10-13 — Transformação em template (MAESTRI_TEMPLATE), 2026-10-14 — Ajustes de portabilidade pós-teste em outra máquina, 2026-10-14 — Prisma Skills locais, 2026-10-14 — Três simulações documentais do procedimento (README → PREPARACAO.md), não teste em máquina limpa, Arquivos novos criados, Backup (antes de qualquer alteração) (+14 more)
 
 ### Community 7 - "devops-infra.md"
 Cohesion: 0.50
@@ -252,8 +300,8 @@ Cohesion: 0.50
 Nodes (3): Caveman Mode (cultura obrigatória), Economia de token (obrigatório), Regras
 
 ### Community 11 - "test-runner.md"
-Cohesion: 0.50
-Nodes (3): Caveman Mode (cultura obrigatória), Economia de token (obrigatório), Regras
+Cohesion: 0.40
+Nodes (4): Caveman Mode (cultura obrigatória), Economia de token (obrigatório), Prisma Skills (sob demanda), Regras
 
 ### Community 34 - "RTK — Redutor de Token"
 Cohesion: 0.25
@@ -268,12 +316,12 @@ Cohesion: 0.07
 Nodes (46): read_rows(), TestAccessibilityGuidance, TestChartsTypographyAndIcons, TestCurrentReactGuidance, TestSemanticColors, _catalog_date(), _check_app_interface_contract(), _check_catalog_contract() (+38 more)
 
 ### Community 40 - "core.py"
-Cohesion: 0.07
-Nodes (35): BM25, detect_domain(), get_cip_brief(), _load_csv(), Load CSV and return list of dicts, Core search function using BM25, Auto-detect the most relevant domain from query, Main search function with auto-domain detection (+27 more)
+Cohesion: 0.23
+Nodes (13): build_cip_prompt(), check_logo_required(), generate_cip_set(), generate_with_nano_banana(), load_env(), load_logo_image(), main(), Generate image using Gemini Nano Banana (native image generation)      Supports (+5 more)
 
 ### Community 41 - "gray"
-Cohesion: 0.05
-Nodes (53): $type, $value, $type, $value, $type, $value, $type, $value (+45 more)
+Cohesion: 0.12
+Nodes (16): $type, $value, $type, $value, $type, $value, $type, $value (+8 more)
 
 ### Community 42 - "color"
 Cohesion: 0.11
@@ -372,8 +420,8 @@ Cohesion: 0.08
 Nodes (24): Apparel, Business Card, Car/Sedan, CIP Deliverable Guide, Core Identity, Digital Assets, Email Signature, Envelope (+16 more)
 
 ### Community 66 - "BM25"
-Cohesion: 0.06
-Nodes (30): generate_html(), get_deliverable_info(), get_image_base64(), main(), Convert image to base64 for embedding in HTML, Extract deliverable type from filename and get info, Generate HTML presentation from CIP images, BM25 (+22 more)
+Cohesion: 0.13
+Nodes (16): detect_domain(), _load_csv(), Load CSV and return list of dicts, Core search function using BM25, Auto-detect the most relevant domain from query, Main search function with auto-domain detection, Search across all domains and combine results, search() (+8 more)
 
 ### Community 67 - "States and Variants"
 Cohesion: 0.08
@@ -396,8 +444,8 @@ Cohesion: 0.09
 Nodes (22): @apply Directive, Best Practices, Color Customization, Complete Tailwind Config, Configuration Examples, Content Configuration, Custom Color Palette, Custom Font Sizes (+14 more)
 
 ### Community 72 - "read_rows"
-Cohesion: 0.15
-Nodes (6): read_rows(), split_values(), style_identities(), TestGeneratedCatalogContract, TestLandingAndStackContract, TestStyleIdentityContract
+Cohesion: 0.12
+Nodes (7): read_rows(), split_values(), style_identities(), TestGeneratedCatalogContract, TestLandingAndStackContract, TestReasoningContract, TestStyleIdentityContract
 
 ### Community 73 - "search"
 Cohesion: 0.14
@@ -420,8 +468,8 @@ Cohesion: 0.10
 Nodes (11): Generate Tailwind CSS configuration files., Add full color palette (50-950 shades) for a base color.          Args:, TailwindConfigGenerator, Test adding full color palette., Test adding custom spacing., Test plugin recommendations for Next.js., Test validating config with no content paths., Test writing configuration to file. (+3 more)
 
 ### Community 78 - "DesignSystemGenerator"
-Cohesion: 0.17
-Nodes (5): DesignSystemGenerator, Generates design system recommendations from aggregated searches., Load reasoning rules from CSV., TestReasoningMatch, TestReasoningContract
+Cohesion: 0.12
+Nodes (10): DesignSystemGenerator, Generates design system recommendations from aggregated searches., Load reasoning rules from CSV., Execute searches across multiple domains., Select best matching result based on priority keywords., Extract results list from search result dict., Generate complete design system recommendation.          variance/motion/density, Bucket a 1-10 dial value into its tier config. Returns None if value is None. (+2 more)
 
 ### Community 79 - "Asset Organization Guide"
 Cohesion: 0.11
@@ -464,8 +512,8 @@ Cohesion: 0.20
 Nodes (15): apply_color(), apply_viewbox_size(), extract_svgs(), generate_batch(), generate_icon(), generate_sizes(), load_env(), main() (+7 more)
 
 ### Community 89 - "fontSize"
-Cohesion: 0.12
-Nodes (16): $type, $value, $type, $value, $type, $value, $type, $value (+8 more)
+Cohesion: 0.06
+Nodes (47): $type, $value, $type, $value, $type, $value, $type, $value (+39 more)
 
 ### Community 90 - "TestShadcnInstaller"
 Cohesion: 0.12
@@ -500,8 +548,8 @@ Cohesion: 0.23
 Nodes (3): detect_domain(), Auto-detect the most relevant domain from query.      Matches are weighted by ke, TestDomainDetection
 
 ### Community 99 - ".generate"
-Cohesion: 0.14
-Nodes (8): Execute searches across multiple domains., Find matching reasoning rule for a category., Apply reasoning rules to search results., Select best matching result based on priority keywords., Extract results list from search result dict., Generate complete design system recommendation.          variance/motion/density, Bucket a 1-10 dial value into its tier config. Returns None if value is None., _resolve_dial()
+Cohesion: 0.07
+Nodes (27): aggregate, Aggregation Operations, Atomic operations, count, create, Create Operations, createMany, createManyAndReturn (+19 more)
 
 ### Community 100 - "Banner Design - Multi-Format Creative Banner System"
 Cohesion: 0.14
@@ -560,16 +608,16 @@ Cohesion: 0.18
 Nodes (10): Bold Dynamic, CIP Design Style Guide, Classic Traditional, Color Psychology, Corporate Minimal, Fresh Modern, Luxury Premium, Modern Tech (+2 more)
 
 ### Community 114 - "primitive"
-Cohesion: 0.20
-Nodes (10): fast, normal, slow, $type, $value, $type, $value, duration (+2 more)
+Cohesion: 0.18
+Nodes (11): fast, normal, slow, $type, $value, $type, $value, primitive (+3 more)
 
 ### Community 115 - "test_tailwind_config_gen.py"
 Cohesion: 0.20
 Nodes (7): Tests for tailwind_config_gen.py, Reduce a generated TS/JS config to a bare assignable object so it can be     han, Regression guard for the missing-comma bug between the ``theme`` block and     `, The property preceding ``plugins`` must end with a comma (pure-Python         ch, The emitted config parses as valid JS via ``node --check``., _strip_to_object(), TestGeneratedConfigIsValidJs
 
 ### Community 116 - "TestStyleTaxonomy"
-Cohesion: 0.24
-Nodes (10): $type, $value, $type, $value, primitive, radius, shadow, default (+2 more)
+Cohesion: 0.08
+Nodes (23): Connect existing, Count Relations, Create or connect, Create with relations, Delete related, Disconnect, every, Filter counted relations (+15 more)
 
 ### Community 117 - "Quick Reference"
 Cohesion: 0.18
@@ -596,8 +644,8 @@ Cohesion: 0.20
 Nodes (9): Common Structures, Duarte Sparkline Pattern, Matching Strategy to Context, Product Demo (6 slides), Sales Pitch (9 slides), Search Commands, Slide Strategies, Strategy Selection (+1 more)
 
 ### Community 123 - "parse_decision_rules"
-Cohesion: 0.27
-Nodes (6): apply_decision_rules(), _object_without_duplicates(), parse_decision_rules(), Return deterministic mutations and an audit trail; never execute data., Parse the canonical condition -> action-array representation., _validate_action()
+Cohesion: 0.21
+Nodes (8): Find matching reasoning rule for a category., Apply reasoning rules to search results., apply_decision_rules(), _object_without_duplicates(), parse_decision_rules(), Return deterministic mutations and an audit trail; never execute data., Parse the canonical condition -> action-array representation., _validate_action()
 
 ### Community 124 - "_run"
 Cohesion: 0.28
@@ -612,8 +660,8 @@ Cohesion: 0.15
 Nodes (12): component, $type, $value, dark, semantic, $schema, $type, $value (+4 more)
 
 ### Community 127 - "test_core.py"
-Cohesion: 0.43
-Nodes (3): _filter_anti_patterns_for_mode(), Drop "avoid dark mode" advice once dark mode is the resolved answer., TestAntiPatternGating
+Cohesion: 0.09
+Nodes (21): BigInt handling, Database-Specific Features, Date handling, Delete example, Dynamic table/column names, $executeRaw, Handling Results, Insert example (+13 more)
 
 ### Community 128 - "UI/UX Pro Max - Design Intelligence"
 Cohesion: 0.25
@@ -631,13 +679,17 @@ Nodes (6): Animation Classes, Background Images, Base Structure, Chart.js Integr
 Cohesion: 0.29
 Nodes (6): Animation Classes, Background Images, Base Structure, Chart.js Integration, CSS Variables Reference, HTML Slide Template
 
+### Community 132 - "_filter_anti_patterns_for_mode"
+Cohesion: 0.43
+Nodes (3): _filter_anti_patterns_for_mode(), Drop "avoid dark mode" advice once dark mode is the resolved answer., TestAntiPatternGating
+
 ### Community 133 - "Query Contract"
 Cohesion: 0.29
 Nodes (7): Query Contract, Step 1: Analyze User Requirements, Step 2: Generate Design System (new projects/pages), Step 2b: Persist Design System (Master + Overrides Pattern), Step 2c: Design Dials (optional), Step 3: Supplement with Detailed Searches (as needed), Step 4: Stack Guidelines
 
-### Community 134 - "shadow"
-Cohesion: 0.20
-Nodes (10): fg, font-size, hover-bg, button, $type, $value, $type, $value (+2 more)
+### Community 134 - "calc-auditor.md"
+Cohesion: 0.40
+Nodes (4): Caveman Mode (cultura obrigatória), Economia de token (obrigatório), Pré-condição antes de qualquer revisão, Regras
 
 ### Community 135 - "Slides"
 Cohesion: 0.33
@@ -659,9 +711,9 @@ Nodes (6): Available Domains, Available Stacks, How to Use This Skill, Output Fo
 Cohesion: 0.40
 Nodes (4): Brand Guidelines Template, Document Structure, Extractable Fields, Usage
 
-### Community 140 - "lg"
-Cohesion: 0.29
-Nodes (8): padding-x, input, $type, $value, focus-ring, padding-x, $type, $value
+### Community 140 - "migration-guardian.md"
+Cohesion: 0.33
+Nodes (5): Caveman Mode (cultura obrigatória), Economia de token (obrigatório), Prisma Skills (sob demanda), Pré-condição antes de qualquer revisão, Regras
 
 ### Community 141 - "Common Rules for Professional UI"
 Cohesion: 0.40
@@ -676,79 +728,255 @@ Cohesion: 0.33
 Nodes (5): Guia 1 — Instalar ferramentas, autenticar clientes e validar conexões, Guia 2 — Duplicar o template para um projeto novo, Guia 3 — Levar o template para outra máquina, Guia 4 — Checklist da primeira entrega num projeto novo a partir do template, Guias de reuso do MAESTRI_TEMPLATE
 
 ### Community 144 - "xl"
-Cohesion: 0.60
-Nodes (5): lg, $type, $value, lg, lg
+Cohesion: 0.10
+Nodes (18): Add custom methods, Add model methods, Chain extensions, Client Methods, $connect(), $disconnect(), $extends(), Graceful shutdown (+10 more)
 
 ### Community 145 - "md"
-Cohesion: 0.60
-Nodes (5): sm, sm, sm, $type, $value
+Cohesion: 0.10
+Nodes (20): AND (explicit), AND (implicit), Array Field Filters, Combined, Comparison, Equality, every, Filter Conditions and Operators (+12 more)
 
 ### Community 146 - "Tips for Better Results"
 Cohesion: 0.50
 Nodes (4): Common Sticking Points, Pre-Delivery Checklist, Query Strategy, Tips for Better Results
 
 ### Community 174 - "Cadastro de clientes/modelos — por máquina"
-Cohesion: 0.67
-Nodes (4): xl, xl, $type, $value
+Cohesion: 0.10
+Nodes (20): cursor, distinct, Filtered include, include, Include relation count, Multiple distinct fields, Negative take (reverse), Nested include (+12 more)
 
 ### Community 175 - "none"
-Cohesion: 0.67
-Nodes (4): $type, $value, md, md
+Cohesion: 0.10
+Nodes (19): Accept data loss, Basic push, Command, Common Patterns, Comparison with migrate dev, Examples, Follow-up Command, Force reset (+11 more)
 
-### Community 177 - "radius"
-Cohesion: 0.60
-Nodes (5): radius, radius, radius, $type, $value
+### Community 177 - "none"
+Cohesion: 0.10
+Nodes (19): Background mode, Command, Configuration, Custom ports, Examples, Force remove (stops first), Instance Management, List all instances (+11 more)
 
-### Community 178 - "50"
-Cohesion: 0.67
-Nodes (4): $type, $value, none, none
+### Community 178 - "input"
+Cohesion: 0.29
+Nodes (8): padding-x, input, $type, $value, focus-ring, padding-x, $type, $value
 
 ### Community 179 - "800"
 Cohesion: 0.50
 Nodes (3): Autenticação de ferramentas (não é login de IA, é CLI auxiliar), Cadastro de clientes/modelos — por máquina (EXEMPLO, versionável), Papéis e terminais
 
-### Community 180 - "padding-y"
-Cohesion: 0.67
-Nodes (4): padding-y, padding-y, $type, $value
+### Community 181 - "button"
+Cohesion: 0.20
+Nodes (10): fg, font-size, hover-bg, button, $type, $value, $type, $value (+2 more)
 
-### Community 181 - "950"
-Cohesion: 0.67
-Nodes (3): foreground, $type, $value
+### Community 182 - "$type"
+Cohesion: 0.10
+Nodes (19): After schema changes, Basic generation, Bun Runtime, CI/CD pipeline, Command, Common Patterns, Compiler Build Tuning, Current Generator Behavior (+11 more)
 
-### Community 182 - "destructive"
-Cohesion: 0.67
-Nodes (3): destructive, $type, $value
+### Community 183 - "radius"
+Cohesion: 0.60
+Nodes (5): radius, radius, radius, $type, $value
 
-### Community 183 - "destructive-foreground"
-Cohesion: 0.67
-Nodes (3): muted-foreground, $type, $value
+### Community 184 - "destructive-foreground"
+Cohesion: 0.10
+Nodes (19): Command, Common Workflow, Custom port, Don't open browser, Edit Records, Examples, Features, Filter Data (+11 more)
 
-### Community 184 - "muted"
+### Community 185 - "muted"
+Cohesion: 0.10
+Nodes (19): Client Instantiation, Client Methods, Create records, Delete records, Filter Operators, Find records, How to Use, Model Query Methods (+11 more)
+
+### Community 186 - "primary"
 Cohesion: 0.67
 Nodes (3): primary, $type, $value
 
-### Community 185 - "primary-foreground"
-Cohesion: 0.67
-Nodes (3): primary-hover, $type, $value
+### Community 187 - "primary-foreground"
+Cohesion: 0.11
+Nodes (18): After schema changes, Command, Common Patterns, Create and apply migration, Create without applying, Examples, Follow-up Commands, Full workflow (+10 more)
 
-### Community 186 - "ring"
+### Community 188 - "ring"
 Cohesion: 0.67
 Nodes (3): ring, $type, $value
 
+### Community 189 - "secondary-foreground"
+Cohesion: 0.11
+Nodes (17): Best Practices, Command, Common Patterns, Common seed commands, Conditional seeding, Configuration, Current Workflow, Development reset (+9 more)
+
+### Community 190 - "prisma db pull"
+Cohesion: 0.12
+Nodes (16): Basic introspection, Command, Examples, Force overwrite, Generated Schema Example, MongoDB Introspection, Options, Post-Introspection Cleanup (+8 more)
+
+### Community 191 - "prisma init"
+Cohesion: 0.12
+Nodes (16): Add an example model, Basic initialization, Bun Runtime, Command, Examples, Generated Config (Bun), Generated Config (Node.js default), Generated Schema (+8 more)
+
+### Community 192 - "prisma migrate deploy"
+Cohesion: 0.12
+Nodes (16): Basic deployment, Best Practices, Check status first, Command, Comparison with migrate dev, Configuration, Docker deployment, Error Handling (+8 more)
+
+### Community 193 - "Constructor Options"
+Cohesion: 0.12
+Nodes (16): accelerateUrl (For Accelerate users), adapter (Required for the SQL provider workflow), Basic Instantiation, comments, Constructor Options, errorFormat, log, Log Events (+8 more)
+
+### Community 194 - "color"
+Cohesion: 0.20
+Nodes (15): $type, $value, 500, blue, green, red, white, yellow (+7 more)
+
+### Community 195 - "Transactions"
+Cohesion: 0.13
+Nodes (14): All or nothing, Best Practices, Handle errors, Interactive Transactions, Isolation levels, Keep transactions short, Nested Writes, OrThrow in Transactions (+6 more)
+
+### Community 196 - "MySQL Setup"
+Cohesion: 0.14
+Nodes (13): 1. Schema Configuration, 2. Config Configuration, 3. Environment Variable, Common Issues, Connection String Format, Driver Adapter, JSON Support, MySQL Setup (+5 more)
+
+### Community 197 - "search"
+Cohesion: 0.22
+Nodes (12): detect_domain(), get_cip_brief(), _load_csv(), Load CSV and return list of dicts, Core search function using BM25, Auto-detect the most relevant domain from query, Main search function with auto-domain detection, Search across all domains and combine results (+4 more)
+
+### Community 198 - "prisma db execute"
+Cohesion: 0.15
+Nodes (12): Command, Configuration, Current Option Surface, Examples, Execute from file, Execute from stdin, Execute `migrate diff` output, Limitations (+4 more)
+
+### Community 199 - "MongoDB Setup"
+Cohesion: 0.15
+Nodes (13): 1. Schema Configuration, 2. Environment Variable, Client setup, Common Issues, Driver Adapters, ID Field Requirement, "Invalid ObjectID", Migrations vs Introspection (+5 more)
+
+### Community 200 - "SQLite Setup"
+Cohesion: 0.15
+Nodes (12): 1. Schema Configuration, 2. Config Configuration, 3. Environment Variable, Common Issues, Connection String Format, "Database file not found", Driver Adapter, Limitations (+4 more)
+
+### Community 201 - "prisma migrate diff"
+Cohesion: 0.17
+Nodes (11): Check for drift (CI), Command, Create baseline migration, Examples, Generate SQL for a schema change, Options, prisma migrate diff, Review pending migrations (+3 more)
+
+### Community 202 - "prisma migrate reset"
+Cohesion: 0.17
+Nodes (11): Basic reset, Command, Configuration, Examples, Follow-up Steps, Force reset (CI/Automation), Options, prisma migrate reset (+3 more)
+
+### Community 203 - "Prisma ORM 7 CLI reference"
+Cohesion: 0.17
+Nodes (12): AI Safety Checkpoint, Boundary: Platform and Compute, Command Categories, Current Command Behavior, Current Prisma CLI Setup, Environment Variables, How to Use, New Configuration File (+4 more)
+
+### Community 204 - "PostgreSQL Setup"
+Cohesion: 0.17
+Nodes (12): 1. Schema Configuration, 2. Config Configuration, 3. Environment Variable, "Authentication failed", "Can't reach database server", Common Issues, Connection String Format, Driver Adapter (+4 more)
+
+### Community 205 - "SQL Server Setup"
+Cohesion: 0.17
+Nodes (11): 1. Schema Configuration, 2. Config Configuration, 3. Environment Variable, Common Issues, Connection String Format, Driver Adapter, "Login failed for user", Prerequisites (+3 more)
+
+### Community 206 - "CockroachDB Setup"
+Cohesion: 0.18
+Nodes (10): 1. Schema Configuration, 2. Config Configuration, 3. Environment Variable, CockroachDB Setup, Common Issues, Driver Adapter, ID Generation, Prerequisites (+2 more)
+
+### Community 207 - "prisma format"
+Cohesion: 0.20
+Nodes (9): Behavior, Command, Examples, Format default schema, Format specific schema, Options, prisma format, Use in Editor (+1 more)
+
+### Community 208 - "prisma migrate resolve"
+Cohesion: 0.20
+Nodes (9): Command, Examples, Mark as Applied (Baselining), Mark as Rolled Back (Fixing Failures), Options, prisma migrate resolve, References, Use Cases (+1 more)
+
+### Community 209 - "prisma validate"
+Cohesion: 0.20
+Nodes (9): Command, Common Errors, Examples, Options, prisma validate, Use in CI, Validate default schema, Validate specific schema (+1 more)
+
+### Community 210 - "BM25"
+Cohesion: 0.28
+Nodes (5): BM25, BM25 ranking algorithm for text search, Lowercase, split, remove punctuation, filter short words, Build BM25 index from documents, Score all documents against query
+
+### Community 211 - "BM25"
+Cohesion: 0.28
+Nodes (5): BM25, BM25 ranking algorithm for text search, Lowercase, split, remove punctuation, filter short words, Build BM25 index from documents, Score all documents against query
+
+### Community 212 - "prisma migrate status"
+Cohesion: 0.22
+Nodes (8): Check status, Command, Examples, Exit Codes, Options, prisma migrate status, What It Does, When to Use
+
+### Community 213 - "SKILL.md"
+Cohesion: 0.28
+Nodes (3): Edge connections, Node.js connections, Prisma Postgres with Prisma ORM 7
+
+### Community 214 - "Quick Reference"
+Cohesion: 0.22
+Nodes (9): Bun Runtime, Client Generation, Database Operations, Local Development Database, Migrations (Development), Migrations (Production), Project Setup, Quick Reference (+1 more)
+
+### Community 215 - "generate_html"
+Cohesion: 0.36
+Nodes (7): generate_html(), get_deliverable_info(), get_image_base64(), main(), Convert image to base64 for embedding in HTML, Extract deliverable type from filename and get info, Generate HTML presentation from CIP images
+
+### Community 216 - "prisma mcp"
+Cohesion: 0.25
+Nodes (7): Command, Notes, prisma mcp, References, Typical Use Cases, Usage, What It Does
+
+### Community 217 - "prisma debug"
+Cohesion: 0.29
+Nodes (6): Command, Example Output, Options, prisma debug, What It Does, When to Use
+
+### Community 218 - "Prisma ORM setup"
+Cohesion: 0.29
+Nodes (7): 1. Detect the starting point, 2. Handle requested major upgrades separately, 3. Bootstrap a new Prisma 8 application, 4. Load the installed Prisma 8 guidance, 5. Set up or repair an earlier version, 6. Connect and verify, Prisma ORM setup
+
+### Community 220 - "main"
+Cohesion: 0.47
+Nodes (5): format_brief(), format_results(), main(), Format search results for display, Format CIP brief for display
+
+### Community 221 - "$type"
+Cohesion: 0.53
+Nodes (6): $type, $value, 600, 600, 600, 600
+
+### Community 222 - "Prisma Client Setup"
+Cohesion: 0.33
+Nodes (6): 1. Install dependencies, 2. Add generator block, 3. Generate Prisma Client, 4. Instantiate Prisma Client, 5. Use a single instance, Prisma Client Setup
+
+### Community 223 - "$type"
+Cohesion: 0.60
+Nodes (5): $type, $value, 700, 700, 700
+
+### Community 224 - "50"
+Cohesion: 0.67
+Nodes (4): $type, $value, 50, 50
+
+### Community 225 - "800"
+Cohesion: 0.67
+Nodes (4): $type, $value, 800, 800
+
+### Community 226 - "padding-y"
+Cohesion: 0.67
+Nodes (4): padding-y, padding-y, $type, $value
+
+### Community 227 - "AI safety checkpoint for destructive commands"
+Cohesion: 0.50
+Nodes (3): AI safety checkpoint for destructive commands, Reference, Required workflow
+
+### Community 228 - "950"
+Cohesion: 0.67
+Nodes (3): $type, $value, 950
+
+### Community 229 - "destructive"
+Cohesion: 0.67
+Nodes (3): destructive, $type, $value
+
+### Community 230 - "foreground"
+Cohesion: 0.67
+Nodes (3): foreground, $type, $value
+
+### Community 231 - "muted-foreground"
+Cohesion: 0.67
+Nodes (3): muted-foreground, $type, $value
+
+### Community 232 - "primary-hover"
+Cohesion: 0.67
+Nodes (3): primary-hover, $type, $value
+
 ## Knowledge Gaps
-- **959 isolated node(s):** `$schema`, `$value`, `$type`, `$value`, `$type` (+954 more)
+- **1398 isolated node(s):** `$schema`, `$value`, `$type`, `$value`, `$type` (+1393 more)
   These have ≤1 connection - possible missing edges or undocumented components.
-- **30 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
+- **33 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
-- **Why does `DesignSystemGenerator` connect `DesignSystemGenerator` to `BM25`, `detect_domain`, `.generate`, `read_rows`, `search`, `_resolve_color_mode`, `design_system.py`, `_select_palette_for_mode`, `test_core.py`?**
-  _High betweenness centrality (0.012) - this node is a cross-community bridge._
-- **Why does `search()` connect `search` to `BM25`, `detect_domain`, `.generate`, `_filter_anti_patterns_for_mode`, `Time de agentes (`.claude/agents/`)`, `_row_identities`, `design_system.py`, `core.py`, `search_stack`, `_normalize`?**
-  _High betweenness centrality (0.010) - this node is a cross-community bridge._
-- **Why does `primitive` connect `TestStyleTaxonomy` to `gray`, `primitive`, `spacing`, `fontSize`, `radius`?**
-  _High betweenness centrality (0.009) - this node is a cross-community bridge._
+- **Why does `DesignSystemGenerator` connect `DesignSystemGenerator` to `BM25`, `detect_domain`, `_filter_anti_patterns_for_mode`, `read_rows`, `search`, `_select_palette_for_mode`, `_resolve_color_mode`, `design_system.py`, `parse_decision_rules`?**
+  _High betweenness centrality (0.008) - this node is a cross-community bridge._
+- **Why does `search()` connect `search` to `BM25`, `detect_domain`, `Time de agentes (`.claude/agents/`)`, `_row_identities`, `DesignSystemGenerator`, `design_system.py`, `core.py`, `TestStyleTaxonomy`, `search_stack`, `_normalize`?**
+  _High betweenness centrality (0.006) - this node is a cross-community bridge._
+- **Why does `primitive` connect `primitive` to `fontSize`, `color`, `spacing`, `radius`?**
+  _High betweenness centrality (0.006) - this node is a cross-community bridge._
 - **Are the 36 inferred relationships involving `TailwindConfigGenerator` (e.g. with `TestGeneratedConfigIsValidJs` and `.test_node_check_parses_generated_config()`) actually correct?**
   _`TailwindConfigGenerator` has 36 INFERRED edges - model-reasoned connections that need verification._
 - **Are the 30 inferred relationships involving `DesignSystemGenerator` (e.g. with `TestBm25CoreBehavior` and `TestDiagnosticsContracts`) actually correct?**

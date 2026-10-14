@@ -8,7 +8,7 @@ Depois de clonar, peça ao seu agente/CLI:
 
 > Clone \<URL\> e siga as instruções do repositório para preparar este workspace.
 
-Isso deve levar o agente direto a **[`PREPARACAO.md`](./PREPARACAO.md)** — o único procedimento de preparação deste repositório (identifica a raiz do projeto, assume o papel de `cto`, instala/valida ferramentas, adapta nomes/caminhos, prepara a equipe com autorização, orienta autenticações e registra tudo no diário). Não há um segundo procedimento em outro arquivo — se algo parecer duplicado, é bug de documentação, avise.
+Isso deve levar o agente direto a **[`PREPARACAO.md`](./PREPARACAO.md)** — o único procedimento de preparação deste repositório (identifica a raiz do projeto e qual fluxo seguir — só estrutura, projeto novo, ou projeto existente —, assume o papel de `cto` sem recrutar outro, instala/valida ferramentas, adapta nomes/caminhos, apresenta o catálogo de papéis e a escolha de cliente/modelo/permissão, orienta autenticações, valida ferramentas por execução real e registra tudo no diário com um estado final — preparado/validado/parcial/bloqueado). Não há um segundo procedimento em outro arquivo — se algo parecer duplicado, é bug de documentação, avise.
 
 ## Mapa do repositório
 
@@ -27,3 +27,7 @@ Isso deve levar o agente direto a **[`PREPARACAO.md`](./PREPARACAO.md)** — o �
 ## Pré-requisitos da máquina
 
 Python 3, Node.js + npm/npx, `uv`, Git, PowerShell 5.1+. `PREPARACAO.md` → Passo 4 detecta o que falta e orienta a instalação.
+
+## Orientação Prisma opcional
+
+Consulte [PRISMA_SKILLS.md](./PRISMA_SKILLS.md) somente quando o projeto usar Prisma. As três skills oficiais estão incluídas localmente; preservar versão/provider, sem instalar ORM ou conectar bancos durante o preparo do template.

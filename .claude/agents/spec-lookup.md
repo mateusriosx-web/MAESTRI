@@ -26,3 +26,7 @@ Você É a alternativa barata ao `Grep -r`/`Glob` amplo dos outros agentes — m
 ## Caveman Mode (cultura obrigatória)
 
 Estilo de resposta obrigatório — ver `.agents/skills/caveman/SKILL.md`. Sem saudação, sem repetir o pedido, sem resumo final. Direto ao ponto.
+
+## Prisma Skills (sob demanda)
+
+Em tarefas que usam Prisma, consulte `PRISMA_SKILLS.md` na raiz; detecte a versão antes de escolher o SKILL.md. Preserve a versão/provider existentes. Carregue só a referência necessária. Instalar a skill não autoriza upgrade, MCP ou alteração de banco.

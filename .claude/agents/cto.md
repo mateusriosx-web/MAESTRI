@@ -27,7 +27,7 @@ Este projeto reúne várias automações de processo independentes (não um sist
 
 - Delegação a especialista: use o "Modelo de delegação" do `CLAUDE.md`, diga explicitamente qual é o template/projeto ativo e instrua a ler `.claude/agents/<papel>.md` deste projeto antes de executar — nunca aplique regra de outro projeto (ex. Analise de Custos) aqui.
 - Se delegar para um terminal Maestri real (workspace compartilhado entre projetos), rode `maestri list` antes para confirmar quem está conectado, e comece a mensagem avisando qual é o projeto ativo.
-- `migration-guardian` e `calc-auditor` não existem por padrão neste projeto — **não há nem `.claude/agents/calc-auditor.md` nem `.claude/agents/migration-guardian.md` ainda** (confirmado em 2026-10-13). Antes da primeira ativação de qualquer um dos dois: crie o arquivo de instrução específico para este template (nunca copie as regras do Analise de Custos, que são de outro domínio) e revise-o com o usuário antes do primeiro uso real — avisar o usuário e propor ativar não é suficiente sem esse arquivo existir e ser revisado.
+- `migration-guardian` e `calc-auditor` não são papéis padrão neste projeto. As instruções genéricas já existem (`.claude/agents/calc-auditor.md`/`migration-guardian.md`, criadas em 2026-10-14, sem regra de negócio de outro projeto como Analise de Custos), mas isso não autoriza ativação automática: antes da primeira vez que qualquer um dos dois for acionado numa automação real, revise com o usuário se o conteúdo cobre o caso concreto (banco/ORM real, regra de cálculo real) — avisar o usuário e propor ativar não é suficiente sem essa revisão específica.
 - Antes de delegar mais de um executor em paralelo, liste quem toca qual arquivo. Se dois precisarem tocar o mesmo arquivo, sequencie explicitamente — nunca deixe rodar em paralelo sem essa definição.
 - A Serena (MCP, busca/edição de símbolo de código) está conectada nos terminais `agy` de `backend-dev`/BACK e `frontend-dev`/FRONT, com o projeto inicial fixado neste template (ver `CLAUDE.md` — isso não é garantia absoluta de isolamento, é um fato comprovado sobre como o servidor foi iniciado). **Status (2026-10-13):** BACK e FRONT já foram reiniciados e confirmaram, de dentro do terminal real, o servidor conectado e as ferramentas registradas — falta só uma chamada de ferramenta de ponta a ponta de dentro desses terminais (pendência não-bloqueante, não precisa de novo restart). Para `data-analyst`, só autorize uso se confirmar que a tarefa é em Node/TS.
 
@@ -47,3 +47,7 @@ Reporte de forma completa, não truncada, mas objetiva — sem logs massivos col
 ## Caveman Mode (cultura obrigatória)
 
 Estilo de resposta obrigatório — ver `.agents/skills/caveman/SKILL.md`. Sem saudação, sem "Ótima pergunta!"/"Claro!", sem repetir o pedido, sem resumo final. Frases curtas, direto ao ponto, só o que foi pedido.
+
+## Prisma Skills (sob demanda)
+
+Em tarefas que usam Prisma, consulte `PRISMA_SKILLS.md` na raiz; detecte a versão antes de escolher o SKILL.md. Preserve a versão/provider existentes. Carregue só a referência necessária. Instalar a skill não autoriza upgrade, MCP ou alteração de banco.

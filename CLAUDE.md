@@ -10,11 +10,15 @@ Este arquivo é a fonte de verdade que toda sessão deve carregar antes de qualq
 
 O dono do projeto **não é necessariamente desenvolvedor** — construção pode ser 100% via IA assistida. Explique decisões técnicas em linguagem simples quando possível.
 
-### Configuração desta máquina (não é identidade do template)
+### Configuração desta máquina (não é identidade do template — fato datado, não instrução permanente)
 
-- **Caminho físico atual:** `C:\Users\mateu\.gemini\antigravity-ide\scratch\AUTOMACAO_HD` — preservado deliberadamente para não quebrar os terminais Maestri e integrações já conectados nesta máquina (o template nasceu de um projeto chamado AUTOMACAO_HD; o nome antigo é só esse caminho físico herdado, não a identidade do modelo). **Ao duplicar este template para um projeto novo, o caminho muda e não precisa mais ter esse nome** (ver "Guia: duplicar o template" abaixo).
-- Nome do workspace no canvas Maestri: `MAESTRI_TEMPLATE` (renomeado em 2026-10-13 via `maestri workspace rename` — o canvas/terminais continuam na mesma pasta física).
+**Nada nesta seção é regra a copiar para um projeto novo/outra máquina.** É só o registro do que é verdade *nesta cópia específica*, na máquina onde ela foi preparada por último — ver `PREPARACAO.md` para o procedimento que gera o equivalente numa máquina nova (ele detecta cada item abaixo de novo, nunca herda estes valores).
+
+- **Caminho físico (nesta máquina, última vez confirmado em 2026-10-13):** `C:\Users\mateu\.gemini\antigravity-ide\scratch\AUTOMACAO_HD` — preservado deliberadamente para não quebrar os terminais Maestri e integrações já conectados nesta máquina (o template nasceu de um projeto chamado AUTOMACAO_HD; o nome antigo é só esse caminho físico herdado, não a identidade do modelo). **Ao duplicar este template para um projeto novo ou outra máquina, o caminho muda e não precisa mais ter esse nome** — o agente que preparar a cópia nova confirma o caminho real daquela cópia via `PREPARACAO.md`, nunca assumindo o valor acima.
+- Nome do workspace no canvas Maestri (nesta máquina): `MAESTRI_TEMPLATE` (renomeado em 2026-10-13 via `maestri workspace rename` — o canvas/terminais continuam na mesma pasta física).
 - Qualquer referência a "AUTOMACAO_HD" remanescente neste repositório é caminho de máquina, não convenção a seguir num projeto novo.
+- **Versões de ferramenta citadas nas seções abaixo (RTK 0.52.0, Serena 2.0.0, Graphify 0.9.8, etc.) são o que foi confirmado rodando nesta máquina na última validação — nunca a versão "exigida" pelo template.** Numa máquina/cópia nova, a versão real pode ser outra (mais nova, mais antiga, ou instalada por um caminho diferente — ex. `uv tool install` em vez do módulo Python); `scripts/setup-maquina.ps1` detecta isso e, no caso do RTK, testa o subcomando (`rtk hook antigravity --help`) que o hook do Antigravity realmente usa — não suponha compatibilidade só porque algum binário com esse nome está instalado.
+- **Pastas em `.maestri/roles/*/` não são prova de terminal Maestri real conectado.** São artefatos de sessões anteriores (desta máquina ou copiados de outra) — a única prova de terminal vivo nesta execução é `maestri list` retornando a entrada conectada agora.
 
 ## Convenção de estrutura
 
@@ -58,8 +62,8 @@ O arquivo `DIARIO_DE_BORDO.md` na raiz é o registro de continuidade do projeto.
 | `qa-e2e` | Simulação de clique/fluxo do usuário (Simulador de Interface) quando houver tela | Sob demanda |
 | `devops-infra` | Cron, deploy, Docker, integrações externas, VPS | Sob demanda |
 | `tech-writer` | Documentação (Mermaid.js quando houver fluxo relevante) | Sob demanda |
-| `calc-auditor` | Revisa cálculo financeiro — **instrução ainda não existe neste template**, só ativar após criar/revisar (ver abaixo) | Sob demanda, condicional |
-| `migration-guardian` | Revisa alteração de schema de banco — **instrução ainda não existe neste template**, só ativar após criar/revisar (ver abaixo) | Sob demanda, condicional |
+| `calc-auditor` | Revisa cálculo financeiro — instrução genérica já existe (`.claude/agents/calc-auditor.md`, criada em 2026-10-14), mas **ainda não foi revisada com o usuário nem ativada numa tarefa real** (ver abaixo) | Sob demanda, condicional |
+| `migration-guardian` | Revisa alteração de schema de banco — instrução genérica já existe (`.claude/agents/migration-guardian.md`, criada em 2026-10-14), mas **ainda não foi revisada com o usuário nem ativada numa tarefa real** (ver abaixo) | Sob demanda, condicional |
 
 Quando a automação/feature tiver as duas naturezas (integração + dados), ver "Responsável único pela entrega" abaixo para como `backend-dev` e `data-analyst` dividem o trabalho.
 
@@ -73,7 +77,7 @@ O time completo acima é o **catálogo disponível**, não a equipe obrigatória
   - Houver exposição (rota HTTP, API pública) ou dado sensível (credencial de terceiro, PII) → `security-auditor`.
   - Houver cálculo financeiro relevante → `calc-auditor` (avisar usuário antes de ativar, pois não é papel padrão).
   - Houver alteração de schema de banco → `migration-guardian` (avisar usuário antes de ativar, idem).
-- **Pré-requisito antes da primeira ativação de `calc-auditor` ou `migration-guardian`:** confirmado em 2026-10-13 que `.claude/agents/calc-auditor.md` e `.claude/agents/migration-guardian.md` **não existem** neste projeto (só os terminais Maestri estão conectados/disponíveis — não há instrução escrita para eles aqui). Antes de ativar qualquer um dos dois pela primeira vez, o `cto` precisa: (1) criar o arquivo de instrução específico para este template (nunca copiar as regras do Analise de Custos — este projeto não tem DRE/folha/plano de contas, então as regras de negócio daquele projeto não se aplicam aqui); (2) revisar esse arquivo com o usuário antes do primeiro uso real. Isso não foi feito agora — não crie os arquivos nem ative os terminais sem essa revisão.
+- **Pré-requisito antes da primeira ativação de `calc-auditor` ou `migration-guardian`:** os arquivos `.claude/agents/calc-auditor.md` e `.claude/agents/migration-guardian.md` já existem (criados em 2026-10-14, genéricos, consistentes com esta governança central, sem regra de negócio de outro projeto como Analise de Custos). **Isso não é a mesma coisa que estarem revisados/aprovados para uso real** — antes da primeira ativação de qualquer um dos dois numa automação concreta, o `cto` ainda precisa revisar o conteúdo com o usuário e confirmar que ele cobre o caso real daquela automação (ex.: qual banco/ORM, qual regra de cálculo). Recrutar o terminal/papel não substitui essa revisão.
   - Precisar de cron/deploy/ambiente → `devops-infra`.
   - Mudança estruturalmente relevante (novo endpoint, novo fluxo entre sistemas) → `tech-writer`, ao final.
 - **Correção trivial** (typo, ajuste de uma linha, troca de parâmetro): resolva direto, sem acionar `cto` nem montar equipe — execução e verificação proporcionais ao tamanho da mudança (não precisa de teste formal nem relatório estruturado completo, mas continua exigindo rodar/conferir antes de dizer "feito").
@@ -184,3 +188,6 @@ Truncated results state their recovery path in their own output. Re-run a
 command as `rtk proxy <cmd>` only when its result is unusable: empty when
 output was clearly expected, contradicting its exit code, or garbled.
 <!-- /rtk-instructions -->
+## Orientação Prisma opcional
+
+Consulte [PRISMA_SKILLS.md](./PRISMA_SKILLS.md) somente quando o projeto usar Prisma. As três skills oficiais estão incluídas localmente; preservar versão/provider, sem instalar ORM ou conectar bancos durante o preparo do template.
